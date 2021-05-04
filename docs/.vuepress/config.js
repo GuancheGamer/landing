@@ -14,7 +14,7 @@ module.exports = {
     nav: [
       {
         text: "General",
-        link: "/general/"
+        link: "/"
       },
       {
         text: "Client",
@@ -26,15 +26,6 @@ module.exports = {
       }
     ],
     sidebar: {
-      "/general/": [
-        {
-          title: "General",
-          collapsable: false,
-          children: [
-            ""
-          ]
-        }
-      ],
       "/client/": [
         {
           title: "Client",
@@ -47,6 +38,15 @@ module.exports = {
       "/server/": [
         {
           title: "Server",
+          collapsable: false,
+          children: [
+            ""
+          ]
+        }
+      ],
+      "/": [
+        {
+          title: "General",
           collapsable: false,
           children: [
             ""
