@@ -1,0 +1,3 @@
+# Serverlist
+
+[WIP]
