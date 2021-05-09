@@ -3,7 +3,7 @@
 It is important you read and understand the following policy in regards to our anticheat system. 
 
 
-## Upon detection of a  Cheat:
+## Upon detection of a Cheat:
 
 * Automatic ban of 7 days is placed onto the account.
 * When the player tries to login, they will be displayed a message which tells them they are banned and also tells them how long is left until the ban expires.

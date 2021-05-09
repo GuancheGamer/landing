@@ -8,6 +8,7 @@ module.exports = {
     ],
     themeConfig: {
         repo: "plutoniumpw/docs",
+        docsBranch: 'develop',
         editLinks: true,
         docsDir: "docs",
         lastUpdated: false,
