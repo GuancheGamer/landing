@@ -66,6 +66,7 @@ myFunction(){
 ## Using Variables
 
 Variables can be used in several ways, but in all cases they are used to store some data for the duration of the game. 
+
 Variables come in different forms: integers, floats, entities, strings, arrays and booleans, there are also several different ways variables can be stored.
 
 A simple variable is simply declared using
@@ -172,13 +173,17 @@ else
 Loops come in different forms...
 
 **While** :: A while loop is a loop that keeps looping WHILE the arguement is true. 
+
 **For** :: A for loop is a loop that loops a set amount of times
 
 To use a while loop, a condition/some conditions must be stated: `while(conditions)` 
+
 Often, this loop is used for infinite loops, which last forever unless specifically stopped. 
+
 This is done using the arguement of 1 or true (1 is the integer of true)
 
 `while(1)`
+
 `while(true)`
 
 A while loop can also be used as a normal loop that loops while the arguement is true, when the arguement becomes false the loop exits automatically (or rather, doesn't begin executing the commands in the loop again but just finishes the loop in progress).
@@ -194,7 +199,9 @@ while(int < 10)
 ```
 
 The above code will loop while 'int' is less than 10. 
+
 The loop waits 1 second, and then the loop increments 'int'. 
+
 Once 'int' is not less than 10, the loop breaks.
 
 For loops require three arguments, `for(declare; while; do)`, a simple for loop looks like `for(i = 0; i < 10; i++)`, which means (i is 0, while i is smaller than 10, add one to i).
@@ -297,6 +304,9 @@ In case you couldn't tell, this guide was written with CoD4 in mind, but I chang
 ---
 
 ## Resources/Credits
+
 [Download the script](https://cdn.discordapp.com/attachments/710609237805498500/842246918586761216/myFirstGSC.gsc) I used which demonstrates some of the topics discussed here.
+
 [Zeroy's CoD4 GSC Introduction](https://wiki.zeroy.com/index.php?title=Call_of_Duty_4:_Introduction), which was taken from [this](http://www.codjumper.com/forums/viewtopic.php?t=4011) CoDJumper thread.
+
 [iAegle's "Creating a HUD Element Guide"](https://www.itsmods.com/forum/Thread-Tutorial-Creating-a-HUD-Element-Text-Basics.html)
