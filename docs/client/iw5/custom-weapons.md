@@ -1,3 +1,3 @@
-# Plutonium
+# Custom Weapons
 
 This article will be documented in the future, stay tuned!
