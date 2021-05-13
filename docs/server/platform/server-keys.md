@@ -1,3 +1,3 @@
 # How do I view my server keys?
 
-This article will be documented in the future, stay tuned!
+Head to [platform.plutonium.pw](https://platform.plutonium.pw) to see your server keys and create more.

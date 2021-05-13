@@ -1,3 +1,5 @@
 # How to disable the Plutonium AntiCheat
 
-This article will be documented in the future, stay tuned!
+Click the triangle next to the play button to disable anticheat.
+
+![img](https://i.imgur.com/s82KygR.gif)

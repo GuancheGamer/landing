@@ -3,7 +3,7 @@
 It is important you read and understand the following policy in regards to our anticheat system. 
 
 
-## Upon detection of a Cheat:
+**Upon detection of a Cheat:**
 
 * Automatic ban of 7 days is placed onto the account.
 * When the player tries to login, they will be displayed a message which tells them they are banned and also tells them how long is left until the ban expires.
@@ -12,7 +12,7 @@ It is important you read and understand the following policy in regards to our a
 * If the player is caught cheating again, the system will ban the account permanently.
 * We will not provide any information regarding any given ban, remember you broke our rules.
 
-## Note
+**Note**
 The anticheat is always active even in solo play / private match.  
 If you wish to cheat in private / solo you can use the [launchers LAN mode](how-to-disable-anticheat) which disables online functionality and disables the anticheat.  
 
