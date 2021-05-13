@@ -1,3 +1,3 @@
 # How to disable the Plutonium AntiCheat
 
-[WIP]
+This article will be documented in the future, stay tuned!

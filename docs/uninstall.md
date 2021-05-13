@@ -1,3 +1,3 @@
 # How to uninstall Plutonium Mod
 
-[WIP]
+This article will be documented in the future, stay tuned!

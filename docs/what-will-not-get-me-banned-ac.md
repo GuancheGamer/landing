@@ -1,3 +1,3 @@
 # What WILL NOT get me banned by the AntiCheat
 
-[WIP]
+This article will be documented in the future, stay tuned!

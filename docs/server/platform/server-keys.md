@@ -1,3 +1,3 @@
 # How do I view my server keys?
 
-[WIP]
+This article will be documented in the future, stay tuned!

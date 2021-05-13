@@ -1,3 +1,3 @@
 # Loading mods and custom maps in private match/solo games
 
-[WIP]
+This article will be documented in the future, stay tuned!

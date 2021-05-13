@@ -1,3 +1,3 @@
 # How to repair your game files
 
-[WIP]
+This article will be documented in the future, stay tuned!

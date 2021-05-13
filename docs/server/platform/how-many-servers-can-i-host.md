@@ -1,3 +1,3 @@
 # How many server can I host?
 
-[WIP]
+This article will be documented in the future, stay tuned!
