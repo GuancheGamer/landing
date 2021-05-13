@@ -1,6 +1,7 @@
 module.exports = {
     title: "Plutonium Documentation",
     description: "Official Plutonium Documentation",
+    theme: 'default-prefers-color-scheme',
     head: [
         ["meta", { name: "theme-color", content: "#3eaf7c" }],
         ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
@@ -12,6 +13,7 @@ module.exports = {
         editLinks: true,
         docsDir: "docs",
         lastUpdated: false,
+        prefersTheme: 'dark',
         nav: [{
                 text: "General",
                 link: "/"
