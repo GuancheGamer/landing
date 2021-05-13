@@ -1,3 +1,0 @@
-# Compiling GSC scripts
-
-[WIP]

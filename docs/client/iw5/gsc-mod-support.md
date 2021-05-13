@@ -1,3 +1,0 @@
-# GSC Mod Support
-
-[WIP]

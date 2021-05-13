@@ -41,18 +41,18 @@ module.exports = {
                     title: "Plutonium T6 Client",
                     collapsable: false,
                     children: [
-                        '/client/t6/compiling-gsc',
-                        '/client/t6/loading-gsc'
+                        '/client/t6/loading-and-compiling-gsc'
                     ],
                 },
                 {
                     title: "Plutonium IW5 Client",
                     collapsable: false,
                     children: [
+                        '/client/iw5/how-to-gsc',
+                        '/client/iw5/loading-gsc',
                         '/client/iw5/custom-weapons',
                         '/client/iw5/custom-maps',
-                        '/client/iw5/infected-cooldown',
-                        '/client/iw5/gsc-mod-support'
+                        '/client/iw5/infected-cooldown'
                     ],
                 },
                 {
