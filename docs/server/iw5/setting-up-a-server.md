@@ -12,7 +12,7 @@
 *  A Brain or some googling (Mostly know your way around Windows Explorer. If you not tech-savvy then this is not for you)
 *  Computer (Windows 10/Windows Server 2019 Preferably)  that's online 24/7 can handle 18 players **WIRED** Connection (Don't be that guy that host on WI-FI)
 
-Please follow this step by step. This is not your IW4x or PlutoT6 dedicated server kind of way. It's a little different. You will fuck up if you ignore steps as the way we deliver the files. If you haven't already. You should port forward 27016 on your router. I can't give you a step by step as everyone's routers different brands and home pages. You may also have to DCHP reserved your IP so your computer internal IP won't change and your port will eventually closed up after a router/computer restart.  If you can't access your router. Then I suggest you check out a windows VPS. Either from GalaxyGate (Cheap but CPU performance is meh) or nfoservers.
+Please follow this step by step. This is not your IW4x or PlutoT6 dedicated server kind of way. It's a little different. You will fuck up if you ignore steps as the way we deliver the files. If you haven't already. You should port forward 27016 on your router. I can't give you a step by step as everyone's routers different brands and home pages. You may also have to DCHP reserved your IP so your computer internal IP won't change and your port will eventually closed up after a router/computer restart.  If you can't access your router. Then I suggest you check out a windows VPS.
 
 **Also if you plan on moving the dedicated server to a different location. make sure you edit the bat files to the exact location or you will just get a open and closed command prompt. I get more to it down below this guide.**
 
@@ -92,6 +92,8 @@ If you don't see your second server. You may have to do addition port forwarding
 Good Luck!
 Thank you for hosting!
 
+<!---
+
 ------------------------
 ***Changelog:*** (8/16/2020)
 -Fixed Updater.bat dir root.  (No need to edit anymore)
@@ -101,3 +103,5 @@ Thank you for hosting!
 -Rename Downloader.bat to Updater.bat
 -Added mp_rust
 -Added bounces and double tap commands.
+
+-->
