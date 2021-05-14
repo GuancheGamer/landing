@@ -25,6 +25,10 @@ module.exports = {
             {
                 text: "Server",
                 link: "/server/"
+            },
+            {
+                text: "Modding",
+                link: "/modding/"
             }
         ],
         sidebar: {
@@ -112,6 +116,14 @@ module.exports = {
                     ],
                 },
             ],
+            "/modding/": [{
+                title: "Modding",
+                collapsable: false,
+                children: [
+                    '/modding/',
+                    '/modding/loading-mods'
+                ],
+            }, ],
             "/": [{
                     title: "General",
                     collapsable: false,
@@ -155,15 +167,6 @@ module.exports = {
                         '/discord-donator-perks',
                         '/how-to-join-donator-program',
                         '/donator-tiers-explained'
-                    ],
-                },
-                {
-                    title: "Plutonium AntiCheat",
-                    collapsable: false,
-                    children: [
-                        '/cheat-policy',
-                        '/how-to-disable-anticheat',
-                        '/what-will-not-get-me-banned-ac'
                     ],
                 },
             ]
