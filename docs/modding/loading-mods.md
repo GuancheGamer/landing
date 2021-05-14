@@ -16,7 +16,11 @@ __Example Scripts__
 ---
 
 ### Getting Started
-1\. Write/Download any GSC of your choice, if you are writing it from scratch/have the source code, note that you must have an `init()` function somewhere, and compile it, which we will talk about in this post.
+1\. Write/Download any GSC of your choice, if you are writing it from scratch/have the source code, note that you need to compile it, which we will talk about in this post.
+
+::: warning
+If you are writing your own GSC, you must have an `init()` function somewhere. 
+:::
 
 2\. For this tutorial we are going to be using this GSC as a reference.
 
@@ -76,7 +80,9 @@ connected()
 
 3\. Put a new GSC file in here, I will be using the following code as an example.
 
-**Note**: If you are writing your own GSC, you must have an `init()` function somewhere, like I do in this example. 
+::: warning
+If you are writing your own GSC, you must have an `init()` function somewhere, like I do in this example. 
+:::
 
 ```c
 init()
@@ -115,6 +121,10 @@ connected()
 ### Loading Mods / Custom Zombies Maps
 
 We support both the vanilla game folder and the Plutonium folder for loading client-side mods & zombies maps.
+
+::: danger
+Currently, the `CoDWaW\mods` folder is buggy, please move your mods to the `%localappdata%\Plutonium\storage\t4\mods` folder to avoid things like menu corruption, or GSC errors.
+:::
 
 You can place your mod in either of these places: 
 * `%localappdata%\Activision\CoDWaW\mods`    **[BUGGY ATM, MOVE YOUR MODS/MAPS FROM HERE TO THE DIRECTORY BELOW.]**
