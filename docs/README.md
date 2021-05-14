@@ -6,7 +6,7 @@ Welcome to Plutonium! Plutonium offers a unique Black Ops 2, Modern Warfare 3 & 
 
 * Initialy released on October 1st, 2017 (MW3 only)
 * T6 client released on April 13, 2018
-* First custom map for IW5 released on May 6 2018
+* First custom map for IW5 released on May 6, 2018
 * Shutdown of Plutonium September 21, 2018
 * LAN version of Plutonium T6 with limited online functionality released on December 24th, 2018
 * ZoneTool and it's source released on September 19, 2019

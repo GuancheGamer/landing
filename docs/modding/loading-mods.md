@@ -1,5 +1,9 @@
 # Loading Mods into Plutonium
 
+# Table of Contents
+
+[[toc]]
+
 ## T6
 
 ### Requirements
@@ -70,7 +74,7 @@ connected()
 
 ## IW5
 
-### Getting Started
+### Getting Started⠀
 
 1\. Navigate to the IW5 Plutonium Folder by pressing `Win+R` and pasting `%localappdata%\Plutonium\storage\iw5` into it, and hitting `Ok`.
 
@@ -78,7 +82,7 @@ connected()
 
 ![img](https://i.imgur.com/4KOfafh.png)
 
-3\. Put a new GSC file in here, I will be using the following code as an example.
+3\. Put any amount of GSC file(s) in here, I will be using the following code as an example.
 
 ::: warning
 If you are writing your own GSC, you must have an `init()` function somewhere, like I do in this example. 
