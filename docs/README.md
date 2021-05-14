@@ -4,7 +4,7 @@ Welcome to Plutonium! Plutonium offers a unique Black Ops 2, Modern Warfare 3 & 
 
 ## Notable events
 
-* Initial released on October 1st, 2017 (MW3 only)
+* Initialy released on October 1st, 2017 (MW3 only)
 * T6 client released on April 13, 2018
 * First custom map for IW5 released on May 6 2018
 * Shutdown of Plutonium September 21, 2018
