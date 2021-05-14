@@ -134,8 +134,6 @@ You can place your mod in either of these places:
 
 If you are installing a custom zombies map that comes in an `.exe`, just running it and installing that way should be enough, as they place those in the first folder, although again, you might need to move it if you encounter issues.
 
-If your mod's menu is corrupted then try this [guide by Mr. Android](https://forum.plutonium.pw/topic/9395/mod-menu-corrupted-unreadable-when-loading-mod-on-t4-fix).
-
 **Note:** Mods for multiplayer must have `mp_` at the front of their folder.
 
 ![Mods showing up](https://i.imgur.com/Vn95lq9.png)
