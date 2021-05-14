@@ -2,7 +2,7 @@
 
 If you would like to help out our ever growing community, feel free to write guides on the forums that are high in quality that can help out new users or you can release mods for games
 to not only show off your skills, but expand ways to play and show off Plutonium's modding capabilities. Really, anything that can be seen as a positive for Plutonium and our user base
-is highly encouraged.
+is highly encouraged. The community always needs a helping hand, so checking our support forums or Discord channel and answering other players questions is always appreciated by everyone.
 
 ## I want to help but I'm still not sure how!
 

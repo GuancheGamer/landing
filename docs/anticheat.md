@@ -1,7 +1,7 @@
 # Anticheat
 
-Plutonium has an in-house anti-cheat that is on par with (or exceedes!) some triple A studios' anti-cheat. While we cannot divulge information on how it works, we can confidently say that it works as we have thwarted over
-[20,000 cheating attempts!](https://forum.plutonium.pw/topic/10225/anticheat-1-year-statistics)
+Plutonium has an anti-cheat that was completely custom made by our developers. While we cannot divulge information on how it works, we can confidently say that it works as we have thwarted over
+[20,000 cheating attempts!](https://forum.plutonium.pw/topic/10225/anticheat-1-year-statistics) It will never catch everything but it most people agree that is does a better job than some others out there.
 
 ## Plutonium Cheat Policy
 
@@ -42,3 +42,4 @@ Please note, as stated above this is for private use or in LAN mode. You will no
 ## What will not get me banned
 
 doing gsc like a good boy
+Not opening extreme injector and then pressing inject....
