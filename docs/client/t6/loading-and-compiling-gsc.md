@@ -1,3 +1,3 @@
 # Loading/Compiling GSC scripts
 
-<Redirect to="/modding/loading-mods.html#t6" />
+<Redirect to="/modding/loading-mods.html" />

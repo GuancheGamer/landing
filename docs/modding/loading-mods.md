@@ -1,5 +1,9 @@
 # Loading Mods into Plutonium
 
+# Table of Contents
+
+[[toc]]
+
 ## T6
 
 ### Requirements

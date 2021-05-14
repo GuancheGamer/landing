@@ -7,8 +7,10 @@ Not at all! In fact, our development team has taken steps to patch these vulnera
 
 
 ### Sources
-::: warning NOTE
-These documents are technical! These are a few of the exploits that were fixed, we handle even more potential exploits behind the scenes.
+::: tip NOTE
+These documents are technical! 
+
+These are examples from official sources, we also have patched a few other lesser known vulnerabilities and continue to patch any that we find or that are reported to us as soon as practical.
 :::
 [Vulnerabilities by game - CVE Details](https://www.cvedetails.com/vulnerability-list/vendor_id-2190/Activision.html)
 
