@@ -106,7 +106,7 @@ connected()
 
 ![img](https://i.imgur.com/LSrZkI0.png)
 
-5\. Enjoy your new GSC script!
+5\. Open MW3, and start a new Private Match, your GSC script should load.
 
 ![success](https://i.imgur.com/X2qZtj5.png)
 
