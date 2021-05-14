@@ -1,8 +1,8 @@
 # How to find your game folder location
 
-TODO:
-Add screenshots for the "visual" types of learners.
-Decide what to do regarding the cut off paths of the second method.
+TODO:  
+Add screenshots for the "visual" types of learners.  
+Decide what to do regarding the cut off paths of the second method.  
 
 ## Through Steam
 Open Steam
