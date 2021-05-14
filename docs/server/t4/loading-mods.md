@@ -2,7 +2,7 @@
 
 ## Where do I put the mod?
 
-We support both the vanilla game folder and the Plutonium folder for loading server-side mods & zombies maps.
+We support both the vanilla game folder and the Plutonium folder for mod loading.
 
 You can place your mod in either of these places:
 
@@ -21,6 +21,7 @@ Next, open your server's start.bat file and edit the line that says `set mod=""`
 ---
 
 ## Loading Custom Maps (MP)
+
 We support both the vanilla game folder and the Plutonium folder for loading custom multiplayer maps.
 
 You can place your mod in either of these places:
