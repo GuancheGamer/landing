@@ -8,7 +8,7 @@ You should have knowledge of loading GSC scripts before attempting to write them
 
 You can declare functions in GSC by giving it a name, followed by a `(){` and a closing `}` at the end of your function.
 Example:
-```
+```c
 myFunction(){
 	self iprintlnbold("^2My First Function!"); 
 }
@@ -31,7 +31,7 @@ If you call a function on an entity e.g `unnamedent thread dostuff()`, then with
 
 Example:
 
-```
+```c
 something()
 {
  ent = getent("ent","targetname");
@@ -46,7 +46,7 @@ function()
 
 Example with Context:
 
-```
+```c
 connected()
 {
   self endon("disconnect");
@@ -114,7 +114,7 @@ There are several operators you can use for math.
 
 Examples:
 
-```
+```c
 var++; // Set var to var + 1
 var--; // Set var to var - 1
 var += int; // Set var to var + int
@@ -140,7 +140,7 @@ To understand this section, you must first know the operators used to compare da
 ```
 
 Example:
-```
+```c
 if(var1 == var2)
 {
   // If it's true, run this code.
@@ -153,7 +153,7 @@ else
 
 You can also use an "else if" in the statement. This is used in a scenario where you want to check multiple comparisons.
 
-```
+```c
 if(var1 == var2)
 {
   // If above arguement is true
@@ -188,7 +188,7 @@ This is done using the arguement of 1 or true (1 is the integer of true)
 
 A while loop can also be used as a normal loop that loops while the arguement is true, when the arguement becomes false the loop exits automatically (or rather, doesn't begin executing the commands in the loop again but just finishes the loop in progress).
 
-```
+```c
 int = 0;
 
 while(int < 10)
@@ -208,7 +208,7 @@ For loops require three arguments, `for(declare; while; do)`, a simple for loop 
 
 You can create an infinite loop, but be careful when you do. They require `wait`, and a `break` somewhere.
 
-```
+```c
 for(;;)
 {
   wait 1;
@@ -237,7 +237,7 @@ Then you must decide which trigger to use. You can choose either `endon` or `wai
 
 Example:
 
-```
+```c
 spawnPlayer()
 {
   self notify("spawned");
@@ -287,7 +287,7 @@ Note: there are more, but I dont suggest you use these.
 
 Example:
 
-```
+```c
 self.someText = self createFontString( "Objective", 1.5 );
 self.someText setPoint( "CENTER", "CENTER", "CENTER", "CENTER" );
 self.someText setText( "^1forum.plutonium.pw" ); 

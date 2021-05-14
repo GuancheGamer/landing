@@ -12,7 +12,7 @@
 
 **Note**: If you are writing your own GSC, you must have an `init()` function somewhere, like I do in this example. 
 
-```
+```c
 init()
 {
   level thread onConnect();

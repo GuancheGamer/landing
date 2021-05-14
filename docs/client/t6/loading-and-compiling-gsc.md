@@ -18,7 +18,7 @@ __Example Scripts__
 
 2\. For this tutorial we are going to be using this GSC as a reference.
 
-```
+```c
 init()
 {
   level thread onConnect();
