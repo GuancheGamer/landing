@@ -15,6 +15,8 @@ Right click onto the game
 Select "Manage" then "Browse local files"
 A new explorer window opens with the game files.
 
+![img](https://i.imgur.com/ETEnASg.gif)
+
 ## Through Plutonium
 Open the launcher
 Select the game you are looking for.
