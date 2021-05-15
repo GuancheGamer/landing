@@ -67,7 +67,8 @@ module.exports = {
                     children: [
                         '/client/t4/finding-a-zombies-server',
                         '/client/t4/sp-mod-downloading',
-                        '/client/t4/loading-mods'
+                        '/client/t4/loading-mods',
+                        '/client/t4/migrating-steam-t4-stats'
                     ],
                 },
             ],
