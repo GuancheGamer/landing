@@ -1,6 +1,6 @@
 # Quality of Life changes
 
-## All Games (?)
+## All Games
 * `cg_fovScale` unlocked
 * `com_maxfps` unlocked
 * Ultra Wide Monitor Support

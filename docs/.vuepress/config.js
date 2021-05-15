@@ -1,6 +1,7 @@
 module.exports = {
     title: "Plutonium Documentation",
     description: "Official Plutonium Documentation",
+    theme: 'default-prefers-color-scheme',
     head: [
         ["meta", { name: "theme-color", content: "#3eaf7c" }],
         ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
@@ -12,6 +13,7 @@ module.exports = {
         editLinks: true,
         docsDir: "docs",
         lastUpdated: false,
+        prefersTheme: 'dark',
         nav: [{
                 text: "General",
                 link: "/"
@@ -23,6 +25,10 @@ module.exports = {
             {
                 text: "Server",
                 link: "/server/"
+            },
+            {
+                text: "Modding",
+                link: "/modding/"
             }
         ],
         sidebar: {
@@ -41,7 +47,8 @@ module.exports = {
                     title: "Plutonium T6 Client",
                     collapsable: false,
                     children: [
-                        '/client/t6/loading-and-compiling-gsc'
+                        '/client/t6/loading-and-compiling-gsc',
+                        '/client/t6/theater-mode'
                     ],
                 },
                 {
@@ -61,7 +68,8 @@ module.exports = {
                     children: [
                         '/client/t4/finding-a-zombies-server',
                         '/client/t4/sp-mod-downloading',
-                        '/client/t4/loading-mods'
+                        '/client/t4/loading-mods',
+                        '/client/t4/migrating-steam-t4-stats'
                     ],
                 },
             ],
@@ -110,6 +118,22 @@ module.exports = {
                     ],
                 },
             ],
+            "/modding/": [{
+                    title: "Modding",
+                    collapsable: false,
+                    children: [
+                        '/modding/',
+                        '/modding/loading-mods'
+                    ],
+                },
+                {
+                    title: "T4 Modding",
+                    collapsable: false,
+                    children: [
+                        '/modding/t4/disabling-perks-gsc'
+                    ],
+                },
+            ],
             "/": [{
                     title: "General",
                     collapsable: false,
@@ -153,15 +177,6 @@ module.exports = {
                         '/discord-donator-perks',
                         '/how-to-join-donator-program',
                         '/donator-tiers-explained'
-                    ],
-                },
-                {
-                    title: "Plutonium AntiCheat",
-                    collapsable: false,
-                    children: [
-                        '/cheat-policy',
-                        '/how-to-disable-anticheat',
-                        '/what-will-not-get-me-banned-ac'
                     ],
                 },
             ]

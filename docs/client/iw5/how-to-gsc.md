@@ -8,7 +8,7 @@ You should have knowledge of loading GSC scripts before attempting to write them
 
 You can declare functions in GSC by giving it a name, followed by a `(){` and a closing `}` at the end of your function.
 Example:
-```
+```c
 myFunction(){
 	self iprintlnbold("^2My First Function!"); 
 }
@@ -31,7 +31,7 @@ If you call a function on an entity e.g `unnamedent thread dostuff()`, then with
 
 Example:
 
-```
+```c
 something()
 {
  ent = getent("ent","targetname");
@@ -46,7 +46,7 @@ function()
 
 Example with Context:
 
-```
+```c
 connected()
 {
   self endon("disconnect");
@@ -66,6 +66,7 @@ myFunction(){
 ## Using Variables
 
 Variables can be used in several ways, but in all cases they are used to store some data for the duration of the game. 
+
 Variables come in different forms: integers, floats, entities, strings, arrays and booleans, there are also several different ways variables can be stored.
 
 A simple variable is simply declared using
@@ -113,7 +114,7 @@ There are several operators you can use for math.
 
 Examples:
 
-```
+```c
 var++; // Set var to var + 1
 var--; // Set var to var - 1
 var += int; // Set var to var + int
@@ -139,7 +140,7 @@ To understand this section, you must first know the operators used to compare da
 ```
 
 Example:
-```
+```c
 if(var1 == var2)
 {
   // If it's true, run this code.
@@ -152,7 +153,7 @@ else
 
 You can also use an "else if" in the statement. This is used in a scenario where you want to check multiple comparisons.
 
-```
+```c
 if(var1 == var2)
 {
   // If above arguement is true
@@ -172,18 +173,22 @@ else
 Loops come in different forms...
 
 **While** :: A while loop is a loop that keeps looping WHILE the arguement is true. 
+
 **For** :: A for loop is a loop that loops a set amount of times
 
 To use a while loop, a condition/some conditions must be stated: `while(conditions)` 
+
 Often, this loop is used for infinite loops, which last forever unless specifically stopped. 
+
 This is done using the arguement of 1 or true (1 is the integer of true)
 
 `while(1)`
+
 `while(true)`
 
 A while loop can also be used as a normal loop that loops while the arguement is true, when the arguement becomes false the loop exits automatically (or rather, doesn't begin executing the commands in the loop again but just finishes the loop in progress).
 
-```
+```c
 int = 0;
 
 while(int < 10)
@@ -194,14 +199,16 @@ while(int < 10)
 ```
 
 The above code will loop while 'int' is less than 10. 
+
 The loop waits 1 second, and then the loop increments 'int'. 
+
 Once 'int' is not less than 10, the loop breaks.
 
 For loops require three arguments, `for(declare; while; do)`, a simple for loop looks like `for(i = 0; i < 10; i++)`, which means (i is 0, while i is smaller than 10, add one to i).
 
 You can create an infinite loop, but be careful when you do. They require `wait`, and a `break` somewhere.
 
-```
+```c
 for(;;)
 {
   wait 1;
@@ -230,7 +237,7 @@ Then you must decide which trigger to use. You can choose either `endon` or `wai
 
 Example:
 
-```
+```c
 spawnPlayer()
 {
   self notify("spawned");
@@ -280,7 +287,7 @@ Note: there are more, but I dont suggest you use these.
 
 Example:
 
-```
+```c
 self.someText = self createFontString( "Objective", 1.5 );
 self.someText setPoint( "CENTER", "CENTER", "CENTER", "CENTER" );
 self.someText setText( "^1forum.plutonium.pw" ); 
@@ -297,6 +304,9 @@ In case you couldn't tell, this guide was written with CoD4 in mind, but I chang
 ---
 
 ## Resources/Credits
+
 [Download the script](https://cdn.discordapp.com/attachments/710609237805498500/842246918586761216/myFirstGSC.gsc) I used which demonstrates some of the topics discussed here.
+
 [Zeroy's CoD4 GSC Introduction](https://wiki.zeroy.com/index.php?title=Call_of_Duty_4:_Introduction), which was taken from [this](http://www.codjumper.com/forums/viewtopic.php?t=4011) CoDJumper thread.
+
 [iAegle's "Creating a HUD Element Guide"](https://www.itsmods.com/forum/Thread-Tutorial-Creating-a-HUD-Element-Text-Basics.html)

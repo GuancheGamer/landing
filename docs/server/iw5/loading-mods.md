@@ -1,3 +1,3 @@
 # Loading mods on a dedicated server
 
-This article will be documented in the future, stay tuned!
+<Redirect to="/client/iw5/loading-gsc" />
