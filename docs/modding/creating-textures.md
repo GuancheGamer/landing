@@ -1,6 +1,6 @@
 # Creating custom textures for Plutonium
 
-#Table of Contents
+# Table of Contents
 
 [[toc]]
 
@@ -11,7 +11,7 @@
 - [7Zip](https://7-zip.org/) or [WinRAR](https://www.rarlab.com/download.htm)
 
 ::: tip
-Photoshop can be used as an alternative to Paint.NET but since it's not free we're not going to provide a download link here. When using Photoshop you need the [Intel Texture Works Plugin](https://software.intel.com/content/www/us/en/develop/articles/intel-texture-works-plugin.html) installed to be able to load and save .dds textures. 
+Photoshop can be used as an alternative to Paint.NET but since it's not free we're not going to provide a download link here. When using Photoshop you need the [Intel Texture Works Plugin](https://software.intel.com/content/www/us/en/develop/articles/intel-texture-works-plugin.html) installed to be able to load and save .dds textures.
 :::
 
 ## Getting Started
@@ -41,7 +41,7 @@ To modify a texture we first have to export it from the corresponding game files
 
 ::: warning
 If the filename of the .iwi file contains `~` or similar symbols the converter will replace those with `_`, this means you need to change the name of the .dds so the filename is exactly the same as the one of the original .iwi file.
-::: 
+:::
 
 ### T6
 1\. Navigate to the `all` folder located inside the `zone` folder in your T6 game folder.
