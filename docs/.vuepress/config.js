@@ -119,13 +119,21 @@ module.exports = {
                 },
             ],
             "/modding/": [{
-                title: "Modding",
-                collapsable: false,
-                children: [
-                    '/modding/',
-                    '/modding/loading-mods'
-                ],
-            }, ],
+                    title: "Modding",
+                    collapsable: false,
+                    children: [
+                        '/modding/',
+                        '/modding/loading-mods'
+                    ],
+                },
+                {
+                    title: "T4 Modding",
+                    collapsable: false,
+                    children: [
+                        '/modding/t4/disabling-perks-gsc'
+                    ],
+                },
+            ],
             "/": [{
                     title: "General",
                     collapsable: false,
