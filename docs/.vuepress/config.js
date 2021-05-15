@@ -47,7 +47,8 @@ module.exports = {
                     title: "Plutonium T6 Client",
                     collapsable: false,
                     children: [
-                        '/client/t6/loading-and-compiling-gsc'
+                        '/client/t6/loading-and-compiling-gsc',
+                        '/client/t6/theater-mode'
                     ],
                 },
                 {
