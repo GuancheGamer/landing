@@ -23,7 +23,7 @@ The launcher will now start the process of installing the client files.
 
 ## T6
 
-### I just want to update / already have the game installed?
+### I just want to update / I already have BO2 installed?
 If you already have the game installed from steam or had a previous update of Plutonium then you can skip the below section and move onto the **[Plutonium Launcher](#plutonium-launcher-2)** section.
 
 ### Installing the base game (BO2)
@@ -87,7 +87,7 @@ To launch BO2 simply open the Plutonium launcher and select PLAY.
 
 ## IW5
 
-### I just want to update / already have the game installed?
+### I just want to update / I already have MW3 installed
 If you already have the game installed from steam or had a previous update of Plutonium then you can skip the below section and move onto the [Installing the DLC](#installing-the-dlc) section.
 
 ### Installing the base game (Modern Warfare 3)
@@ -160,7 +160,7 @@ For those struggling to locate your game folder, this is what the contents of th
 
 ![img](https://i.imgur.com/7FOyDlg.png)
 
-Congratulations you have completed the installation guide. 
+Congratulations you have completed the installation guide.
 
 To launch MW3 simply open the Plutonium launcher and select PLAY
 
@@ -170,7 +170,7 @@ IMPORTANT: This will crash the first time you start the game as it needs to dele
 
 ## T4
 
-### ***I just want to update / already have the game installed?***
+### ***I just want to update / I already have WaW installed?***
 If you already have the game installed from steam then you can skip the below section and move onto the [Plutonium Launcher](#plutonium-launcher-4) section.
 
 ### ***Installing the base game (WAW)***

@@ -1,10 +1,10 @@
 # Creating custom textures for Plutonium
 
-# Table of Contents
+## Table of Contents
 
 [[toc]]
 
-## Requirements
+### Requirements
 
 - [Texture Toolkit](https://drive.google.com/file/d/1NEEvbvLOatItpMIyWyQ9ytkk1bvgKQMD/view?usp=sharing)
 - [Paint.NET](https://www.getpaint.net/download.html)
@@ -14,7 +14,7 @@
 Photoshop can be used as an alternative to Paint.NET but since it's not free we're not going to provide a download link here. When using Photoshop you need the [Intel Texture Works Plugin](https://software.intel.com/content/www/us/en/develop/articles/intel-texture-works-plugin.html) installed to be able to load and save .dds textures.
 :::
 
-## Getting Started
+### Getting Started
 1\. Create a new folder anywhere on your pc, this is going to be used to store files while creating your custom texture.
 
 2\. Download and extract the Texture Toolkit into the folder you created, your folder should now look like this:
