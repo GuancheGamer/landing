@@ -123,7 +123,9 @@ module.exports = {
                     collapsable: false,
                     children: [
                         '/modding/',
-                        '/modding/loading-mods'
+                        '/modding/loading-mods',
+                        '/modding/loading-textures',
+                        '/modding/creating-textures'
                     ],
                 },
                 {
