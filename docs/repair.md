@@ -1,79 +1,49 @@
 # How to repair your game files
 
-## T6
+## Requirements
+* [QBittorrent](https://www.fosshub.com/qBittorrent.html)
+* Basic knowledge of the windows folder structure
+* The .torrent file of the game you want to repair:
+  * [For T4](http://dss0.cc/alterwarez/download/pluto_t4_full_game.torrent)
+  * [For T6](http://dss0.cc/alterwarez/download/pluto_t6_full_game.torrent)
+  * [For IW5 the repair process differs, click here to view the instructions for IW5](#the-repair-process-for-iw5)
 
-***Requirements:***
-- [QBittorrent](https://www.fosshub.com/qBittorrent.html)
-- Basic knowledge of the windows folder structure
+## The repair Process for T4 and T6
+1\. Open the .torrent file for the game you wish to repair in QBittorrent, if QBittorrent is the only torrent client you have installed simply double clicking the torrent file should open it right away.
 
-***Instructions:***
+2\. You will be prompted with an overview of the files the torrent contains, select your **game folder** (depending on which game you want to repair) as the download location.
 
-- Download [this torrent file](https://drive.google.com/file/d/1loejoTfKYZhYJOaorI8XaWgtPB7zocdi/view?usp=sharing) and open it in qbittorrent
-- You will be prompted with an overview of the files the torrent contains, select your **t6 game folder** as the download location
+3\. Next comes the most important step: **Select "don't create subfolder" from the "content layout" dropdown menu (in older versions of QBitorrent this will be a checkbox called "create subfolder" or "keep top-level folder" which you have to untick)**.
 
-![alt text](https://i.gyazo.com/ab60efb2a5fb866d66997cda6a5fed92.png)
+![qbittorrentoverview](https://i.imgur.com/cad1CXU.png)
 
-- Next comes the most important step: **Select "don't create subfolder" from the "content layout" dropdown menu (in older versions of qbitorrent this will be a checkbox called "create subfolder" or "keep top-level folder" which you have to untick)**
+4\. Hit OK to start the verification/download process, QBittorrent will now check the files in your game folder against the ones in the torrent and download missing or mismatching ones.
 
-![alt text](https://i.gyazo.com/f32c04d072946509231016a435e9c521.png)
-
-- Hit ok to start the verification/download process, QBittorrent will now check the files in your game folder against the ones in the torrent and download missing or mismatching ones
-- As soon as the download reached 100% and the status "seeding" it is complete and can be removed from QBittorrent (right click -> delete).
-
-Congratulations, your game files should now be repaired.
-
----
-
-## IW5
-
-***Requirements:***
-
-[Steam](https://store.steampowered.com/about/)
-
-***Instructions:***
-
-Open Steam and check `Tools` under the `Games` dropdown, by the search bar.
-
-![alt text](https://i.imgur.com/4KqlGal.png)
-
-Search for `Call of Duty Modern Warfare 3`
-
-Right-click the `Call of Duty Modern Warfare 3 - Dedicated Server`, then click `Properties`
-
-![alt text](https://i.imgur.com/S1EnA79.png)
-
-Now click on the `Local Files` tab, followed by `Verify Integrity of game files`
-
-![alt text](https://i.imgur.com/01ilr1W.png)
+5\. As soon as the download reached 100% and the status "seeding" it is complete and can be removed from QBittorrent (right click -> delete).
 
 Congratulations, your game files should now be repaired.
 
-![alt text](https://i.imgur.com/Rv56wHA.png)
+## The repair Process for IW5
+::: warning
+The officially supported way of installing IW5 is to download the free MW3 Dedicated Server via Steam. The repair guide will cover repairing your game files via Steam, this also works if you own the game on Steam.
+Any 3rd party repacks of MW3 are not supported by us.
+:::
 
----
+1\. Open Steam and navigate to your Steam Library.
 
-## T4
+2\. Locate the MW3 Dedicated Server or MW3 Multiplayer (if you own it) in your Steam library.
 
-***Requirements:***
+3\. Right click the entry in your Steam library and click `Properties`.
 
-[QBittorrent](https://www.fosshub.com/qBittorrent.html)
-Basic knowledge of the windows folder structure
+![steamlibrary](https://i.imgur.com/7PASWFp.png)
 
----
+4\. Click `Local Files` and hit `Verify integrity of tool files...` (this will be called `Verify integrity of game files...` if you own the game on Steam).
 
-***Instructions:***
+![steamproperties](https://i.imgur.com/qyfKXnz.png)
 
-Download [this torrent file](http://dss0.cc/alterwarez/download/pluto_t4_full_game.torrent) and open it in qBittorrent.
+5\. Steam will now check your local files and download any missing or outdated ones, as soon as it's done your game files should be repaired.
 
-Select your Game folder for the `Save at` path.
-
-Next comes the most important step: Select `Don't create subfolder` under `Content layout`
-
-![Completed Torrent section](https://i.imgur.com/ybA1MfB.png)
-
-Hit ok to start the verification/download process.
-qBittorrent will now check the files in your game folder against the ones in the torrent and download missing or mismatching ones.
-
-As soon as the download reached 100% and the status is "seeding", you are done. You can now right click the torrent and hit delete.
-
-Congratulations, your game files should now be repaired.
+::: warning
+If you don't own the game on Steam and use the MW3 Dedicated Server files to play make sure the language (below `local files` in the properties dialogue) is set to `English`.
+Steam provides incomplete files if any language other than `English` is set.
+:::
