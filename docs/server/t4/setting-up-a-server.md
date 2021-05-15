@@ -1,6 +1,6 @@
 # Setting up a server
 
-## Requirements:
+## Requirements
 
 * A PC/VPS, running either Windows 10 or Windows Server 2019.
 * The ability to port forward
@@ -38,7 +38,7 @@ You can read our guide [here](loading-mods) about loading mods onto a dedicated 
 
 To setup FastDL, read our guide [here](fastdl).
 
-## Launching the Server:
+## Launching the Server
 
 Double click the bat file.
 

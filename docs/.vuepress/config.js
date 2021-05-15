@@ -47,7 +47,8 @@ module.exports = {
                     title: "Plutonium T6 Client",
                     collapsable: false,
                     children: [
-                        '/client/t6/loading-and-compiling-gsc'
+                        '/client/t6/loading-and-compiling-gsc',
+                        '/client/t6/theater-mode'
                     ],
                 },
                 {
@@ -67,7 +68,8 @@ module.exports = {
                     children: [
                         '/client/t4/finding-a-zombies-server',
                         '/client/t4/sp-mod-downloading',
-                        '/client/t4/loading-mods'
+                        '/client/t4/loading-mods',
+                        '/client/t4/migrating-steam-t4-stats'
                     ],
                 },
             ],
@@ -117,13 +119,23 @@ module.exports = {
                 },
             ],
             "/modding/": [{
-                title: "Modding",
-                collapsable: false,
-                children: [
-                    '/modding/',
-                    '/modding/loading-mods'
-                ],
-            }, ],
+                    title: "Modding",
+                    collapsable: false,
+                    children: [
+                        '/modding/',
+                        '/modding/loading-mods',
+                        '/modding/loading-textures',
+                        '/modding/creating-textures'
+                    ],
+                },
+                {
+                    title: "T4 Modding",
+                    collapsable: false,
+                    children: [
+                        '/modding/t4/disabling-perks-gsc'
+                    ],
+                },
+            ],
             "/": [{
                     title: "General",
                     collapsable: false,

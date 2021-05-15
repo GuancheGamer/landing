@@ -9,8 +9,9 @@ You should have knowledge of loading GSC scripts before attempting to write them
 You can declare functions in GSC by giving it a name, followed by a `(){` and a closing `}` at the end of your function.
 Example:
 ```c
-myFunction(){
-	self iprintlnbold("^2My First Function!"); 
+myFunction()
+{
+ self iprintlnbold("^2My First Function!"); 
 }
 ```
 
@@ -22,7 +23,7 @@ Functions can be threaded or called sequentially.
 
 If a function is threaded, then that function is performed while the script continues, whereas if a function is called sequentially, the script waits until the function is completed before it continues.
 
-```
+```c
 function(); // The script will stop at this line and carry out function() before going down to the next line.
 thread function(); // This will start function() and carry on to execute the next line.
 ```
@@ -56,8 +57,9 @@ connected()
     self thread myFunction();
   }
 }
-myFunction(){
-	self iprintlnbold("^2My First Function!"); 
+myFunction()
+{
+ self iprintlnbold("^2My First Function!"); 
 }
 ```
 
@@ -65,7 +67,7 @@ myFunction(){
 
 ## Using Variables
 
-Variables can be used in several ways, but in all cases they are used to store some data for the duration of the game. 
+Variables can be used in several ways, but in all cases they are used to store some data for the duration of the game.
 
 Variables come in different forms: integers, floats, entities, strings, arrays and booleans, there are also several different ways variables can be stored.
 
@@ -99,7 +101,7 @@ However, that isn't really useful. (You can just do the math prior to placing it
 
 There are several operators you can use for math.
 
-```
+```c
 + :: Addition
 - :: Subtraction
 * :: Multiplication
@@ -127,7 +129,7 @@ An 'if' statement is used to verify whether some data satisfies certain conditio
 
 To understand this section, you must first know the operators used to compare data:
 
-```
+```c
 == :: Equal To
 != :: Not Equal To
 !  :: Negation (Not equal to)
@@ -172,13 +174,13 @@ else
 
 Loops come in different forms...
 
-**While** :: A while loop is a loop that keeps looping WHILE the arguement is true. 
+**While** :: A while loop is a loop that keeps looping WHILE the arguement is true.
 
 **For** :: A for loop is a loop that loops a set amount of times
 
-To use a while loop, a condition/some conditions must be stated: `while(conditions)` 
+To use a while loop, a condition/some conditions must be stated: `while(conditions)`
 
-Often, this loop is used for infinite loops, which last forever unless specifically stopped. 
+Often, this loop is used for infinite loops, which last forever unless specifically stopped.
 
 This is done using the arguement of 1 or true (1 is the integer of true)
 
@@ -198,9 +200,9 @@ while(int < 10)
 }
 ```
 
-The above code will loop while 'int' is less than 10. 
+The above code will loop while 'int' is less than 10.
 
-The loop waits 1 second, and then the loop increments 'int'. 
+The loop waits 1 second, and then the loop increments 'int'.
 
 Once 'int' is not less than 10, the loop breaks.
 
@@ -243,8 +245,8 @@ spawnPlayer()
   self notify("spawned");
   
   /*
-	  ... Code snipped ... this is another type of 
-	  comment that can span multiple lines. 
+     ... Code snipped ... this is another type of 
+     comment that can span multiple lines. 
   */
   
 }
@@ -263,9 +265,9 @@ You can get text on players screens with relative ease. We use the following to 
 
 For `setPoint` you can use any of the following, or just direct values. Note that if you are using values, the quotes are not required.
 
-`self.someText setPoint(<POINT1>, <POINT2>, <POINT3>, <POINT4>); `
+`self.someText setPoint(<POINT1>, <POINT2>, <POINT3>, <POINT4>);`
 
-```
+```c
 <POINT1> This is the Horizontal "Point"
 <POINT2> This is the Vertical "Point"
 <POINT3> This can either be a Number (X) or a "Point". (Horizontal)

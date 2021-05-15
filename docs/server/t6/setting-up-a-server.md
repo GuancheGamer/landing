@@ -13,16 +13,16 @@ All paths beginning with `./` use `C:\gameserver\t6_pluto` as their base.
 
 ## 1 Preperation
 
-### 1.1 Downloading and installing Plutonium:
+### 1.1 Downloading and installing Plutonium
 * Download the [Plutonium Launcher](https://cdn.plutonium.pw/updater/plutonium.exe).
 * Place it to `C:\gameserver`
 * Download the [T6 Server Configurations](https://github.com/xerxes-at/T6ServerConfigs/archive/master.zip) and place it into your server folder.
 * Run !updatePluto.bat and let it download Plutonium
 
-### 1.2 Creating a server key.
+### 1.2 Creating a server key
 * Open the [Plutonium Server Key page](https://platform.plutonium.pw/serverkeys)
 * Fill in the name of the server and select the correct game.
-* Click on create, then copy the server key. 
+* Click on create, then copy the server key.
 We will later have to paste it into a bat file.
 
 ### 1.3 Deleting unneeded files (Optional)
@@ -118,22 +118,22 @@ This step is useful if you choose to enable game logs as it will save up to a GB
 * Open the CFG of the game mode you want to edit (eg `tdm.cfg`) in the ./main/gamesettings folder. (If you don't have the main folder then simply create it)
 * Uncomment and edit the values of the settings you want to change.
 * Save the file.
-* Put `exec <game type here>.cfg ` in front of the first `map` token in the map rotation.
+* Put `exec <game type here>.cfg` in front of the first `map` token in the map rotation.
 For example `sv_maprotation "exec tdm.cfg map mp_la map mp_dockside map mp_carrier"`
 
 ### 3.2 Enabling the hard core mode (MP only)
 * Either copy or open the game mode specific .cfg file for the game mode you wish to play with hard core settings.
 * Open tdm.cfg and copy the hard core settings of it to the file from the first step.
 * Save the file.
-* Put `exec <cfg from step 1>.cfg ` in front of the first `map` token in the map rotation.
+* Put `exec <cfg from step 1>.cfg` in front of the first `map` token in the map rotation.
 For example `sv_maprotation "exec hctdm.cfg map mp_la map mp_dockside map mp_carrier"`
 
 ### 3.3 Mixed game modes with correct / custom settings (MP only)
 * Open the server cfg file with Notepad++
-* Put a `exec <game type here>.cfg ` (eg. `exec dom.cfg`) in front of a map token.
+* Put a `exec <game type here>.cfg` (eg. `exec dom.cfg`) in front of a map token.
 For example `sv_maprotation "exec dom.cfg map mp_la map mp_dockside exec sas.cfg map mp_carrier"`
-    * You can have one exec token in front of multiple map tokens to apply your settings for each following map.
-    * You can have a different exec token in front of every single map token to have different settings for each map.
+  * You can have one exec token in front of multiple map tokens to apply your settings for each following map.
+  * You can have a different exec token in front of every single map token to have different settings for each map.
 
 ## 4. (Optional) Install a server management tool
 
@@ -145,11 +145,11 @@ For any administration tool you need to enable the game log and to set a **rcon 
 
 
 ### 4.1 Adding IW4m-Admin to your server
-  * Download IW4m-Admin from [RaidMax's website](https://raidmax.org/IW4MAdmin/).
-  * Follow his [guide on GitHub](https://github.com/RaidMax/IW4M-Admin/wiki/Getting-Started).
+* Download IW4m-Admin from [RaidMax's website](https://raidmax.org/IW4MAdmin/).
+* Follow his [guide on GitHub](https://github.com/RaidMax/IW4M-Admin/wiki/Getting-Started).
 
 
-## 5. (Optional) Hosting a second server from the same directory.
+## 5. (Optional) Hosting a second server from the same directory
 
 * Make a copy of the bat file and the cfg file and rename them.
 * Edit the copy of the bat file to have a different port and to use your second cfg.
