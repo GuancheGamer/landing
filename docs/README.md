@@ -1,8 +1,8 @@
 # Introduction to Plutonium
 
-Welcome to Plutonium! Plutonium offers a unique Black Ops 2, Modern Warfare 3 & World at War experience, complete with dedicated servers, mod support, and much much more. 
+Welcome to Plutonium! Plutonium offers a unique Black Ops 2, Modern Warfare 3 & World at War experience, complete with dedicated servers, mod support, and much much more.
 The entire modification is provided for free, we only ask that you enjoy your time playing and treat us with respect.
-Plutonium is a Project / Hobby that our staff team undertake in their spare time when not working or in education, we use it as a valuable tool to help us learn and gain experience in Reverse Engineering, Infrastructure, Architecture, Programming and a range of other Computer Science topics. 
+Plutonium is a Project / Hobby that our staff team undertake in their spare time when not working or in education, we use it as a valuable tool to help us learn and gain experience in Reverse Engineering, Infrastructure, Architecture, Programming and a range of other Computer Science topics.
 At our core we have a huge love for tinkering with our old beloved games and pushing them to new limits.
 
 ## Notable events
@@ -27,6 +27,7 @@ At our core we have a huge love for tinkering with our old beloved games and pus
 
 Plutonium is made up of volunteer staff - including but not limited to; Community Moderators, Quality Assurance, Developers (Web, Infrastructure, C++, ASM etc.) and Content Creators.
 The Staff Team is split into 3 categories:
+
 * Project Staff - These are regular staff members, they help shape Plutonium and contribute their time and effort into building new features, maintaining our current features or keeping our community area's clean. Their role color is usually orange.
 * Project Senior Staff - These are a smaller number of staff who have additional permissions and roles, a Senior Staff member is usually responsible for a dedicated part of Plutonium. Their role color is usually blue.
 * Project Administrator - These 4 staff members have overall control of direction for Plutonium Project and overall manage everything Plutonium. They are Eldor, Rektinator, Mr. Android and Spectre. Their role color is usually red.

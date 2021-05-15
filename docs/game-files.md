@@ -3,7 +3,7 @@ Plutonium itself is a modification, it sits on top of the original game and modi
 When you download a game via Steam or any other method, it downloads the required files for the game to your computer. Check below for common places these files may be.
 You need to tell Plutonium where these files are located on your computer, once you have done this, Plutonium can use these game files to start the modified version of the game. If you select the wrong file location you will get an error message when you try to start the game.
 
-# How to find your game folder location
+## How to find your game folder location
 
 TODO:  
 Add screenshots for the "visual" types of learners.  
