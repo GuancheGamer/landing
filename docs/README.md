@@ -1,7 +1,9 @@
 # Introduction to Plutonium
 
-Welcome to Plutonium! Plutonium offers a unique Black Ops 2, Modern Warfare 3 & World at War experience, complete with dedicated servers, mod support, and much much more. The entire modification is provided for free, we only ask that you enjoy your time playing and treat us with respect.
-Plutonium is a Project / Hobby that our staff team undertake in their spare time when not working or in education, we use it as a valuable tool to help us learn and gain experience in Reverse Engineering, Infrastructure, Architecture, Programming and a range of other Computer Science topics. At our core we have a huge love for tinkering with our old beloved games and pushing them to new limits.
+Welcome to Plutonium! Plutonium offers a unique Black Ops 2, Modern Warfare 3 & World at War experience, complete with dedicated servers, mod support, and much much more. 
+The entire modification is provided for free, we only ask that you enjoy your time playing and treat us with respect.
+Plutonium is a Project / Hobby that our staff team undertake in their spare time when not working or in education, we use it as a valuable tool to help us learn and gain experience in Reverse Engineering, Infrastructure, Architecture, Programming and a range of other Computer Science topics. 
+At our core we have a huge love for tinkering with our old beloved games and pushing them to new limits.
 
 ## Notable events
 
@@ -12,13 +14,16 @@ Plutonium is a Project / Hobby that our staff team undertake in their spare time
 * LAN version of Plutonium T6 with limited online functionality released on December 24th, 2018
 * ZoneTool and it's source released on September 19, 2019
 * T6 client re-released on January 20, 2020
-* IW5 client re-released on April 12, 2020
-* A T6 charity tournament which raised 24.000 USD was held on October 28, 2020
+* IW5 client re-released and anticheat tested on April 12, 2020
+* Rust and the AK-74u are re-added to MW3 on April 26, 2020
+* T6 major overhaul and anticheat is released August 16, 2020
+* A T6 charity tournament with notable streamers such as OpTic Hitch and Dr. Disrespect raised 24.000 USD, this was held on October 28, 2020
+* The Intervention is ported to MW3 on December 24, 2020
 * T4 client released on April 9, 2021
 * IW5 custom GSC support released on May 12, 2021
 * More to come soon!
 
-## Plutonium Staff Structure
+### Plutonium Staff Structure
 
 Plutonium is made up of volunteer staff - including but not limited to; Community Moderators, Quality Assurance, Developers (Web, Infrastructure, C++, ASM etc.) and Content Creators.
 The Staff Team is split into 3 categories:
