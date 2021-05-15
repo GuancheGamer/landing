@@ -23,7 +23,7 @@ At our core we have a huge love for tinkering with our old beloved games and pus
 * IW5 custom GSC support released on May 12, 2021
 * More to come soon!
 
-### Plutonium Staff Structure
+## Plutonium Staff Structure
 
 Plutonium is made up of volunteer staff - including but not limited to; Community Moderators, Quality Assurance, Developers (Web, Infrastructure, C++, ASM etc.) and Content Creators.
 The Staff Team is split into 3 categories:
