@@ -6,6 +6,6 @@ If that doesn't work - Once in game, open the console by pressing the ~ key (Nor
 
 `exec default_controller.cfg`
 
-Then press the enter key and close the console. 
+Then press the enter key and close the console.
 
 Your controls should now be set for controllers instead of keyboards.
