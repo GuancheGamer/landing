@@ -1,6 +1,6 @@
 # Loading Mods into Plutonium
 
-# Table of Contents
+## Table of Contents
 
 [[toc]]
 
@@ -23,7 +23,7 @@ __Example Scripts__
 1\. Write/Download any GSC of your choice, if you are writing it from scratch/have the source code, note that you need to compile it, which we will talk about in this post.
 
 ::: warning
-If you are writing your own GSC, you must have an `init()` function somewhere. 
+If you are writing your own GSC, you must have an `init()` function somewhere.
 :::
 
 2\. For this tutorial we are going to be using this GSC as a reference.
@@ -60,7 +60,7 @@ connected()
 
 ![Error from Compiler](https://i.imgur.com/JgwqeCy.png)
 
-3b\. Take your compiled script and put it in `%localappdata%\Plutonium\storage\t6\scripts\mp` or `%localappdata%\Plutonium\storage\t6\scripts\zm` depending on which mode it is for. 
+3b\. Take your compiled script and put it in `%localappdata%\Plutonium\storage\t6\scripts\mp` or `%localappdata%\Plutonium\storage\t6\scripts\zm` depending on which mode it is for.
 
 **YOU MOST LIKELY WILL NOT HAVE THIS FOLDER, PLEASE CREATE THEM IF THAT IS THE CASE**  
 
@@ -85,7 +85,7 @@ connected()
 3\. Put any amount of GSC file(s) in here, I will be using the following code as an example.
 
 ::: warning
-If you are writing your own GSC, you must have an `init()` function somewhere, like I do in this example. 
+If you are writing your own GSC, you must have an `init()` function somewhere, like I do in this example.
 :::
 
 ```c
@@ -130,7 +130,7 @@ We support both the vanilla game folder and the Plutonium folder for mod loading
 Currently, the `CoDWaW\mods` folder is buggy, please move your mods to the `%localappdata%\Plutonium\storage\t4\mods` folder to avoid things like menu corruption, or GSC errors.
 :::
 
-You can place your mod in either of these places: 
+You can place your mod in either of these places:
 * `%localappdata%\Activision\CoDWaW\mods`    **[BUGGY ATM, MOVE YOUR MODS/MAPS FROM HERE TO THE DIRECTORY BELOW.]**
 * `%localappdata%\Plutonium\storage\t4\mods`   \*Recommended\*
 

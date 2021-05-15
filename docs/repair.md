@@ -71,7 +71,7 @@ Next comes the most important step: Select `Don't create subfolder` under `Conte
 
 ![Completed Torrent section](https://i.imgur.com/ybA1MfB.png)
 
-Hit ok to start the verification/download process. 
+Hit ok to start the verification/download process.
 qBittorrent will now check the files in your game folder against the ones in the torrent and download missing or mismatching ones.
 
 As soon as the download reached 100% and the status is "seeding", you are done. You can now right click the torrent and hit delete.

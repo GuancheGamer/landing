@@ -3,16 +3,17 @@
 ## Requirements
 
 * Follow every step and word of this guide.
-* [Visual C++ Redistributable Package](https://aka.ms/vs/16/release/vc_redist.x86.exe) 
+* [Visual C++ Redistributable Package](https://aka.ms/vs/16/release/vc_redist.x86.exe)
 * Windows Notepad or [Notepad++](https://notepad-plus-plus.org/) or [Sublime Text](https://www.sublimetext.com/).
 * Port forward your router or Windows Firewall 27016-27017 (**Recommend! Can't skip this!**)
-* 20GB of Space. 
+* 20GB of Space.
 * The Modern Warfare 3 Dedicated Server installed thru steam under the tools filter section. (You will have to look for DLC Collection 1-4 later if you want.)
 * Folder Options that [show hidden files and folders](https://support.microsoft.com/en-us/help/4028316/windows-view-hidden-files-and-folders-in-windows-10). (Optional but highly recommended. Should of been windows default  )
-*  A Brain or some googling (Mostly know your way around Windows Explorer. If you not tech-savvy then this is not for you)
-*  Computer (Windows 10/Windows Server 2019 Preferably)  that's online 24/7 can handle 18 players **WIRED** Connection (Don't be that guy that host on WI-FI)
+* A Brain or some googling (Mostly know your way around Windows Explorer. If you not tech-savvy then this is not for you)
+* Computer (Windows 10/Windows Server 2019 Preferably)  that's online 24/7 can handle 18 players **WIRED** Connection (Don't be that guy that host on WI-FI)
 
-Please follow this step by step. This is not your IW4x or PlutoT6 dedicated server kind of way. It's a little different. You will fuck up if you ignore steps as the way we deliver the files. If you haven't already. You should port forward 27016 on your router. I can't give you a step by step as everyone's routers different brands and home pages. You may also have to DCHP reserved your IP so your computer internal IP won't change and your port will eventually closed up after a router/computer restart.  If you can't access your router. Then I suggest you check out a windows VPS.
+Please follow this step by step. This is not your IW4x or PlutoT6 dedicated server kind of way. It's a little different. You will fuck up if you ignore steps as the way we deliver the files. If you haven't already. You should port forward 27016 on your router. 
+I can't give you a step by step as everyone's routers different brands and home pages. You may also have to DCHP reserved your IP so your computer internal IP won't change and your port will eventually closed up after a router/computer restart.  If you can't access your router. Then I suggest you check out a windows VPS.
 
 **Also if you plan on moving the dedicated server to a different location. make sure you edit the bat files to the exact location or you will just get a open and closed command prompt. I get more to it down below this guide.**
 
@@ -22,7 +23,7 @@ Please follow this step by step. This is not your IW4x or PlutoT6 dedicated serv
 
 First off Download the [Plutonium Launcher](https://cdn.plutonium.pw/updater/plutonium.exe) and save it in your downloads folder. Also download [DedicatedConfigs.zip](https://cdn.discordapp.com/attachments/699252643595419698/703966412242157949/DedicatedServer.zip) and minimize that zip for later.
 
-Go to your downloads folder and right click and copy plutonium.exe and now navigate to your Local Disk C > Program Files (x86) > Steam > steamapps > common > Call of Duty Modern Warfare 3 folder. 
+Go to your downloads folder and right click and copy plutonium.exe and now navigate to your Local Disk C > Program Files (x86) > Steam > steamapps > common > Call of Duty Modern Warfare 3 folder.
 
 **WARNING: If your IW5 game files on a different location then you may have to edit the bat files to that new location.**
 
@@ -35,7 +36,7 @@ Now navigate to your Admin folder. right click on server.cfg and select open wit
 Now back out of your admin folder and right click and edit your StartServer file. Visit the [Server Keys Management](http://platform.plutonium.pw/serverkeys) and create yourself a key based off your sv_hostname with colors and all. Hover your mouse over and double click the hash key and right click and copy and paste inside the +set key command line.
 
 Yours should look something like this for example but in 32 characters long
-```
+```batch
 
 @echo off
 .\bin\plutonium-bootstrapper-win32.exe iw5mp "C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Modern Warfare 3" +set key "12345keygoeshere6789" +start_map_rotate -dedicated 
@@ -43,23 +44,23 @@ Yours should look something like this for example but in 32 characters long
 ```
 File and save and close out notepad. Now double click on Updater.bat on your game folder and let download the files needed to run the server. Afterwards you should be ready to launch your dedicated server. To do that. You just simply double click on StartServer.bat
 
-Type in status command to see if you get a empty player list or server not running. If you get a server not running. You fucked up somewhere in the cfg or bat file. But if you get "sending heartbeats" and empty player list on the command window. Your good to go my friend. 
+Type in status command to see if you get a empty player list or server not running. If you get a server not running. You fucked up somewhere in the cfg or bat file. But if you get "sending heartbeats" and empty player list on the command window. Your good to go my friend.
 
 Now right click on StartServer... Send to > Desktop (Create Shortcut)
 right click on  Updater...Send to > Desktop (Create Shortcut)
 
-## When a new update comes out...
+## When a new update comes out
 
 Close your dedicated server. Double Click on Updater and again let it download the latest files once again. Double click StartServer and you should be on the latest build. That's it! Easy!
 
 ## Moving folder locations (Recommend if you move the game on another location)
 
 
-If you want to move it somewhere else beside Program Files. (like me becasue fuck double clicking bunch of folders.) Just make sure you right click and edit Startserver.bat notepad to the new location. 
-For mine example 
+If you want to move it somewhere else beside Program Files. (like me becasue fuck double clicking bunch of folders.) Just make sure you right click and edit Startserver.bat notepad to the new location.
+For mine example
 
 StartServer.bat
-```
+```batch
 @echo off
 .\bin\plutonium-bootstrapper-win32.exe iw5mp "C:\servers\PlutoIW5" +set key "noooooope" +start_map_rotate -dedicated 
 ```
@@ -72,15 +73,15 @@ C:\servers\PlutoIW5 is now my new location.
 
 Go to your admin folder and copy server.cfg  and paste on the same folder.  Now you should have a new file called server - copy.cfg. Rename it to server2.cfg.
 
-Edit your server2.cfg little different then your first server. like change your hostname or switch your rotation around or change dsr. File and save and exit out of notepad. Now on your File Explorer window. back out to the game folder. 
+Edit your server2.cfg little different then your first server. like change your hostname or switch your rotation around or change dsr. File and save and exit out of notepad. Now on your File Explorer window. back out to the game folder.
 
-The next step is. We going to do the same thing like we did with server2.cfg but this time on your StartServer.bat file. So copy and paste it. You should have a new file called StartServer - copy.bat. You can rename this to StartServer2 or whatever you want later 
+The next step is. We going to do the same thing like we did with server2.cfg but this time on your StartServer.bat file. So copy and paste it. You should have a new file called StartServer - copy.bat. You can rename this to StartServer2 or whatever you want later.
 
 Now right click on your StartServer2 and edit. Now we going have to add some additonal commands and also you would need to make a new key again from [Server Keys Management](http://platform.plutonium.pw/serverkeys) as well. so add +set sv_config "server2.cfg" +set net_port "27017"
 
 Your second bat file should look like this now
 
-```
+```batch
 @echo off
 .\bin\plutonium-bootstrapper-win32.exe iw5mp "C:\servers\PlutoIW5" +set key "secondkeyhashgoeshere" +set net_port "27017" +set sv_config "server2.cfg" +start_map_rotate -dedicated
 ```

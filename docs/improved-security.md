@@ -8,7 +8,7 @@ Not at all! In fact, our development team has taken steps to patch these vulnera
 
 ### Sources
 ::: tip NOTE
-These documents are technical! 
+These documents are technical!
 
 These are examples from official sources, we also have patched a few other lesser known vulnerabilities and continue to patch any that we find or that are reported to us as soon as practical.
 :::
