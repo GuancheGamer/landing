@@ -103,7 +103,7 @@ for(i=0; i<var; i++) {
 ```
 
 ### ``while``
-While loops are basically for loops, but only checks if the condition is true/false. 
+While loops are basically for loops, but only checks if the condition is true/false.
 
 In this example, if ``number`` is true (not 0) then it will keep running. But, every time the while loop is ran, we decrease ``number`` by 1.
 ```cs

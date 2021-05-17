@@ -55,7 +55,6 @@ module.exports = {
                     title: "Plutonium IW5 Client",
                     collapsable: false,
                     children: [
-                        '/client/iw5/how-to-gsc',
                         '/client/iw5/loading-gsc',
                         '/client/iw5/custom-weapons',
                         '/client/iw5/custom-maps',
@@ -130,19 +129,20 @@ module.exports = {
                     ],
                 },
                 {
+                    title: "GSC Modding",
+                    collapsable: false,
+                    children: [
+                        '/modding/gsc/',
+                        '/modding/gsc/gsc-syntax-features',
+                        '/modding/gsc/how-to-gsc',
+                        '/modding/gsc/compiler-limitations'
+                    ],
+                },
+                {
                     title: "T4 Modding",
                     collapsable: false,
                     children: [
                         '/modding/t4/disabling-perks-gsc'
-                    ],
-                },
-                {
-                    title: "T6 Modding",
-                    collapsable: false,
-                    children: [
-                        '/modding/t6/',
-                        '/modding/t6/gsc-syntax-features',
-                        '/modding/t6/compiler-limitations'
                     ],
                 },
             ],

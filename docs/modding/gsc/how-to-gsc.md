@@ -1,4 +1,4 @@
-# How to: GSC in IW5
+# How to: GSC
 
 ## Getting Started
 
