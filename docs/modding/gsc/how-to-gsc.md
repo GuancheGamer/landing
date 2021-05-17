@@ -363,7 +363,7 @@ self.someText setText( "^1forum.plutonium.pw" );
 
 ## Porting from other games
 
-In case you couldn't tell, this guide was written with CoD4 in mind, but I changed *nothing* about it for IW5, this shows how versatile GSC really is. You can take simple code from other game's and port it to IW5 with minimal effort.
+This guide has parts from Zeroy's CoD 4 GSC guide, but nothing was changed about it for our games, this shows how versatile GSC really is. You can take simple code from other games and port it with minimal effort.
 
 ---
 
