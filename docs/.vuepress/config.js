@@ -133,7 +133,6 @@ module.exports = {
                     collapsable: false,
                     children: [
                         '/modding/gsc/',
-                        '/modding/gsc/gsc-syntax-features',
                         '/modding/gsc/how-to-gsc',
                         '/modding/gsc/compiler-limitations'
                     ],

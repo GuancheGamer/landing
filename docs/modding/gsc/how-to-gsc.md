@@ -2,6 +2,8 @@
 
 ## Getting Started
 
+While GSC is very limited, it does offer features that any basic C++ developer should be familiar with already. If you are not familiar with it, don't worry! They are super simple to learn and use.
+
 You should have knowledge of loading GSC scripts before attempting to write them, please check [our guide about this](loading-gsc)
 
 ## Declaring Functions
@@ -142,14 +144,23 @@ To understand this section, you must first know the operators used to compare da
 ```
 
 Example:
+
 ```cs
-if(var1 == var2)
-{
-  // If it's true, run this code.
+if (3 < 5) {
+    iprintln("Condition met");
+} else {
+    iprintln("Condition not met");
 }
-else
-{
-  // If it's false, run this code.
+```
+
+This can also be used to check the conditions of player variables or just variables.
+
+```cs
+self.condition = false;
+if (self.condition) { // is true?
+    self iprintln("self.condition is true");
+} else {
+    self iprintln("self.condition is false");
 }
 ```
 
@@ -170,6 +181,24 @@ else
 }
 ```
 
+In GSC, you can check if a variable is defined as a condition. This function is called ``isDefined``, it takes the variable as the only parameter, and returns true/false. If a variable equals ``undefined`` or just isn't defined at all, you should get ``true``.
+
+```cs
+var = 5;
+var2 = 6;
+
+if (isDefined(var)) { // var is defined as 5
+    iprintln("var is defined");
+    var2 = undefined; // undefine var2
+}
+
+if (isDefined(var2)) { // this should not be met as var2 was undefined.
+    iprintln("var2 is defined");
+} else if (!isDefined(var2)) {
+    iprintln("var2 is undefined");
+}
+```
+
 ## Loops
 
 Loops come in different forms...
@@ -178,50 +207,83 @@ Loops come in different forms...
 
 **For** :: A for loop is a loop that loops a set amount of times
 
-To use a while loop, a condition/some conditions must be stated: `while(conditions)`
+### ``for``
+For loops are loops that can be infinite or loops that only run until a condition of some sort is met.
 
-Often, this loop is used for infinite loops, which last forever unless specifically stopped.
-
-This is done using the arguement of 1 or true (1 is the integer of true)
-
-`while(1)`
-
-`while(true)`
-
-A while loop can also be used as a normal loop that loops while the arguement is true, when the arguement becomes false the loop exits automatically (or rather, doesn't begin executing the commands in the loop again but just finishes the loop in progress).
-
+A infinite loop looks like:
 ```cs
-int = 0;
-
-while(int < 10)
-{
- wait 1;
- int++;
+for(;;) {
+    iprintln("Infinite loop!");
+    wait 0.05; // **IMPORTANT! ONLY RUNS EVERY SERVER FRAME!**
 }
 ```
 
-The above code will loop while 'int' is less than 10.
-
-The loop waits 1 second, and then the loop increments 'int'.
-
-Once 'int' is not less than 10, the loop breaks.
-
-For loops require three arguments, `for(declare; while; do)`, a simple for loop looks like `for(i = 0; i < 10; i++)`, which means (i is 0, while i is smaller than 10, add one to i).
-
-You can create an infinite loop, but be careful when you do. They require `wait`, and a `break` somewhere.
-
+A loop that will stop after ``i`` is no longer less than ``var``, which equals 10.
 ```cs
-for(;;)
-{
-  wait 1;
-  if(var1 == var2)
-  {
-    break;
-  }
+var = 10;
+for(i=0; i<var; i++) {
+    iprintln("Looping! " + i);
 }
 ```
 
-That code means to wait 1 second, then check the if statement, if var1 is equal to var2, break out of the loop - else continue the loop.
+### ``while``
+While loops are basically for loops, but only checks if the condition is true/false.
+
+In this example, if ``number`` is true (not 0) then it will keep running. But, every time the while loop is ran, we decrease ``number`` by 1.
+```cs
+number = 5;
+while (number) {
+    iprintln("Number equals: " + number);
+    number--;
+}
+
+iprintln("The while loop has ended."); // this will only be seen if the loop ended
+
+/*
+
+5 prints should have been made:
+"Number equals: 5"
+"Number equals: 4"
+"Number equals: 3"
+"Number equals: 2"
+"Number equals: 1"
+"The while loop has ended."
+
+*/
+```
+
+## wait
+
+GSC is ran on every server frame, which consists of 20 server frames per 1 second. If this is called on a non-threaded function, it will hold the server/entity.
+
+```cs
+wait 0.05; // 1 server frame
+wait 0.5;  // 10 server frames
+wait 1;    // 20 server frames
+wait (1);  // 20 server frames
+```
+
+## switch
+Switch cases are useful for checking the case of a lot of values. This is usually seen to be faster and recommended to use than a ``if`` statement.
+
+```cs
+value = 3;
+switch (value)
+{
+    case 1:
+        iprintln("Value was 1");
+        break;
+    case 2:
+        iprintln("Value was 2");
+        break;
+    case 3:
+        iprintln("Value was 3");
+        break;
+    default:
+        iprintln("Value was not found");
+        break;
+}
+```
 
 ## Notify / Endon / Waittill
 
