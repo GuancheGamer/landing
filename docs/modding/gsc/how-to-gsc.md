@@ -252,7 +252,7 @@ iprintln("The while loop has ended."); // this will only be seen if the loop end
 */
 ```
 
-## wait
+## Wait
 
 GSC is ran on every server frame, which consists of 20 server frames per 1 second. If this is called on a non-threaded function, it will hold the server/entity.
 
@@ -263,7 +263,7 @@ wait 1;    // 20 server frames
 wait (1);  // 20 server frames
 ```
 
-## switch
+## Switch
 Switch cases are useful for checking the case of a lot of values. This is usually seen to be faster and recommended to use than a ``if`` statement.
 
 ```cs
