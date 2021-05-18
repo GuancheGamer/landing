@@ -4,7 +4,8 @@ This is a list of Plutonium updates and the changes they introduced.
 
 ## r1790 - r1824 - MW3 & BO2 GSC Modding update
 * IW5:
-  * Full GSC support is included! You can now load both custom scripts and replace any game script. Chaiscript is now REMOVED! Old Chaiscript scripts will no longer work, we suggest porting the script over to GSC. Check out the modding section of the documentation for a [guide on how to load GSC Mods in IW5](./modding/loading-mods.html#iw5). If you technical assistance with your mods post in the [MW3 Modding Support & Discussion section](https://forum.plutonium.pw/category/28/mw3-modding-support-discussion) on our forums.
+  * Full GSC support is included! You can now load both custom scripts and replace any game script. Chaiscript is now REMOVED! Old Chaiscript scripts will no longer work, we suggest porting the script over to GSC. Check out the modding section of the documentation for a [guide on how to load GSC Mods in IW5](./modding/loading-mods.html#iw5).
+    If you technical assistance with your mods post in the [MW3 Modding Support & Discussion section](https://forum.plutonium.pw/category/28/mw3-modding-support-discussion) on our forums.
 
 * T4:
   * No changes.
@@ -40,7 +41,7 @@ This is a list of Plutonium updates and the changes they introduced.
 * T4:
   * Fixed a bug that caused sound to stop and guns / doors / scripts to break when the final player slot was filled and then left. This should increase T4SP (Zombies / CO-OP) stability on the base game maps.
   * UPnP now supported on both T4SP and T4MP.
-  * Fixed a typo in our default server configs for Zombies, Shi No Numa would not load as the map name was incorrect. It should be nazi_zombie_sumpf NOT nazi_zombie_swamp. Please correct this yourself or grab a fresh copy of the configs from https://github.com/xerxes-at/T4ServerConfigs/archive/refs/heads/main.zip
+  * Fixed a typo in our default server configs for Zombies, Shi No Numa would not load as the map name was incorrect. It should be nazi_zombie_sumpf NOT nazi_zombie_swamp. Please correct this yourself or grab a fresh copy of the configs from [GitHub](https://github.com/xerxes-at/T4ServerConfigs/archive/refs/heads/main.zip).
 
 ::: tip
 If you want to host a session, ensure that UPnP is marked as Enabled in the Network tab. If the UPnP status is disabled, you will need to manually forward your ports in order for other people to be able to join. Common issues with UPnP:
@@ -68,7 +69,8 @@ Your router does not support UPnP: Either port forward the game port manually or
 * T4:
   * **First release of T4! - Submit your gameplay clips using the #PlutoniumT4 hashtag on Twitter!**
   * Dedicated servers for Multiplayer and Zombies / CO-OP. Use F10 and HOME keys to make the menu appear and disappear. There may be a shortage of servers on release, this should fix itself as more people begin hosting them.
-  * `sp_minplayers` dvar implemented for SP dedis, allows a server owner to configure the minimum amount of players before a zombies/co-op mission starts. If this is set to 2, the game won't start until 2 players join and if a 3rd player joins they will fall in a void until the map restarts. Just use the map_restart command to restart the level. For Zombies, you will sit on the loadscreen until the minimuim amount of players has been reached.
+  * `sp_minplayers` dvar implemented for SP dedis, allows a server owner to configure the minimum amount of players before a zombies/co-op mission starts. If this is set to 2, the game won't start until 2 players join and if a 3rd player joins they will fall in a void until the map restarts.
+    Just use the map_restart command to restart the level. For Zombies, you will sit on the loadscreen until the minimuim amount of players has been reached.
   * Implemented `modStats` dvar. This lets server owners decide if their mod should use normal stats or it's own custom stats.
   * Unlocked `cg_fov` dvar. No more max FOV of 80.
   * Added `g_patchRocketJumps` to enable/disable rocket jumps.
@@ -111,7 +113,8 @@ Basically: When on, if a hacker is using silent aim, it renders their aimbot eit
 It has no effect when Aiming Down Sight but any hacker using that when ADS'ing will be very noticeable for server admins to ban.
 Although the effect is less harmful to hackers at closer ranges, doing this increases the chances of somebody spotting the hacker far quicker and server admins can ban them from their servers.
 
-The main focus for this is to help Trickshotters, whilst we are working on more improvements, this should atleast stop those boat bangers who suddenly got so good. Or atleast make it painfully obvious if somebody is trying to use an aimbot. Hackers are especially harmful to the trickshotting community. Hacking makes it too easy to fake clips. Who suddenly got very good?? If the server has g_randomSeed set to 1 and the boat bang was without ADS, you can rest assured, it was probably legit.
+The main focus for this is to help Trickshotters, whilst we are working on more improvements, this should atleast stop those boat bangers who suddenly got so good. Or atleast make it painfully obvious if somebody is trying to use an aimbot. Hackers are especially harmful to the trickshotting community.
+Hacking makes it too easy to fake clips. Who suddenly got very good?? If the server has g_randomSeed set to 1 and the boat bang was without ADS, you can rest assured, it was probably legit.
 Server owners can ofcourse set this to 0 and the randomization for the bulletspread will be predictable as is normal in the base game. However silent aim hacks will be fully accurate.
 
 We did testing with this to ensure it wasn't noticeable and it's certainly not and the gains far outweigh the losses.
@@ -163,8 +166,10 @@ We hope this shows we are listening and we obviously cannot discuss much in term
 
 ## r1065 - r1137 - Christmas Update
 * IW5:
-  * Added the Intervention. You can now select the Intervention from the Create a Class menu. This includes full camo support as well as weapon attachments and proficiency. Due to how IW5 handles lighting, gold will not look very good on most maps, we suggest using a custom camo. Check the bottom of this thread for some screenshots and a video of some example custom camos.
-  * Added preview version of Highrise. This is a compromise between waiting and playing, due to the buggy state of the map we have decided to only allow Contributors to host Highrise on dedicated servers. If you are not a contributor and still want to host the map, you would need to make a custom game. Everybody can play the map on any server that can host it. The map currently has broken shadows and missing objects / objects randomly disappearing. (The crane can scare the hell out of you now)
+  * Added the Intervention. You can now select the Intervention from the Create a Class menu. This includes full camo support as well as weapon attachments and proficiency. Due to how IW5 handles lighting, gold will not look very good on most maps, we suggest using a custom camo.
+    Check the bottom of this thread for some screenshots and a video of some example custom camos.
+  * Added preview version of Highrise. This is a compromise between waiting and playing, due to the buggy state of the map we have decided to only allow Contributors to host Highrise on dedicated servers. If you are not a contributor and still want to host the map, you would need to make a custom game.
+    Everybody can play the map on any server that can host it. The map currently has broken shadows and missing objects / objects randomly disappearing. (The crane can scare the hell out of you now)
     As we fix the map we will push further updates so you will be able to see the progress as we make it. Once the map is finished we will let everybody host it.
   * Fixed performance and input issues on Windows 10. Windows 10 users may have noticed that MW3 has a cap to FPS that can't seem to be moved, this is caused by some inefficient methods being used by the game to support Windows 7. Due to not supporting Windows 7 anyway, we have optimized this for Windows 10 which has improved game performance for most of our testers and some have also reported feeling like the game is more responsive to mouse input. You may see more GPU or CPU usage when playing Plutonium IW5 now as these are not bottlenecked by the game anymore.
   * Main menu FPS unlocked. The main menu and other menu's will no longer cap FPS allowing them to feel smoother than ever.
@@ -233,7 +238,7 @@ Your router does not support UPnP: Either port forward the game port manually or
 
 ::: tip
 If using native ultrawide monitors , change `r_customAspectRatio` to `2.3333` (21/9 or `3.55556` if 32:9).
-Otherwise use https://calculateaspectratio.com/ and calculate a 21:9 or 32:9 resolution that fits into your monitors resolution.
+Otherwise use [this Calculator](https://calculateaspectratio.com/) and calculate a 21:9 or 32:9 resolution that fits into your monitors resolution.
 * set `r_aspectRatio` to `custom (4)`.
 * set `r_customAspectRatio` accordingly (`2.3333`).
 * set `r_customMode` to the res you calculated (eg. `1386x594`).
@@ -326,25 +331,24 @@ We will attempt to get workarounds for these in future updates but cannot say th
 
 * IW5:
   * Aim Down Sight Sensitivity - We've reworked how cg_fov and cg_fovScale behave. Steam MW3 works by slowing down your sensitivity when aiming down sights, pretty standard for 2012 but in 2020 it's hard to adjust back too when playing modern games. Plutonium IW5 now bases this on your FOVScale.
-
-::: tip
-Examples:
-
-* `cg_fov 90` and `cg_fovScale 1` = 90 FOV total.  This will result in only your hipfire FOV changing. Sensitivity is different when zooming in because of lower FOV.
-* `cg_fov 40` and `cg_fovScale 2.25` = 90 FOV total. Your Aim Down Sights FOV (allowing you more situational awareness at the cost of less detail down sight) looks the same as hipfire FOV. Sensitivity is now the same when hipfiring and when Aiming Down Sights because the FOV is the same.
-* `cg_fov 70` and `cg_fovScale 1.3` = 90 FOV total. Aiming Down Sights is slightly zoomed in compared to hipfire. Sensitivity is faster than in regular MW3 because of your total FOV.
-
-To workout the FOV when using `FOVScale`, you need to take your `cg_fov` and multiply it by your `FOVScale`. For example if you'd like a standard FOV of 80 (like I use) it would be `cg_fov 65` and `cg_fovScale 1.32`.
-
-We're tested this system with our testers and a few known trickshotters and streamers and they all agree it feels better, hence we are pushing this in this update. If you don't want to use this system, simply keep your cg_fovScale at 1. You may find you need to experiment with values to find some that you find comfortable.
-:::
-
   * Mouse input reworked - That annoying mouse acceleration feeling some players report should be sorted now. This was caused by how the base game handles mouse inputs, again, the effects of an aging game.
   * Forum Avatar Card Icons Fix - Players were reporting seeing their own forum avatar instead of other people's, this has been corrected.
   * Server Plugin Improvements - These now show a windows error code if they fail to load and VirtualProtect must now be called if you wish to edit the memory of the dedicated server.
   * Dedicated Servers - More fixes to aid in stability of dedicated servers and avoid them crashing.
   * Bounces - Bounces are now off by default to avoid out of map abuse caused by unaware server owners.
   * Menu Blur - A blur has been added to the menu background when opening certain menus, such as Create a Class. This should make it easier to see what options you have selected. Players reported that they struggled to see certain options.
+
+::: tip
+Examples:
+
+* `cg_fov 90` and `cg_fovScale 1` = 90 FOV total.  This will result in only your hipfire FOV changing. Sensitivity is different when zooming in because of lower FOV.
+* `cg_fov 40` and `cg_fovScale 2.25` = 90 FOV total. Your Aim Down Sights FOV (allowing you more situational awareness at the cost of less detail down sight) looks the same as hipfire FOV. Sensitivity is now the same when hipfiring and when Aiming Down Sig$
+* `cg_fov 70` and `cg_fovScale 1.3` = 90 FOV total. Aiming Down Sights is slightly zoomed in compared to hipfire. Sensitivity is faster than in regular MW3 because of your total FOV.
+
+To workout the FOV when using `FOVScale`, you need to take your `cg_fov` and multiply it by your `FOVScale`. For example if you'd like a standard FOV of 80 (like I use) it would be `cg_fov 65` and `cg_fovScale 1.32`.
+
+We're tested this system with our testers and a few known trickshotters and streamers and they all agree it feels better, hence we are pushing this in this update. If you don't want to use this system, simply keep your cg_fovScale at 1. You may find you ne$
+:::
 
 * T6:
   * No changes.
@@ -358,7 +362,8 @@ We're tested this system with our testers and a few known trickshotters and stre
 
 * IW5:
   * Streamer Mode - `cl_enableStreamerMode 1` in the console to activate it. This hides the server name and IP address on the scoreboard, disables Discord rich presence and disables forum avatar cardicons.
-  * Forum Avatar CardIcons - Contributors can set their cardicon to FNG and it will show their forum avatar in game. Avatars must follow forum rules or action will be taken, including game bans. [Have a look at our forum rules](https://forum.plutonium.pw/topic/15/forum-rules) if you're unsure, there is a "use forum avatar" button on the callsign menu in-game which will set your cardicon to FNG. We plan to let everyone use this feature from the 01/06/2020 (dd/mm/yyyy) and use this month to ensure it cannot be abused. Transparency is supported.
+  * Forum Avatar CardIcons - Contributors can set their cardicon to FNG and it will show their forum avatar in game. Avatars must follow forum rules or action will be taken, including game bans. [Have a look at our forum rules](https://forum.plutonium.pw/topic/15/forum-rules) if you're unsure, there is a "use forum avatar" button on the callsign menu in-game which will set your cardicon to FNG.
+    We plan to let everyone use this feature from the 01/06/2020 (dd/mm/yyyy) and use this month to ensure it cannot be abused. Transparency is supported.
   * Discord Rich Presence - now supports joining a game directly through Discord and inviting via discord.
   * AK74-u menu fixes - users reported some menu bugs which we have fixed.
   * Dedicated Server Crash fix - More stability patches for dedicated servers.
@@ -382,7 +387,7 @@ We're tested this system with our testers and a few known trickshotters and stre
   * Create a Class now locks guns if you are not the correct level, previously everything was unlocked from level 4.
   * In-game console reworked with autocomplete support.
   * `cg_drawFPS` does not reset every time you launch the game anymore.
-  * We've added an ingame friends list - this can be accessed from the main menu or when in a match. You can see what server your friends are playing and double click to join them. More features to this are expected in future updates. To add friends check this guide. https://forum.plutonium.pw/topic/559/how-to-add-friends-on-plutonium
+  * We've added an ingame friends list - this can be accessed from the main menu or when in a match. You can see what server your friends are playing and double click to join them. More features to this are expected in future updates. [To add friends check this guide](https://forum.plutonium.pw/topic/559/how-to-add-friends-on-plutonium).
   * Discord Rich Presence. Discord will now show what game you are playing, which server you are in and some info about that server.
   * `waypointIconWidth` / `waypointIconHeight` now saves to config. These are used to determine how big the objective markers are. Some people like them way smaller.
   * Scoreboard now shows the correct hostname, this is now taken from the hostname that is set when registering a server key.
@@ -436,7 +441,7 @@ If you get the "checking for saved credentials" bug then please browse to `%loca
 * Launcher:
   * No changes.
 
-# r356 - r363
+## r356 - r363
 * IW5:
   * `cg_fovScale` is now unlocked & saved to config. We had a good few requests for this.
   * The bootstrapper can only run the game once now, this was found to be triggering anticheat bans when people opened the game twice. (Quite how or why they did that we will never know).
