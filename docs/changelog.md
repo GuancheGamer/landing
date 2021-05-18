@@ -171,7 +171,8 @@ We hope this shows we are listening and we obviously cannot discuss much in term
   * Added preview version of Highrise. This is a compromise between waiting and playing, due to the buggy state of the map we have decided to only allow Contributors to host Highrise on dedicated servers. If you are not a contributor and still want to host the map, you would need to make a custom game.
     Everybody can play the map on any server that can host it. The map currently has broken shadows and missing objects / objects randomly disappearing. (The crane can scare the hell out of you now)
     As we fix the map we will push further updates so you will be able to see the progress as we make it. Once the map is finished we will let everybody host it.
-  * Fixed performance and input issues on Windows 10. Windows 10 users may have noticed that MW3 has a cap to FPS that can't seem to be moved, this is caused by some inefficient methods being used by the game to support Windows 7. Due to not supporting Windows 7 anyway, we have optimized this for Windows 10 which has improved game performance for most of our testers and some have also reported feeling like the game is more responsive to mouse input.
+  * Fixed performance and input issues on Windows 10. Windows 10 users may have noticed that MW3 has a cap to FPS that can't seem to be moved, this is caused by some inefficient methods being used by the game to support Windows 7. Due to not supporting Windows 7 anyway, we have optimized this for Windows 10 which has improved game performance for most of our testers
+    and some have also reported feeling like the game is more responsive to mouse input.
     You may see more GPU or CPU usage when playing Plutonium IW5 now as these are not bottlenecked by the game anymore.
   * Main menu FPS unlocked. The main menu and other menu's will no longer cap FPS allowing them to feel smoother than ever.
 
