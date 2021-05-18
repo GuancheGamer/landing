@@ -156,7 +156,8 @@ module.exports = {
                         '/uninstall',
                         '/how-can-i-contribute',
                         '/socials',
-                        '/getting-involved'
+                        '/getting-involved',
+                        '/changelog'
                     ],
                 },
                 {
