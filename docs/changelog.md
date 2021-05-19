@@ -344,12 +344,12 @@ We will attempt to get workarounds for these in future updates but cannot say th
 Examples:
 
 * `cg_fov 90` and `cg_fovScale 1` = 90 FOV total.  This will result in only your hipfire FOV changing. Sensitivity is different when zooming in because of lower FOV.
-* `cg_fov 40` and `cg_fovScale 2.25` = 90 FOV total. Your Aim Down Sights FOV (allowing you more situational awareness at the cost of less detail down sight) looks the same as hipfire FOV. Sensitivity is now the same when hipfiring and when Aiming Down Sig$
+* `cg_fov 40` and `cg_fovScale 2.25` = 90 FOV total. Your Aim Down Sights FOV (allowing you more situational awareness at the cost of less detail down sight) looks the same as hipfire FOV. Sensitivity is now the same when hipfiring and when Aiming Down Sights because the FOV is the same.
 * `cg_fov 70` and `cg_fovScale 1.3` = 90 FOV total. Aiming Down Sights is slightly zoomed in compared to hipfire. Sensitivity is faster than in regular MW3 because of your total FOV.
 
 To workout the FOV when using `FOVScale`, you need to take your `cg_fov` and multiply it by your `FOVScale`. For example if you'd like a standard FOV of 80 (like I use) it would be `cg_fov 65` and `cg_fovScale 1.32`.
 
-We're tested this system with our testers and a few known trickshotters and streamers and they all agree it feels better, hence we are pushing this in this update. If you don't want to use this system, simply keep your cg_fovScale at 1. You may find you ne$
+We've tested this system with our testers and a few known trickshotters and streamers and they all agree it feels better, hence we are pushing this in this update. If you don't want to use this system, simply keep your cg_fovScale at 1. You may find you need to experiment with values to find some that you find comfortable.
 :::
 
 * T6:
