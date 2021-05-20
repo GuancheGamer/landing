@@ -164,6 +164,8 @@ module.exports = {
                     title: "Plutonium Support",
                     collapsable: false,
                     children: [
+                        '/custom-games',
+                        '/controllers',
                         '/opening-console',
                         '/repair',
                         '/game-files',

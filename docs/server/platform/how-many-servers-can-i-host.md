@@ -1,3 +1,3 @@
 # How many server can I host?
 
-This article will be documented in the future, stay tuned!
+We currently allow you to host 10 servers for each game type (For example: T6 MP & ZM are 10 each.)
