@@ -8,7 +8,7 @@ This guide will teach you how to play with friends over the internet in a custom
 
 Both you and your friend need to follow each other on the Plutonium Forums:
 - Go to [https://forum.plutonium.pw/users](https://forum.plutonium.pw/users) and search for your friend.
-- Go to his profile and hit the green "plus" (+) button to follow him.
+- Go to their profile and hit the green "plus" (+) button to follow them.
   - If there is only a heart, that means that you are already following them.
 
 ## T4 / T6
