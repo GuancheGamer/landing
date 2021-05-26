@@ -2,6 +2,9 @@
 
 ::: warning
 You should disable Steam's controller support (or close Steam) before trying controllers on Plutonium.
+Simply go to Steam Settings -> Controller -> General Controller Settings and **untick** the Checkboxes like shown below.
+
+![disablesteamcontroller](https://i.imgur.com/U1bs5Z9.png)
 :::
 
 ## Xbox Controllers
