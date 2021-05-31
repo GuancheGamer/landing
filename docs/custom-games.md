@@ -1,8 +1,6 @@
-# Custom Games
+# Custom Games / Playing with friends
 
 This guide will teach you how to play with friends over the internet in a custom games match.
-
-**Note**: You can use the command `sp_minplayers 2` before starting to wait until your specified amount of players connect before starting.
 
 ## Getting Started
 

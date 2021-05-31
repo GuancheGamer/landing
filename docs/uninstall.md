@@ -2,12 +2,12 @@
 
 Delete your game files, and then follow the following steps:
 
-1. Press `Win+R` and paste `%localappdata%\Plutonium` and hit `Ok`.
+1. Press `Win+R` and paste `%localappdata%` and hit `Ok`.
 
-![img](https://i.imgur.com/VQ8bL9w.png)
+![img](https://i.imgur.com/mCzpEix.png)
 
-2. Delete everything inside this folder.
+2. Find the `Plutonium` folder and delete it.
 
-![img](https://i.imgur.com/Ov7sr5B.png)
+![img](https://i.imgur.com/aYhSvlR.png)
 
-Done! Plutonium is fully uninstalled.
+Done! Plutonium is fully uninstalled, you can now delete your game files.

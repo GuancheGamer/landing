@@ -10,4 +10,4 @@ Here's an example:
 
 ![example](https://i.imgur.com/dhHTEQo.png)
 
-4. Set your `sv_wwwBaseURL` to your server's URL. (Example: `set sv_wwwBaseURL "http://123.456.789.12/"`)
+4. Set your `sv_wwwBaseURL` to your server's IP Address. (Example: `set sv_wwwBaseURL "http://123.456.789.12/"`)

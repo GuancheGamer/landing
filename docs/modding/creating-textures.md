@@ -89,5 +89,5 @@ In Paint.NET simply click `File -> save as` and save the file in the folder you 
 3\. The converter will create an .iwi file next to your .dds file, [click here to get to the part of the documentation that explains how to load your modified texture in-game](./loading-textures.md).
 
 ::: warning
-Do not attempt to load your modified textures by putting them back into the original .iwd file (t4/iw5), use our designated folders which is explained in the link above.
+Do not attempt to load your modified textures by putting them back into the original .iwd file, use our designated folders which is explained in the link above.
 :::

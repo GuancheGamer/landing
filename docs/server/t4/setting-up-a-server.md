@@ -6,17 +6,21 @@
 * The ability to port forward
 * A Plutonium forum account
 * Notepad++/Any other code editor
+* A Copy of the game installed in `C:\gameserver\T4`.
 
-
-In this tutorial, I will assume that you have installed T4 to `C:\gameserver\T4` already.
+![img](https://i.imgur.com/9gBLKYe.png)
 
 ## 1. Preparation
 
-1. Download the [Plutonium Launcher](https://cdn.plutonium.pw/updater/plutonium.exe)
+1. Download the [Plutonium Launcher](https://cdn.plutonium.pw/updater/plutonium.exe), and place it in your server folder.
+
+2. Run `plutonium`, so it can download the required files.
 
 2. Download the [T4 Config Files](https://github.com/xerxes-at/T4ServerConfigs/archive/refs/heads/main.zip)
 
-4. Save/Extract the configs to `C:\gameserver\T4`
+3. Save/Extract the configs to `C:\gameserver\T4`
+
+![img](https://i.imgur.com/rHwzjTo.png)
 
 ### 1.2 Creating a server key
 
@@ -28,21 +32,21 @@ In this tutorial, I will assume that you have installed T4 to `C:\gameserver\T4`
 
 4. Paste the key into the start bat under `set key=xxxx`, replace `xxxx` with your key.
 
-## 2. Basic configuration and the first start
+![img](https://i.imgur.com/CA9Ryjp.png)
 
-Edit your `server.cfg` file with whatever changes you want (i.e. RCON Password/Map Rotation/Round Limits/etc/etc).
+## 2. Basic server configuration
 
-## 3. Advanced (Mods / FastDL)
+1\. Edit your `server.cfg` file with whatever changes you want (i.e. RCON Password/Map Rotation/Round Limits/etc/etc).  
+2\. Double click the bat file.  
+3\. Wait for the server to finish loading.  
+
+![img](https://i.imgur.com/0BaYCo6.png)
+
+## 3. Advanced server configuration (Mods / FastDL)
 
 You can read our guide [here](loading-mods) about loading mods onto a dedicated server.
 
 To setup FastDL, read our guide [here](fastdl).
-
-## Launching the Server
-
-Double click the bat file.
-
-Wait for the server to finish loading.
 
 ## 4. (Optional) Slimming down server directory
 
@@ -66,36 +70,32 @@ Wait for the server to finish loading.
 
 ![Final Image](https://i.imgur.com/Na25CV0.png)
 
-## 5. (Optional) Install a server management tool
+## 5. (Optional) Install a server management tool (IW4MAdmin)
 
-Verify `g_log "games_mp.log"` is unique (rename `games_mp` with your server name for example).
-Verify `g_logSync` is set to `1`.
-Verify `logfile` is set to `2`.
-1. Download .NET Core 3.1.x Runtime or newer [[Windows](https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-aspnetcore-3.1.4-windows-hosting-bundle-installer)]/[[Linux](https://docs.microsoft.com/en-us/dotnet/core/install/linux-package-manager-ubuntu-1910)].
-2. Download [IW4MAdmin](https://github.com/RaidMax/IW4M-Admin/releases).
-3. Extract `IW4MAdmin-<version>.zip`.
-4. Run `StartIW4MAdmin.cmd`/`StartIW4MAdmin.sh` depending on what OS you have.
-5. Configure IW4MAdmin.
-6. Go ingame and type `!owner` to claim ownership of your server. [You might want to set a password on your server to make sure nobody else grabs it]
-7. Login to the webfront by accessing `http://<machine_ip_here>:1624` and clicking on the key icon. You will need to retrieve your login credentials by typing `!rt` ingame.
+Verify `g_log "games_mp.log"` is unique (in your server.cfg file)
 
-### 5.1 Updating IW4MAdmin
-1. Download the latest version of [IW4MAdmin](https://github.com/RaidMax/IW4M-Admin/releases).
-2. Extract the newer version of IW4MAdmin into the pre-existing IW4MAdmin folder and overwrite existing files.
-*Note: Your configuration and database will be saved*
-
-If you have any questions relating to IW4MAdmin, [join their discord](https://discord.gg/ZZFK5p3).
+:::tip
+Set `g_log` to your server name for example if you are hosting a TDM and a Search and Destroy server your `g_log`'s might look like this:
+`g_log "tdm_server.log"`
+`g_log "sd_server.log"`
 :::
 
+Verify `g_logSync` is set to `1`.  
+Verify `logfile` is set to `2`.  
+1. Download .NET Core 3.1.x Runtime or newer [[Windows](https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-aspnetcore-3.1.4-windows-hosting-bundle-installer)]/[[Linux](https://docs.microsoft.com/en-us/dotnet/core/install/linux-package-manager-ubuntu-1910)].
+2. Download [IW4MAdmin](https://github.com/RaidMax/IW4M-Admin/releases).
+3. Follow the IW4MAdmin [setup guide](https://github.com/RaidMax/IW4M-Admin/wiki/Getting-Started).
+
 ## 6. (Optional) Hosting a second server
-Make a copy of the start.bat file and the `server.cfg` file and rename them.
-Edit the `server.cfg` to meet your needs.
-Edit the copy of the bat file to: use your new server key, use a new port, and use your new config file.
-(You must forward the second port as well)
-Start the server through the new .bat file.
+Make a copy of the start.bat file and the `server.cfg` file and rename them.  
+Edit the `server.cfg` to meet your needs.  
+Edit the copy of the bat file to: use your new server key, use a new port, and use your new config file.  
+(You must forward the second port as well)  
+Start the server through the new .bat file.  
 
 ## FAQ
 Q: Why can't I find my server hosted at home while others can?  
 A: Your router probably doesn't support NAT-Loopback (aka. NAT-Reflection) and that's why it doesn't know how to forward the network traffic. In order to connect it use your internal IP or 127.0.0.1 if its hosted on the same machine.  
+
 Q: Why can't I see my server when I have my game open?  
 A: If you start your client first, and your server is running on `28960`, your server will automatically take the port `28961` as your client uses `28960`, so make sure to just change the port if you are going to be running it on the same machine.  
