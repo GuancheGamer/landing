@@ -169,6 +169,7 @@ module.exports = {
                         '/opening-console',
                         '/repair',
                         '/game-files',
+                        '/low-fps',
                         '/support'
                     ],
                 },
