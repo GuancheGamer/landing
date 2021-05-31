@@ -76,8 +76,9 @@ Verify `g_log "games_mp.log"` is unique (in your server.cfg file)
 
 :::tip
 Set `g_log` to your server name for example if you are hosting a TDM and a Search and Destroy server your `g_log`'s might look like this:
-`g_log "tdm_server.log"`
-`g_log "sd_server.log"`
+
+`g_log "tdm_server.log"`  
+`g_log "sd_server.log"`  
 :::
 
 Verify `g_logSync` is set to `1`.  
