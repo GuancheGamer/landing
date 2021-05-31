@@ -16,15 +16,11 @@
 
 2. Run `plutonium`, so it can download the required files.
 
-2. Download the [IW5 Config Files](https://cdn.discordapp.com/attachments/699252643595419698/703966412242157949/DedicatedServer.zip)
-
-<!--
-Should we move this to github? I know xerxes already has a git, but it isn't updated iirc.. ^CH
--->
+2. Download the [IW5 Config Files](https://github.com/xerxes-at/IW5ServerConfig/archive/refs/heads/master.zip)
 
 3. Save/Extract the configs to `C:\gameserver\IW5`
 
-![img](https://i.imgur.com/ibU6yYV.png)
+![img](https://i.imgur.com/wCu3KiR.png)
 
 ### 1.2 Creating a server key
 
