@@ -4,6 +4,10 @@
 
 2. Place a copy of your `mods` and `usermaps` into your web server's root directory.
 
-3. Verify you can access them from the public internet. [Here's an example](http://fastdl.cmh.pw/t4)
+3. Verify you can access them from the public internet.
 
-4. Set your `sv_wwwBaseURL` to your server's URL. (Example: `set sv_wwwBaseURL "http://100.100.100.100/"`)
+Here's an example:
+
+![example](https://i.imgur.com/dhHTEQo.png)
+
+4. Set your `sv_wwwBaseURL` to your server's URL. (Example: `set sv_wwwBaseURL "http://123.456.789.12/"`)

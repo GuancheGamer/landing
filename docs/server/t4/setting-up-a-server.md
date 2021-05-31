@@ -95,7 +95,7 @@ Edit the copy of the bat file to: use your new server key, use a new port, and u
 Start the server through the new .bat file.
 
 ## FAQ
-Q: Why can't I find my server hosted at home while others can?
-A: Your router probably doesn't support NAT-Loopback (aka. NAT-Reflection) and that's why it doesn't know how to forward the network traffic. In order to connect it use your internal IP or 127.0.0.1 if its hosted on the same machine.
-Q: Why can't I see my server when I have my game open?
-A: If you start your client first, and your server is running on `28960`, your server will automatically take the port `28961` as your client uses `28960`, so make sure to just change the port if you are going to be running it on the same machine.
+Q: Why can't I find my server hosted at home while others can?  
+A: Your router probably doesn't support NAT-Loopback (aka. NAT-Reflection) and that's why it doesn't know how to forward the network traffic. In order to connect it use your internal IP or 127.0.0.1 if its hosted on the same machine.  
+Q: Why can't I see my server when I have my game open?  
+A: If you start your client first, and your server is running on `28960`, your server will automatically take the port `28961` as your client uses `28960`, so make sure to just change the port if you are going to be running it on the same machine.  
