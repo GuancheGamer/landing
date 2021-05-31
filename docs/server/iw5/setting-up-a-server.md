@@ -53,10 +53,9 @@ Should we move this to github? I know xerxes already has a git, but it isn't upd
 
 :::tip
 You can open your game and make a gametype under Private Match, and save it to your disk, and copy it into this folder to more easily understand your settings/choices.
-<!--
-Images here, probably. ^CH
--->
 :::
+
+![gif](https://i.imgur.com/rIomHuu.gif)
 
 3\. Modify your map rotation to include your new gametype.
 
