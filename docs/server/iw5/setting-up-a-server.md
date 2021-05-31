@@ -32,7 +32,7 @@
 
 4. Paste the key into the start bat under `set key=xxxx`, replace `xxxx` with your key.
 
-![img](https://i.imgur.com/z3r3R6j.png)
+![img](https://i.imgur.com/Z63M36I.png)
 
 ## 2. Basic server configuration
 
