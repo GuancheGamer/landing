@@ -143,6 +143,21 @@ To understand this section, you must first know the operators used to compare da
 || :: Or
 ```
 
+:::details Bitwise Information
+
+You can also use [Bitwise (Wikipedia)](https://en.wikipedia.org/wiki/Bitwise_operation) operation inside IW5 (MW3) GSC scripts.
+
+```cs
+& :: Bitwise And
+| :: Bitwise Or (inclusive or)
+^ :: Bitwise Xor (exclusive or)
+<< :: Left Shift
+>> :: Right Shift
+~ :: Bitwise NOT (one's compliment)
+```
+
+:::
+
 Example:
 
 ```cs
