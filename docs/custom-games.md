@@ -19,14 +19,14 @@ Once you and your friend are following each other, the person who wants to host 
 
 ---
 
-### **If UPnP is Enabled**:
+### **If UPnP is Enabled**
 - Start a Private Match
 - If the match requires 2 players to start you can force it to start anyways with the command `xpartygo`
 - Your friend should now be able to join by double-clicking your name in the Friends List (between the Server Browser and Network tab)
 
 ---
 
-### **If UPnP is Disabled**:
+### **If UPnP is Disabled**
 - Go to Windows Settings -> Network & Internet, then hit Properties under your network name.
 
 ![img](https://i.imgur.com/PnaSif4.png)
@@ -39,7 +39,7 @@ Once you and your friend are following each other, the person who wants to host 
 
 ---
 
-### **If UPnP is still disabled or you can't connect despite it being enabled:**
+### **If UPnP is still disabled or you can't connect despite it being enabled**
 
 - Forward the following ports:  
 `28960-28961` (UDP) [T4]  
@@ -68,7 +68,7 @@ In IW5, there's no easy way of telling if UPnP is enabled, outside of just testi
 
 Simply start a private match and have your friend join you from Friends > Double clicking your name.
 
-### **If UPnP is disabled / is not working:**
+### **If UPnP is disabled / is not working**
 
 - Forward the port `27016` (UDP) - (You may need to google your router's guide on port forwarding, since every router is different, this [Lifewire article](https://www.lifewire.com/how-to-port-forward-4163829) might be helpful.
 - Whitelist the port `27016` (UDP) in Windows Firewall, this [Tom's Hardware](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html) article might be helpful.

@@ -105,7 +105,8 @@ module.exports = {
                     collapsable: false,
                     children: [
                         '/server/iw5/setting-up-a-server',
-                        '/server/iw5/loading-mods'
+                        '/server/iw5/loading-mods',
+                        '/server/iw5/fastdl'
                     ],
                 },
                 {
