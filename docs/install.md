@@ -122,6 +122,10 @@ The section will cover how to download and install the English DLC to get the co
 
 1. Download the DLC zip archive via the following [link](https://mega.nz/folder/CYUkGSrJ#HVa6Cik59Bgi9pp5NBW4fg)
 
+:::tip
+If MEGA does not work for you, you can download the [IW5 DLC Torrent](https://dss0.cc/alterwarez/download/iw5m_dlcs.torrent)
+:::
+
 ![img](https://i.imgur.com/Zqx80uj.png)
 
 2. Once the download completes open the zip `MW3 DLC [EN].zip`
