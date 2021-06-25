@@ -91,7 +91,7 @@ Your local IP will be under `IPv4 Address`.
 From there, every client on your LAN will simply be able to connect by [opening the console](opening-console) and executing
 
 ```cs
-connect IPv4-Address
+connect HostsIPv4AddressHere
 ```
 
 ### Connecting via an IP address
