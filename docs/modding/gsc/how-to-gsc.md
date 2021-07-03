@@ -386,6 +386,6 @@ This guide has parts from Zeroy's CoD 4 GSC guide, but nothing was changed about
 
 [Download the script](https://cdn.discordapp.com/attachments/710609237805498500/842246918586761216/myFirstGSC.gsc) I used which demonstrates some of the topics discussed here.
 
-[Zeroy's CoD4 GSC Introduction](https://wiki.zeroy.com/index.php?title=Call_of_Duty_4:_Introduction), which was taken from [this](http://www.codjumper.com/forums/viewtopic.php?t=4011) CoDJumper thread.
+[Zeroy's CoD4 GSC Introduction](https://wiki.zeroy.com/index.php?title=Call_of_Duty_4:_Introduction)
 
 [iAegle's "Creating a HUD Element Guide"](https://www.itsmods.com/forum/Thread-Tutorial-Creating-a-HUD-Element-Text-Basics.html)

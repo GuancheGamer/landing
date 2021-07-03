@@ -1,3 +1,8 @@
 # Custom Maps
 
-This article will be documented in the future, stay tuned!
+Plutonium IW5 offers some custom maps, with more to come!
+
+Our current custom maps are as follows:
+
+* Rust
+* Highrise (Beta)
