@@ -2,6 +2,24 @@
 
 This is a list of Plutonium updates and the changes they introduced.
 
+## r1824-r1953
+* T4:
+  * Fix bots switchToWeapon() GSC not working
+  * Fix Quick Revive not working as intended while playing solo
+
+* IW5:
+  * General GSC improvements
+  * Shipping updated _class.gsc with fixes to prevent exploits with custom classes
+  * Fix for GSC unloading on soft restarts (e.g. new round)
+  * Fix wrong mapname / gametype bug on loadscreen
+  * Fix IW5 crashing on first ever boot (When steam_api.dll is in game folder)
+  * Fix S&D freezing
+
+* T6:
+  * Fix demos crash and custom script assets
+  * Fix client crash when gsc files had uppercase letters in their file name
+  * Fix overwriting specific game scripts on T6ZM
+
 ## r1790 - r1824 - MW3 & BO2 GSC Modding update
 * IW5:
   * Full GSC support is included! You can now load both custom scripts and replace any game script. Chaiscript is now REMOVED! Old Chaiscript scripts will no longer work, we suggest porting the script over to GSC. Check out the modding section of the documentation for a [guide on how to load GSC Mods in IW5](./modding/loading-mods.html#iw5).
