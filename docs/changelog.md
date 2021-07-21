@@ -2,6 +2,19 @@
 
 This is a list of Plutonium updates and the changes they introduced.
 
+## r1953-r2016
+* T4:
+  * No changes.
+
+* IW5:
+  * Added `g_playerCollision` Dvar, this enables/disables Collision between players
+  * Added `g_playerEjection` Dvar, this enables/disables "bouncing back" when colliding with other players
+  * Added `replaceFunc` GSC Function, this allows "hooking" GSC Functions without recompiling the entire file
+  * Added chat `say` and `tell` commands to dedicated servers
+
+* T6:
+  * No changes.
+
 ## r1824-r1953
 * T4:
   * Fix bots switchToWeapon() GSC not working
