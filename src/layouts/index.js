@@ -27,7 +27,7 @@ const DocsLayout = ({ frontMatter, children }) => {
                     <div className="pt-10 pb-8">
                         <a
                             className=" text-sm font-semibold bg-gray-800 text-gray-300 py-3 px-3 rounded-lg hover:bg-gray-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-700 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900"
-                            href={`https://github.com/plutoniumpw/docs/edit/develop/${frontMatter.__resourcePath}`}
+                            href={`https://github.com/plutoniumpw/landing/edit/develop/src/pages/${frontMatter.__resourcePath}`}
                             target="_blank"
                         >
                             Edit this page

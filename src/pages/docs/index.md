@@ -2,7 +2,7 @@
 
 <Alert variant="warning">
 
-The docs are a work in progress. Feel free to contribute on [GitHub](https://github.com/plutoniumpw/docs/).
+The docs are a work in progress. Feel free to contribute on [GitHub](https://github.com/plutoniumpw/landing/).
 
 </Alert>
 
