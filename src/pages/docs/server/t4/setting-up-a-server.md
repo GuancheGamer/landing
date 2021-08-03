@@ -85,11 +85,13 @@ Set `g_log` to your server name for example if you are hosting a TDM and a Searc
 
 Verify `g_logSync` is set to `1`.  
 Verify `logfile` is set to `2`.  
+
 1. Download .NET Core 3.1.x Runtime or newer [[Windows](https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-aspnetcore-3.1.4-windows-hosting-bundle-installer)]/[[Linux](https://docs.microsoft.com/en-us/dotnet/core/install/linux-package-manager-ubuntu-1910)].
 2. Download [IW4MAdmin](https://github.com/RaidMax/IW4M-Admin/releases).
 3. Follow the IW4MAdmin [setup guide](https://github.com/RaidMax/IW4M-Admin/wiki/Getting-Started).
 
 ## 6. (Optional) Hosting a second server
+
 Make a copy of the start.bat file and the `server.cfg` file and rename them.  
 Edit the `server.cfg` to meet your needs.  
 Edit the copy of the bat file to: use your new server key, use a new port, and use your new config file.  
@@ -97,6 +99,7 @@ Edit the copy of the bat file to: use your new server key, use a new port, and u
 Start the server through the new .bat file.  
 
 ## FAQ
+
 Q: Why can't I find my server hosted at home while others can?  
 A: Your router probably doesn't support NAT-Loopback (aka. NAT-Reflection) and that's why it doesn't know how to forward the network traffic. In order to connect it use your internal IP or 127.0.0.1 if its hosted on the same machine.  
 

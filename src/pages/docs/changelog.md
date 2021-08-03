@@ -3,6 +3,7 @@
 This is a list of Plutonium updates, and the changes they introduced.
 
 ## r1953-r2016
+
 * T4:
   * No changes.
 
@@ -16,6 +17,7 @@ This is a list of Plutonium updates, and the changes they introduced.
   * No changes.
   
 ## r1824-r1953
+
 * T4:
   * Fix bots switchToWeapon() GSC not working
   * Fix Quick Revive not working as intended while playing solo
@@ -34,6 +36,7 @@ This is a list of Plutonium updates, and the changes they introduced.
   * Fix overwriting specific game scripts on T6ZM
 
 ## r1790 - r1824 - MW3 & BO2 GSC Modding update
+
 * IW5:
   * Full GSC support is included! You can now load both custom scripts and replace any game script. Chaiscript is now REMOVED! Old Chaiscript scripts will no longer work, we suggest porting the script over to GSC. Check out the modding section of the documentation for a [guide on how to load GSC Mods in IW5](./modding/loading-mods.html#iw5).
     If you technical assistance with your mods post in the [MW3 Modding Support & Discussion section](https://forum.plutonium.pw/category/28/mw3-modding-support-discussion) on our forums.
@@ -48,6 +51,7 @@ This is a list of Plutonium updates, and the changes they introduced.
   * No changes.
 
 ## r1715 - r1790
+
 * IW5:
   * No changes.
 
@@ -66,6 +70,7 @@ This is a list of Plutonium updates, and the changes they introduced.
   * No changes.
 
 ## r1715 - r1728 - Hotfix
+
 * IW5:
   * Fixed a bug that caused mp_rust and mp_highrise to crash.
 
@@ -91,6 +96,7 @@ Your router does not support UPnP: Either port forward the game port manually or
   * No changes.
 
 ## r1205 - r1715 - Plutonium T4 Release
+
 * IW5:
   * Intervention sounds fixed.
   * Added more attachments for the Intervention.
@@ -135,6 +141,7 @@ Your router does not support UPnP: Either port forward the game port manually or
   * No changes.
 
 ## r1177 - r1205 - g_randomSeed
+
 * IW5 & T6:
   * `g_randomSeed` is now a server dvar. Servers can set this to 1 or 0. It is set to 1 (On) by default. It can be set in your server config file along with other dvars.
 
@@ -162,6 +169,7 @@ We hope this shows we are listening and we obviously cannot discuss much in term
   * No changes.
 
 ## r1166 - r1177
+
 * IW5:
   * Fix slow motion in killcams - they should now be smooth. Trickshotters everywhere will be so happy. This was a [bug bounty set by a community member](https://forum.plutonium.pw/topic/7377/iw5-slowmode-killcam-fix).
 
@@ -174,6 +182,7 @@ We hope this shows we are listening and we obviously cannot discuss much in term
   * No changes.
 
 ## r1163 - r1166
+
 * IW5:
   * Kick commands now run on the game thread, fixing possible issues when running custom scripts.
 
@@ -184,6 +193,7 @@ We hope this shows we are listening and we obviously cannot discuss much in term
   * No changes.
 
 ## r1137 - r1163
+
 * IW5:
   * Fix demos not saving correctly - when you check Theater mode now, each match should be recorded correctly.
   * Fix various server memory related issues that caused instability.
@@ -200,6 +210,7 @@ We hope this shows we are listening and we obviously cannot discuss much in term
   * No changes.
 
 ## r1065 - r1137 - Christmas Update
+
 * IW5:
   * Added the Intervention. You can now select the Intervention from the Create a Class menu. This includes full camo support as well as weapon attachments and proficiency. Due to how IW5 handles lighting, gold will not look very good on most maps, we suggest using a custom camo.
     Check the bottom of this thread for some screenshots and a video of some example custom camos.
@@ -221,6 +232,7 @@ We hope this shows we are listening and we obviously cannot discuss much in term
   * Fixed RCON issues with IW5/T6 that caused server crashing or instability.
 
 ## r920 - r1065
+
 * IW5:
   * UPnP support has been released, you should now be able to join your friends without any hassle! (Disclaimer: UPnP is not enabled on every router.).
   * Controller fixes. (Including a bug fix that makes picking up weapons require y the player to hold the use button).
@@ -245,6 +257,7 @@ Your router does not support UPnP: Either port forward the game port manually or
   * No changes.
 
 ## r877 - r920
+
 * IW5:
   * No changes.
 
@@ -258,6 +271,7 @@ Your router does not support UPnP: Either port forward the game port manually or
   * No changes.
 
 ## r827 - r877
+
 * IW5:
   * No changes.
 
@@ -271,6 +285,7 @@ Your router does not support UPnP: Either port forward the game port manually or
   * The updater tool the launcher uses now features an UI.
 
 ## r803 - r827
+
 * IW5:
   * General stability improvements.
   * UltraWide screen improvements.
@@ -279,6 +294,7 @@ Your router does not support UPnP: Either port forward the game port manually or
 
 If using native ultrawide monitors , change `r_customAspectRatio` to `2.3333` (21/9 or `3.55556` if 32:9).
 Otherwise use [this Calculator](https://calculateaspectratio.com/) and calculate a 21:9 or 32:9 resolution that fits into your monitors resolution.
+
 * set `r_aspectRatio` to `custom (4)`.
 * set `r_customAspectRatio` accordingly (`2.3333`).
 * set `r_customMode` to the res you calculated (eg. `1386x594`).
@@ -304,6 +320,7 @@ Since we have remade the entire BO2 Client, the old menu system will not work as
   * No changes.
 
 ## r791 - r803
+
 * IW5:
   * Servers use less CPU resources now, this was due to a bug that wasn't spotted related to server heartbeats.
   * Steam integration works again.
@@ -319,6 +336,7 @@ Since we have remade the entire BO2 Client, the old menu system will not work as
   * No changes.
 
 ## r742 - r791
+
 * General:
   * Piry.exe is no longer used, The Plutonium Launcher (Plutonium.exe) is used instead.
   * Plutonium.exe will be used to authenticate your forum user account and launch the game.
@@ -332,6 +350,7 @@ Since we have remade the entire BO2 Client, the old menu system will not work as
   * ServerList is now opened by pressing F10 or Home.
 
 ## r687 - r742 - Native Controller Support
+
 * IW5:
   * Plutonium IW5 has been updated to include Native Controller Support, meaning Xbox 360 and Xbox One controllers should be plug and play, this includes menus for configuratioa and the correct button icons for both Xbox and Playstation.
 
@@ -345,6 +364,7 @@ PlayStation controllers will need to use DS4Windows, however input delay should 
 <Alert variant="warning">
 
 **Known Issues:**
+
 * Picking up a weapon is done when X or Square is pressed, this is because the PC version of the game doesn't support the controller button hold function. The same is true for scoreboard.
 * Killstreaks cannot be used, this is because ActionSlot 4 is the only killstreak slot which is the same between PC and Console.
 
@@ -359,6 +379,7 @@ We will attempt to get workarounds for these in future updates but cannot say th
   * No changes.
 
 ## r619 - r687
+
 * IW5:
   * Splashes fixed (Multi kill, Triplekill, captured objective text on the side).
   * Issue with user avatars fixed.
@@ -373,6 +394,7 @@ We will attempt to get workarounds for these in future updates but cannot say th
   * No changes.
 
 ## r600 - r619 - The Aiming Update
+
 * General:
   * Backend Improvements - Improvements made to our backend to improve reliability of the serverlist and other backend elements.
 
@@ -406,6 +428,7 @@ We've tested this system with our testers and a few known trickshotters and stre
   * No changes.
 
 ## r554 - r600
+
 * General:
   * Forum upvotes - Posts can now be upvoted by clicking the thumbs up icon in the bottom right, this can be used to show appreciation for a post.
 
@@ -426,6 +449,7 @@ We've tested this system with our testers and a few known trickshotters and stre
   * Launcher Protocol handler - The Plutonium launcher now supports the `plutonium://` protocol. `plutonium://play/iw5mp` for example.
 
 ## r499 - r554
+
 * IW5:
   * Out of memory fixes for servers. Increasing their stability.
   * Rust has been ported from MW2. It is almost a near perfect port. Gone are the bugs from our 2017 release. All game modes are working except Drop Zone which requires some GSC editing which isn't worth our time. A mod could bring this back however.
@@ -448,6 +472,7 @@ We've tested this system with our testers and a few known trickshotters and stre
   * Some slight Launcher UI changes.
 
 ## r363 - r496
+
 * General:
   * The backend will now force a 2nd instance of the game to error if it tries to join a game whilst you are already in a game.
 
@@ -476,6 +501,7 @@ We've tested this system with our testers and a few known trickshotters and stre
   * Launcher now lets you change game directory again..
 
 ## r496 - r499
+
 * IW5:
   * Extra patching of the exploit mentioned in the last update.
   * Bans reversed that triggered overnight due to exploit abuse.
@@ -493,6 +519,7 @@ If you get the "checking for saved credentials" bug then please browse to `%loca
   * No changes.
 
 ## r356 - r363
+
 * IW5:
   * `cg_fovScale` is now unlocked & saved to config. We had a good few requests for this.
   * The bootstrapper can only run the game once now, this was found to be triggering anticheat bans when people opened the game twice. (Quite how or why they did that we will never know).

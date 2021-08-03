@@ -40,7 +40,6 @@ You don't need the video & sound folders, the .ipak files nor the SP level files
 
 ![img](https://i.imgur.com/H1ko3Gl.png)
 
-
 ## 2. Basic server configuration
 
 1\. Edit your `dedicated.cfg` file with whatever changes you want (i.e. RCON Password/Map Rotation/Round Limits/etc/etc).  
@@ -52,6 +51,7 @@ You don't need the video & sound folders, the .ipak files nor the SP level files
 ## 3. (Optional) Advanced configuration
 
 ### 3.1 Custom settings (MP only)
+
 * Open the CFG of the game mode you want to edit (eg `tdm.cfg`) in the `/main/gamesettings` folder.
 * Uncomment and edit the values of the settings you want to change.
 * Save the file.
@@ -59,6 +59,7 @@ You don't need the video & sound folders, the .ipak files nor the SP level files
 For example `sv_maprotation "exec tdm.cfg map mp_la map mp_dockside map mp_carrier"`
 
 ### 3.2 Enabling the hard core mode (MP only)
+
 * Either copy or open the game mode specific .cfg file for the game mode you wish to play with hard core settings.
 * Open tdm.cfg and copy the hard core settings of it to the file from the first step.
 * Save the file.
@@ -66,6 +67,7 @@ For example `sv_maprotation "exec tdm.cfg map mp_la map mp_dockside map mp_carri
 For example `sv_maprotation "exec hctdm.cfg map mp_la map mp_dockside map mp_carrier"`
 
 ### 3.3 Mixed game modes with correct / custom settings (MP only)
+
 * Open the server cfg file with Notepad++
 * Put a `exec <game type here>.cfg` (eg. `exec dom.cfg`) in front of a map token.
 For example `sv_maprotation "exec dom.cfg map mp_la map mp_dockside exec sas.cfg map mp_carrier"`
@@ -95,7 +97,9 @@ We do the same thing as above.
 ![img](https://i.imgur.com/2mmlW9n.png)
 
 ### 4.2 Enabling transparent compression
+
 This step is useful if you choose to enable game logs as it will save up to a GB per server.
+
 * Open the properties of your `t6` folder
 * Click on `Advanced...`
 * Check the `Compress contents to save disk space` box
@@ -121,12 +125,13 @@ Set `g_log` to your server name for example if you are hosting a TDM and a Searc
 
 Verify `g_logSync` is set to `1`.  
 Verify `logfile` is set to `2`.  
+
 1. Download .NET Core 3.1.x Runtime or newer [[Windows](https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-aspnetcore-3.1.4-windows-hosting-bundle-installer)]/[[Linux](https://docs.microsoft.com/en-us/dotnet/core/install/linux-package-manager-ubuntu-1910)].
 2. Download [IW4MAdmin](https://github.com/RaidMax/IW4M-Admin/releases).
 3. Follow the IW4MAdmin [setup guide](https://github.com/RaidMax/IW4M-Admin/wiki/Getting-Started).
 
-
 ## 6. (Optional) Hosting a second server
+
 Make a copy of the start.bat file and the `dedicated.cfg` file and rename them.  
 Edit the `dedicated.cfg` to meet your needs.  
 Edit the copy of the bat file to: use your new server key, use a new port, and use your new config file.  

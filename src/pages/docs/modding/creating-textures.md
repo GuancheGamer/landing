@@ -13,6 +13,7 @@ Photoshop can be used as an alternative to Paint.NET but since it's not free we'
 </Alert>
 
 ### Getting Started
+
 1\. Create a new folder anywhere on your pc, this is going to be used to store files while creating your custom texture.
 
 2\. Download and extract the Texture Toolkit into the folder you created, your folder should now look like this:
@@ -24,9 +25,11 @@ Photoshop can be used as an alternative to Paint.NET but since it's not free we'
 4\. Locate the folder of the game you want to create a custom texture/camo for.
 
 ## Exporting the Texture you want to modify
+
 To modify a texture we first have to export it from the corresponding game files. This works pretty much the same for T4 and IW5 but works differently for T6.
 
 ### T4 and IW5
+
 1\. Navigate to the `main` folder in your game folder.
 
 2\. Open one or more of the .iwd files (iw_xx.iwd) with 7Zip or WinRAR (right click the file -> open with... -> select 7Zip or WinRAR).
@@ -44,6 +47,7 @@ If the filename of the .iwi file contains `~` or similar symbols the converter w
 </Alert>
 
 ### T6
+
 1\. Navigate to the `all` folder located inside the `zone` folder in your T6 game folder.
 
 2\. Open the `T6 iPak Exporter` folder included in the Texture Toolkit in a new explorer window.
@@ -63,14 +67,17 @@ Finding the correct texture can be tedious, you may have to convert and look at 
 </Alert>
 
 ## Modifying your Texture
+
 1\. Open the .dds file with Paint.NET or Photoshop and edit it to your liking
 
 2\. As soon as you're done editing it save the file:
 
 ### Exporting/Saving the file in Paint.NET
+
 In Paint.NET simply click `File -> save as` and save the file in the folder you created earlier, you can overwrite the original .dds file.
 
 ### Exporting/Saving the file in Photoshop
+
 1\. In Photoshop check if the texture contains an alpha channel, you can check in the menu on the right, switch to the `Channels` tab.
 
 ![PhotoshopChannels](https://i.imgur.com/XLu1OXu.png)
@@ -84,6 +91,7 @@ In Paint.NET simply click `File -> save as` and save the file in the folder you 
 4\. Hit `Ok` to save the file.
 
 ## Converting the Texture back to iwi and loading it in-game
+
 1\. Drag and drop your modified .dds file onto `iwi_dds_fast_converter.exe` which also comes with the Texture Toolkit.
 
 2\. Type in the number that corresponds to the game you're creating a texture for and hit enter.

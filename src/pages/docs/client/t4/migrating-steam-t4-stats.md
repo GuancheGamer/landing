@@ -8,7 +8,7 @@
 
 4. Ensure Steam WAW is open, and press `Easy Transfer`
 
-<Details title="Spoiler"> 
+<Details title="Spoiler">
 
 ![Img](https://i.imgur.com/ykDtpPU.png)
 

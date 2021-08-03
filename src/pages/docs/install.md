@@ -24,9 +24,11 @@ The launcher will now start the process of installing the client files.
 ## T6
 
 ### I just want to update / I already have BO2 installed?
+
 If you already have the game installed from steam or had a previous update of Plutonium then you can skip the below section and move onto the **[Plutonium Launcher](#plutonium-launcher-2)** section.
 
 ### Installing the base game (BO2)
+
 This section will cover downloading a copy of BO2. Please skip this section if you already have a copy of the game.
 
 **Please note we highly recommend buying the game if you do not own it, it is the best way to get a copy of the game files that are up to date and not corrupt or changed in some way. Key sites will give you a decent discount in 2021.**
@@ -88,9 +90,11 @@ To launch BO2 simply open the Plutonium launcher and select PLAY.
 ## IW5
 
 ### I just want to update / I already have MW3 installed
+
 If you already have the game installed from steam or had a previous update of Plutonium then you can skip the below section and move onto the [Installing the DLC](#installing-the-dlc) section.
 
 ### Installing the base game (Modern Warfare 3)
+
 Note: This section will cover downloading a FREE copy of MW3. Please skip this section if you already have a copy of the game.
 
 Please note we highly recommend buying the game if you do not own it, if you enjoy a game you should support it's developers.
@@ -118,6 +122,7 @@ Please note we highly recommend buying the game if you do not own it, if you enj
 Now simply wait for the download to complete, you can monitor progress by clicking the `DOWNLOADS` text at the bottom of Steam. Once the download completes you will have a copy of MW3.
 
 ### Installing the DLC
+
 The section will cover how to download and install the English DLC to get the complete MW3 experience. Note: this DLC will only work on an English copy of the game.
 
 1. Download the DLC zip archive via the following [link](https://mega.nz/folder/CYUkGSrJ#HVa6Cik59Bgi9pp5NBW4fg)
@@ -177,9 +182,11 @@ IMPORTANT: This will crash the first time you start the game as it needs to dele
 ## T4
 
 ### ***I just want to update / I already have WaW installed?***
+
 If you already have the game installed from steam then you can skip the below section and move onto the [Plutonium Launcher](#plutonium-launcher-4) section.
 
 ### ***Installing the base game (WAW)***
+
 This section will cover downloading a copy of WAW. Please skip this section if you already have a copy of the game.
 
 Please note we highly recommend buying the game if you do not own it, it is the best way to get a copy of the game files that are up to date and not corrupt or changed in some way. Key sites will give you a decent discount in 2021.
@@ -224,6 +231,7 @@ If you are using the torrent it will be in a folder named `pluto_t4_full_game`
 ---
 
 ### T4 Error: Invalid Game Path
+
 ![Invalid Game Directory](https://i.imgur.com/vlwamKe.png)
 
 As the error says you have an invalid game path selected in the launcher. To fix this issue click the cog to reselect your game folder.

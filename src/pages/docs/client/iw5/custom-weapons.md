@@ -10,7 +10,7 @@ Our current custom weapons are as follows:
 
 </Details>
 
-<Details title="Intervention"> 
+<Details title="Intervention">
 
 ![img](https://i.imgur.com/QtaKfN3.png)
 

@@ -9,6 +9,7 @@
 ---
 
 __Example Scripts__
+
 - [9 Perks for Zombies](https://forum.plutonium.pw/topic/29/all-perk-slots-unlock-script-zombies)
 - [Jugg for joining players](https://forum.plutonium.pw/topic/112/jugger-for-new-players-joining-at-or-after-round-8-zombies)
 - ["A cat has 9 lives"](https://forum.plutonium.pw/topic/449/mob-of-the-dead-mod-a-cat-has-9-lives)
@@ -16,6 +17,7 @@ __Example Scripts__
 ---
 
 ### Getting Started
+
 1\. You can write/download any GSC of your choice. If you are writing it from scratch/have the source code, note that you will need to compile it, which we will talk about in this post.
 
 <Alert variant="warning">
@@ -137,8 +139,8 @@ Currently, the `CoDWaW\mods` folder is buggy, please move your mods to the `%loc
 </Alert>
 
 You can place your mod in either of these places:
-* `%localappdata%\Activision\CoDWaW\mods`    **[BUGGY ATM, MOVE YOUR MODS/MAPS FROM HERE TO THE DIRECTORY BELOW.]**
-* `%localappdata%\Plutonium\storage\t4\mods`   **(Recommended)**
+- `%localappdata%\Activision\CoDWaW\mods`    **[BUGGY ATM, MOVE YOUR MODS/MAPS FROM HERE TO THE DIRECTORY BELOW.]**
+- `%localappdata%\Plutonium\storage\t4\mods`   **(Recommended)**
 
 **We suggest using the Plutonium folder where possible though, if you crash due to a mod, try moving it to the Plutonium Mods folder instead.**
 
@@ -155,7 +157,7 @@ If you are installing a custom zombies map that comes in an `.exe`, just running
 We support both the vanilla game folder and the Plutonium folder for loading client-side custom multiplayer maps.
 
 You can place your mod in either of these places:
-* `%localappdata%\Activision\CoDWaW\usermaps`
-* `%localappdata%\Plutonium\storage\t4\usermaps`   **(Recommended)**
+- `%localappdata%\Activision\CoDWaW\usermaps`
+- `%localappdata%\Plutonium\storage\t4\usermaps`   **(Recommended)**
 
 Once the map is installed, you must load a mod first. You can do something simple like `/fs_game mods/mp_custommaps; vid_restart` followed by `/map mp_yourmapname` and it should load right up.

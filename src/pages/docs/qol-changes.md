@@ -1,6 +1,7 @@
 # Quality of Life changes
 
 ## All Games
+
 * [Anticheat](anticheat)
 * Controller Support
 * `cg_fovScale` unlocked
@@ -22,6 +23,7 @@
     * You may find you need to experiment with values to find some that you find comfortable.
 
 ## IW5
+
 * AK-74u
 * Added GSC Support
 * Added rocket jump support
@@ -33,6 +35,7 @@
 * `sl_noTrickshot` dvar to hide trickshot servers
 
 ## T6
+
 * Added `setClientDvar` function for GSC scripts.
 * IWI images can be loaded from `t6r/data/images`, allowing for custom camos
 * Map rotation for ZM servers
@@ -47,6 +50,7 @@
   * Although the effect is less harmful to hackers at closer ranges, doing this increases the chances of somebody spotting the hacker far quicker and server admins can ban them from their servers.
 
 ## T4
+
 * Added menu option to allow 16x AA, the default max is 4x.
 * Added rocket jump support
 * Bots can now use GSC `setspawnweapon` and `switchToWeapon` properly.

@@ -3,6 +3,7 @@
 In short, these refer to the codename each game is based off of during it's development.
 
 They are as follows:  
+
 * T4 - World at War
 * T6 - Black Ops II
 * IW5 - Modern Warfare 3

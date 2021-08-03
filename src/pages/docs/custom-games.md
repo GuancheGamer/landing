@@ -5,6 +5,7 @@ This guide will teach you how to play with friends over the internet in a custom
 ## Getting Started
 
 Both you and your friend need to follow each other on the Plutonium Forums:
+
 - Go to [https://forum.plutonium.pw/users](https://forum.plutonium.pw/users) and search for your friend.
 - Go to their profile and hit the green "plus" (+) button to follow them.
   - If there is only a heart, that means that you are already following them.
@@ -12,12 +13,14 @@ Both you and your friend need to follow each other on the Plutonium Forums:
 ## T4 / T6
 
 Once you and your friend are following each other, the person who wants to host the private match needs to do the following:
+
 - Open the game and open the serverlist (F10 or Home key)
 - Go to the network tab and check if UPnP is enabled
 
 ---
 
 ### **If UPnP is Enabled**
+
 - Start a Private Match
 - If the match requires 2 players to start you can force it to start anyways with the command `xpartygo`
 - Your friend should now be able to join by double-clicking your name in the Friends List (between the Server Browser and Network tab)
@@ -25,6 +28,7 @@ Once you and your friend are following each other, the person who wants to host 
 ---
 
 ### **If UPnP is Disabled**
+
 - Go to Windows Settings -> Network & Internet, then hit Properties under your network name.
 
 ![img](https://i.imgur.com/PnaSif4.png)

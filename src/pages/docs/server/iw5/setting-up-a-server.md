@@ -74,12 +74,13 @@ Set `g_log` to your server name for example if you are hosting a TDM and a Searc
 
 Verify `g_logSync` is set to `1`.  
 Verify `logfile` is set to `2`.  
+
 1. Download .NET Core 3.1.x Runtime or newer [[Windows](https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-aspnetcore-3.1.4-windows-hosting-bundle-installer)]/[[Linux](https://docs.microsoft.com/en-us/dotnet/core/install/linux-package-manager-ubuntu-1910)].
 2. Download [IW4MAdmin](https://github.com/RaidMax/IW4M-Admin/releases).
 3. Follow the IW4MAdmin [setup guide](https://github.com/RaidMax/IW4M-Admin/wiki/Getting-Started).
 
-
 ## 5. (Optional) Hosting a second server
+
 Make a copy of the start.bat file and the `server.cfg` file and rename them.  
 Edit the `server.cfg` to meet your needs.  
 Edit the copy of the bat file to: use your new server key, use a new port, and use your new config file.  
@@ -93,7 +94,6 @@ A: Your router probably doesn't support NAT-Loopback (aka. NAT-Reflection) and t
 
 Q: Why can't I see my server when I have my game open?  
 A: If you start your client first, and your server is running on `27016`, your server will automatically take the port `27017` as your client uses `27016`, so make sure to just change the port if you are going to be running it on the same machine.  
-
 
 <!---
 

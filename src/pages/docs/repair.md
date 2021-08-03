@@ -1,6 +1,7 @@
 # How to repair your game files
 
 ## Requirements
+
 * [QBittorrent](https://www.fosshub.com/qBittorrent.html)
 * Basic knowledge of the windows folder structure
 * The .torrent file of the game you want to repair:
@@ -9,6 +10,7 @@
   * [For IW5 the repair process differs, click here to view the instructions for IW5](#the-repair-process-for-iw5)
 
 ## The repair Process for T4 and T6
+
 1\. Open the .torrent file for the game you wish to repair in QBittorrent, if QBittorrent is the only torrent client you have installed simply double clicking the torrent file should open it right away.
 
 2\. You will be prompted with an overview of the files the torrent contains, select your **game folder** (depending on which game you want to repair) as the download location.
@@ -24,6 +26,7 @@
 Congratulations, your game files should now be repaired.
 
 ## The repair Process for IW5
+
 <Alert variant="warning">
 
 The officially supported way of installing IW5 is to download the free MW3 Dedicated Server via Steam. The repair guide will cover repairing your game files via Steam, this also works if you own the game on Steam.

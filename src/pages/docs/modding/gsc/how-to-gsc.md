@@ -10,6 +10,7 @@ You should have knowledge of loading GSC scripts before attempting to write them
 
 You can declare functions in GSC by giving it a name, followed by a `(){` and a closing `}` at the end of your function.
 Example:
+
 ```cs
 myFunction()
 {
@@ -223,9 +224,11 @@ Loops come in different forms...
 **For** :: A for loop is a loop that loops a set amount of times
 
 ### ``for``
+
 For loops are loops that can be infinite or loops that only run until a condition of some sort is met.
 
 A infinite loop looks like:
+
 ```cs
 for(;;) {
     iprintln("Infinite loop!");
@@ -234,6 +237,7 @@ for(;;) {
 ```
 
 A loop that will stop after ``i`` is no longer less than ``var``, which equals 10.
+
 ```cs
 var = 10;
 for(i=0; i<var; i++) {
@@ -242,9 +246,11 @@ for(i=0; i<var; i++) {
 ```
 
 ### ``while``
+
 While loops are basically for loops, but only checks if the condition is true/false.
 
 In this example, if ``number`` is true (not 0) then it will keep running. But, every time the while loop is ran, we decrease ``number`` by 1.
+
 ```cs
 number = 5;
 while (number) {
@@ -279,6 +285,7 @@ wait (1);  // 20 server frames
 ```
 
 ## Switch
+
 Switch cases are useful for checking the case of a lot of values. This is usually seen to be faster and recommended to use than a ``if`` statement.
 
 ```cs
@@ -362,7 +369,6 @@ CENTER
 ```
 
 Note: there are more, but I dont suggest you use these.
-
 
 Example:
 
