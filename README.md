@@ -32,7 +32,7 @@ npm install
 npm run dev
 ```
 
-# Working on the docs
+## Working on the docs
 
 Docs can be found in `src/pages/docs`.  
 Most of it is written in markdown, with some additional components (see below).
@@ -42,10 +42,10 @@ Creating a new page:
 - You create a `src/pages/docs/blah.md` page, and it will appear at `localhost:3000/docs/blah`.  
 - Then, edit `src/constants/sidebar.js` to import the page, and add it to the appropiate section.  
 
-NOTE: 
+NOTE:
 
 - doc pages should always start with a title (h1).  
-- index pages are named `index.md` (not `README.md`)   
+- index pages are named `index.md` (not `README.md`)
 - MDX components should always have a blank line at the start and at the end of the component's content  
 
 ## Docs MDX components
@@ -67,8 +67,7 @@ The docs are a work in progress. Feel free to contribute on [GitHub](https://git
 ```
 
 **It looks like...**  
-![](https://jari.lol/G5F25VqtTq.png)
-
+![Preview](https://jari.lol/G5F25VqtTq.png)
 
 ### `<Details />`
 
@@ -83,10 +82,10 @@ The docs are a work in progress. Feel free to contribute on [GitHub](https://git
 ```
 
 **It looks like...**  
-![](https://jari.lol/e7ink1vhIH.png)
-
+![Preview](https://jari.lol/e7ink1vhIH.png)
 
 ### `<Redirect />`  
+
 Use this to redirect to a different page.
 
 **Example**:
