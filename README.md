@@ -20,10 +20,10 @@ Build with:
 
 ```bash
 # Get the latest code
-git clone https://github.com/plutoniumpw/site.git
+git clone https://github.com/plutoniumpw/landing.git
 
 # Change into the newly cloned directory
-cd site
+cd landing
 
 # Install dependencies
 npm install
