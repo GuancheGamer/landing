@@ -38,7 +38,7 @@ const Sidebar = () => (
 const SidebarSection = ({ section }) => {
     const { asPath } = useRouter();
     const hasActiveChildren = section.children.some((child) =>
-        child.children.some((child) => isPathActive(asPath, `/${formatResourcePath(child.__resourcePath)}`, true))
+        child.children.some((child) => isPathActive(asPath, `/${formatResourcePath(child.__resourcePath)}/`, true))
     );
     const [isOpen, setIsOpen] = useState(hasActiveChildren);
     return (
@@ -58,7 +58,7 @@ const SidebarSection = ({ section }) => {
 const SidebarSectionChild = ({ child, index }) => {
     const { asPath } = useRouter();
     const hasActiveItems = child.children.some((child) =>
-        isPathActive(asPath, `/${formatResourcePath(child.__resourcePath)}`, true)
+        isPathActive(asPath, `/${formatResourcePath(child.__resourcePath)}/`, true)
     );
     const [isOpen, setIsOpen] = useState(hasActiveItems);
     return (
