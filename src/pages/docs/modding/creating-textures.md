@@ -1,6 +1,6 @@
 # Creating custom textures for Plutonium
 
-### Requirements
+## Requirements
 
 - [Texture Toolkit](https://drive.google.com/file/d/1NEEvbvLOatItpMIyWyQ9ytkk1bvgKQMD/view?usp=sharing)
 - [Paint.NET](https://www.getpaint.net/download.html)
