@@ -1,0 +1,86 @@
+const colors = require('tailwindcss/colors');
+
+module.exports = {
+    // TODO: jit appears to be a bit buggy inside dynamic code (loops etc). cba to figure out why.
+    // mode: 'jit',
+    purge: [
+        './src/pages/**/*.{js,ts,jsx,tsx}',
+        './src/components/**/*.{js,ts,jsx,tsx}',
+        './src/layouts/**/*.{js,ts,jsx,tsx}',
+    ],
+
+    theme: {
+        fontFamily: {
+            display: ['Poppins', 'sans-serif'],
+            serif: ['Inter', 'sans-serif'],
+            monospaced: ['Space Mono', 'monospaced'],
+        },
+        extend: {
+            colors: {
+                'game-t6': {
+                    DEFAULT: '#F36B1B',
+                },
+                'game-iw5': {
+                    DEFAULT: '#00BF9F',
+                },
+                'game-t4': {
+                    DEFAULT: colors.red['500'],
+                    darker: '#e11d48',
+                },
+                orange: colors.orange,
+            },
+
+            // dark theme largely stolen from https://stefanzweifel.io/posts/2020/07/20/add-dark-mode-support-to-at-tailwindcsstypography
+            typography: (theme) => ({
+                DEFAULT: {
+                    css: {
+                        color: theme('colors.gray.300'),
+
+                        a: {
+                            color: theme('colors.red.500'),
+                            '&:hover': {
+                                color: theme('colors.red.600'),
+                            },
+                        },
+
+                        h1: {
+                            color: theme('colors.white'),
+                        },
+                        h2: {
+                            color: theme('colors.white'),
+                        },
+                        h3: {
+                            color: theme('colors.white'),
+                        },
+                        h4: {
+                            color: theme('colors.white'),
+                        },
+                        h5: {
+                            color: theme('colors.white'),
+                        },
+                        h6: {
+                            color: theme('colors.white'),
+                        },
+
+                        strong: {
+                            color: theme('colors.gray.300'),
+                        },
+
+                        code: {
+                            color: theme('colors.gray.300'),
+                        },
+
+                        figcaption: {
+                            color: theme('colors.gray.500'),
+                        },
+                    },
+                },
+            }),
+        },
+    },
+    variants: {
+        extend: {},
+    },
+
+    plugins: [require('@tailwindcss/typography')],
+};
