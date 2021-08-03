@@ -1,0 +1,148 @@
+# Setting up a server
+
+## Requirements
+
+* A PC/VPS, running either Windows 10 or Windows Server 2019.
+* The ability to port forward
+* A Plutonium forum account
+* Notepad++/Any other code editor
+* A Copy of the game installed in `C:\gameserver\T6`.
+
+![img](https://i.imgur.com/DK0c5MD.png)
+
+<Alert variant="tip">
+
+You don't need the video & sound folders, the .ipak files nor the SP level files, this can save you a *LOT* of disk space.
+
+</Alert>
+
+## 1. Preparation
+
+1. Download the [Plutonium Launcher](https://cdn.plutonium.pw/updater/plutonium.exe), and place it in your server folder.
+
+2. Run `plutonium`, so it can download the required files.
+
+2. Download the [T6 Config Files](https://github.com/xerxes-at/T6ServerConfigs/archive/master.zip)
+
+3. Save/Extract the configs to `C:\gameserver\T6`
+
+![img](https://i.imgur.com/yAzrEKR.png)
+
+### 1.2 Creating a server key
+
+1. Open the [Plutonium Server Key page](https://platform.plutonium.pw/serverkeys).
+
+2. Fill in the name of the server and select the correct game.
+
+3. Click on create, then copy the server key.
+
+4. Paste the key into the start bat under `set key=xxxx`, replace `xxxx` with your key.
+
+![img](https://i.imgur.com/H1ko3Gl.png)
+
+
+## 2. Basic server configuration
+
+1\. Edit your `dedicated.cfg` file with whatever changes you want (i.e. RCON Password/Map Rotation/Round Limits/etc/etc).  
+2\. Double click the bat file.  
+3\. Wait for the server to finish loading.  
+
+![img](https://i.imgur.com/0BaYCo6.png)
+
+## 3. (Optional) Advanced configuration
+
+### 3.1 Custom settings (MP only)
+* Open the CFG of the game mode you want to edit (eg `tdm.cfg`) in the `/main/gamesettings` folder.
+* Uncomment and edit the values of the settings you want to change.
+* Save the file.
+* Put `exec <game type here>.cfg` in front of the first `map` token in the map rotation.
+For example `sv_maprotation "exec tdm.cfg map mp_la map mp_dockside map mp_carrier"`
+
+### 3.2 Enabling the hard core mode (MP only)
+* Either copy or open the game mode specific .cfg file for the game mode you wish to play with hard core settings.
+* Open tdm.cfg and copy the hard core settings of it to the file from the first step.
+* Save the file.
+* Put `exec <cfg from step 1>.cfg` in front of the first `map` token in the map rotation.
+For example `sv_maprotation "exec hctdm.cfg map mp_la map mp_dockside map mp_carrier"`
+
+### 3.3 Mixed game modes with correct / custom settings (MP only)
+* Open the server cfg file with Notepad++
+* Put a `exec <game type here>.cfg` (eg. `exec dom.cfg`) in front of a map token.
+For example `sv_maprotation "exec dom.cfg map mp_la map mp_dockside exec sas.cfg map mp_carrier"`
+  * You can have one exec token in front of multiple map tokens to apply your settings for each following map.
+  * You can have a different exec token in front of every single map token to have different settings for each map.
+  
+## 4 (Optional) Slimming down server directory
+
+1\. Delete the `players`, `sound`, and `video` folders, if they exist.
+
+2\. Go into the `zone` folder.
+
+3\. Delete any language besides `all`, and `english`.
+
+![img](https://i.imgur.com/MAiRHhx.png)
+
+4\. Now go into the `all` folder.  
+There are plenty of large files that we don't need.  
+All `.ipak` files and all sp files can be deleted safely.  
+Only files with `mp` and `zm` should be left in this folder.  
+
+![img](https://i.imgur.com/R1XhPI9.png)
+
+5\. Now go back and into the `english` folder.  
+We do the same thing as above.
+
+![img](https://i.imgur.com/2mmlW9n.png)
+
+### 4.2 Enabling transparent compression
+This step is useful if you choose to enable game logs as it will save up to a GB per server.
+* Open the properties of your `t6` folder
+* Click on `Advanced...`
+* Check the `Compress contents to save disk space` box
+* Press OK
+* Press OK
+* Choose `Apply changes to this folder, subfolders and files`
+* Press OK
+
+![img](https://i.imgur.com/FClNlwR.png)
+
+## 5. (Optional) Install a server management tool (IW4MAdmin)
+
+Verify `g_log "games_mp.log"` is unique (in your dedicated.cfg file)
+
+<Alert variant="tip">
+
+Set `g_log` to your server name for example if you are hosting a TDM and a Search and Destroy server your `g_log`'s might look like this:
+
+`g_log "tdm_server.log"`  
+`g_log "sd_server.log"`
+
+</Alert>
+
+Verify `g_logSync` is set to `1`.  
+Verify `logfile` is set to `2`.  
+1. Download .NET Core 3.1.x Runtime or newer [[Windows](https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-aspnetcore-3.1.4-windows-hosting-bundle-installer)]/[[Linux](https://docs.microsoft.com/en-us/dotnet/core/install/linux-package-manager-ubuntu-1910)].
+2. Download [IW4MAdmin](https://github.com/RaidMax/IW4M-Admin/releases).
+3. Follow the IW4MAdmin [setup guide](https://github.com/RaidMax/IW4M-Admin/wiki/Getting-Started).
+
+
+## 6. (Optional) Hosting a second server
+Make a copy of the start.bat file and the `dedicated.cfg` file and rename them.  
+Edit the `dedicated.cfg` to meet your needs.  
+Edit the copy of the bat file to: use your new server key, use a new port, and use your new config file.  
+(You must forward the second port as well)  
+Start the server through the new .bat file.  
+
+## FAQ
+
+Q: You said we can delete game files to save disk space, is it worth it?  
+A: We recommend it, the files to host MP and ZM servers from the same folder with all maps and modes require roughly 1.7GB instead of 22GB and HIGHLY speeds up loading times as unnecessary files are not loaded.
+
+Q: Why can't I find my server hosted at home while others can?  
+A: Your router probably doesn't support NAT-Loopback (aka. NAT-Reflection) and that's why it doesn't know how to forward the network traffic. In order to connect it use your internal IP or 127.0.0.1 if its hosted on the same machine.  
+
+Q: Why can't I see my server when I have my game open?  
+A: If you start your client first, and your server is running on `4976`, your server will automatically take the port `4977` as your client uses `4976`, so make sure to just change the port if you are going to be running it on the same machine.  
+
+Q: Why does everyone get an time out during a map change?
+A: We are not entirely sure but it seems to be related to certain dvars not being set to their default value. Only known dvar to cause this atm is `party_maxplayers`.

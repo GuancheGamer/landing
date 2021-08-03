@@ -1,29 +1,99 @@
-# Plutonium Docs
+# Pluto site
 
-New and _fresh_ Plutonium documentation. Still a **work in progress!**
+The new pluto site.
 
-## Getting started
+Build with:
+
+- NextJS
+- Tailwind
+- styled-jsx (for stuff that can't be achieved with tailwind)
+- MDX (for docs - `src/pages/docs`)
+
+## Dev setup
 
 ### Prerequisites
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/)
-- [Yarn](https://classic.yarnpkg.com/en/docs/install/) (`npm install -g yarn`)
 
 ### Setting up a dev environment
 
 ```bash
 # Get the latest code
-git clone https://github.com/plutoniumpw/docs.git
+git clone https://github.com/plutoniumpw/site.git
 
 # Change into the newly cloned directory
-cd docs
+cd site
 
 # Install dependencies
-yarn install
+npm install
 
 # Start the local web server
-yarn dev
+npm run dev
 ```
 
-The docs are now available on [http://localhost:8080](http://localhost:8080/).
+# Working on the docs
+
+Docs can be found in `src/pages/docs`.  
+Most of it is written in markdown, with some additional components (see below).
+
+Creating a new page:
+
+- You create a `src/pages/docs/blah.md` page, and it will appear at `localhost:3000/docs/blah`.  
+- Then, edit `src/constants/sidebar.js` to import the page, and add it to the appropiate section.  
+
+NOTE: 
+
+- doc pages should always start with a title (h1).  
+- index pages are named `index.md` (not `README.md`)   
+- MDX components should always have a blank line at the start and at the end of the component's content  
+
+## Docs MDX components
+
+Several components exist outside of the normal markdown syntax for situations where we want UI that can't be achieved with normal markdown.
+
+### `<Alert />`
+
+**Example**:
+
+```jsx
+<Alert 
+  variant="warning" // ... or info, danger.
+>
+
+The docs are a work in progress. Feel free to contribute on [GitHub](https://github.com/plutoniumpw/site/).
+
+</Alert>
+```
+
+**It looks like...**  
+![](https://jari.lol/G5F25VqtTq.png)
+
+
+### `<Details />`
+
+**Example**:
+
+```jsx
+<Details title="Spoiler"> 
+
+![Img](https://i.imgur.com/ykDtpPU.png)
+
+</Details>
+```
+
+**It looks like...**  
+![](https://jari.lol/e7ink1vhIH.png)
+
+
+### `<Redirect />`  
+Use this to redirect to a different page.
+
+**Example**:
+
+```jsx
+<Redirect to="/docs/modding/" />
+```
+
+**It looks like...**  
+N/A
