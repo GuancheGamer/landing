@@ -26,6 +26,7 @@ const mdx = createMdx({
 
 module.exports = withPlugins([mdx, svgr], {
     pageExtensions: ['js', 'jsx', 'mdx', 'md'],
+    trailingSlash: true,
 
     // mdx-enhanced does not play nice (yet) with webpack5 it seems...
     webpack5: false,
