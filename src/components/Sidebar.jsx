@@ -2,38 +2,80 @@ import { sections } from '../const/sidebar';
 import NavLink from './NavLink';
 import { formatResourcePath } from '../utils/formatResourcePath';
 import ChevronUpIcon from '@heroicons/react/solid/ChevronUpIcon';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import isPathActive from '../utils/isPathActive';
+import { ViewListIcon, XIcon } from '@heroicons/react/outline';
+import classNames from 'classnames';
+import theme from 'tailwindcss/defaultTheme';
 
-const Sidebar = () => (
-    <div className="inset-0 flex-none h-full w-full lg:static lg:h-auto lg:overflow-y-visible lg:pt-0 xl:pr-8 lg:w-60 xl:w-80 lg:block hidden">
-        <div className="h-full sticky overflow-y-auto scrolling-touch lg:w-full lg:h-auto lg:block overflow-hidden lg:top-24">
-            <nav className="px-0 pt-6 overflow-y-auto font-medium text-base xl:pr-5 lg:text-sm pb-10 lg:pt-1 lg:pb-14">
-                <ul className="space-y-4">
-                    {sections.map((section, i) => (
-                        <SidebarSection section={section} />
-                    ))}
-                </ul>
-            </nav>
-        </div>
+const Sidebar = () => {
+    const [visible, setVisible] = useState(false);
+    const { pathname } = useRouter();
 
-        <style jsx>{`
-            nav {
-                max-height: calc(100vh - 5.5rem);
-            }
+    useEffect(() => {
+        // close sidebar every time URL changes.
+        setVisible(false);
+    }, [pathname]);
 
-            nav::-webkit-scrollbar-thumb {
-                background-color: rgba(31, 41, 55, 1);
-                border-radius: 6px;
-            }
-            nav::-webkit-scrollbar {
-                max-width: 6px;
-                max-height: 12px;
-            }
-        `}</style>
-    </div>
-);
+    return (
+        <>
+            <button
+                className="h-16 w-16 rounded-full bg-red-500 text-white flex justify-center items-center fixed bottom-4 right-4 shadow-lg z-10 lg:hidden hover:bg-red-600 transition-colors duration-100"
+                onClick={() => setVisible((vis) => !vis)}
+            >
+                <ViewListIcon className="h-8 w-8" />
+            </button>
+            <div
+                className={classNames(
+                    'inset-0 flex-none h-full w-full fixed lg:static lg:h-auto lg:overflow-y-visible lg:pt-0 xl:pr-8 lg:w-60 xl:w-80 lg:block',
+                    {
+                        hidden: !visible,
+                        ['fixed z-20']: visible,
+                    }
+                )}
+            >
+                <div className="h-full sticky overflow-y-auto scrolling-touch lg:w-full lg:h-auto lg:block overflow-hidden lg:top-24 bg-gray-900 lg:bg-transparent">
+                    <nav className="px-4 lg:px-0 pt-6 overflow-y-auto font-medium text-base xl:pr-5 lg:text-sm pb-10 lg:pt-1 lg:pb-14">
+                        <div className="flex justify-between lg:hidden mb-6">
+                            <h1 className="font-display font-bold text-md">Plutonium Docs</h1>
+
+                            <button
+                                className="inline-flex text-sm uppercase items-center hover:text-gray-200 sm:leading-snug font-semibold tracking-wide"
+                                onClick={() => setVisible(false)}
+                            >
+                                <XIcon className="w-4 h-4 mr-2" />
+                                Close
+                            </button>
+                        </div>
+                        <ul className="space-y-4">
+                            {sections.map((section, i) => (
+                                <SidebarSection section={section} />
+                            ))}
+                        </ul>
+                    </nav>
+                </div>
+
+                <style jsx>{`
+                    @media (min-width: ${theme.screens.lg}) {
+                        nav {
+                            max-height: calc(100vh - 5.5rem);
+                        }
+                    }
+
+                    nav::-webkit-scrollbar-thumb {
+                        background-color: rgba(31, 41, 55, 1);
+                        border-radius: 6px;
+                    }
+                    nav::-webkit-scrollbar {
+                        max-width: 6px;
+                        max-height: 12px;
+                    }
+                `}</style>
+            </div>
+        </>
+    );
+};
 
 const SidebarSection = ({ section }) => {
     const { asPath } = useRouter();
