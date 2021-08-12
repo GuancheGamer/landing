@@ -52,7 +52,7 @@ const Stats = () => {
             <iframe
                 src={`${GRAFANA_BASE_URL}/d/wBaoofZ7z/players-and-servers?orgId=1&theme=dark&panelId=4&from=${selected.value}&to=now&kiosk`}
                 width="100%"
-                height="938"
+                height="1050"
                 frameBorder="0"
                 className="px-1 mb-4"
             />
