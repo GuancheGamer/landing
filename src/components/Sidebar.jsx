@@ -8,9 +8,11 @@ import isPathActive from '../utils/isPathActive';
 import { ViewListIcon, XIcon } from '@heroicons/react/outline';
 import classNames from 'classnames';
 import theme from 'tailwindcss/defaultTheme';
+import { useLockBodyScroll } from 'react-use';
 
 const Sidebar = () => {
     const [visible, setVisible] = useState(false);
+    useLockBodyScroll(visible);
     const { pathname } = useRouter();
 
     useEffect(() => {
