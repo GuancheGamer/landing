@@ -8,7 +8,7 @@ Both you and your friend need to follow each other on the Plutonium Forums:
 
 - Go to [https://forum.plutonium.pw/users](https://forum.plutonium.pw/users) and search for your friend.
 - Go to their profile and hit the green "plus" (+) button to follow them.
-  - If there is only a heart, that means that you are already following them.
+  - If there is a heart, that means that you are already following them.
 
 ## T4 / T6
 

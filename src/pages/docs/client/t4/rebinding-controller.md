@@ -1,8 +1,8 @@
 # Controller buttons not binded - Possible Fix
 
-First of all - follow [our controller guide](/controllers) to make sure you've setup your controller properly.
+First of all - follow [our controller guide](/docs/controllers) to make sure you've setup your controller properly.
 
-If that doesn't work - Once in game, open the console by pressing the ~ key (Normally above Tab) and then copy and paste the following:
+If that doesn't work - Once in game, [open the console](/docs/opening-console) and then copy and paste the following:
 
 `exec default_controller.cfg`
 

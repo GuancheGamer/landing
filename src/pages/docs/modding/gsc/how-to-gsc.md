@@ -4,7 +4,7 @@
 
 While GSC is very limited, it does offer features that any basic C++ developer should be familiar with already. If you are not familiar with it, don't worry! They are super simple to learn and use.
 
-You should have knowledge of loading GSC scripts before attempting to write them, please check [our guide about this](/modding/loading-mods)
+You should have knowledge of loading GSC scripts before attempting to write them, please check [our guide about this](/docs/modding/loading-mods)
 
 ## Declaring Functions
 

@@ -4,6 +4,6 @@ GSC, also known as "game script code", is Call of Duty's scripting language that
 
 ## Where do I start?
 
-Fortunately, the Plutonium community has various Modding Support & Discussion categories for each game, and various Discord channels, there you can ask for help or help others, and discuss modding-related topics.
+You can start by reading our [How to: GSC](/docs/modding/gsc/how-to-gsc) guide.
 
-If you are just looking for GSC syntax and features, see the next article.
+Fortunately, the Plutonium community has various Modding Support & Discussion categories for each game, and various Discord channels, there you can ask for help or help others, and discuss modding-related topics.

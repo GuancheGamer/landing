@@ -98,7 +98,7 @@ In Paint.NET simply click `File -> save as` and save the file in the folder you 
 
 ![IwiDDSConverter](https://i.imgur.com/lbpMNSK.png)
 
-3\. The converter will create an .iwi file next to your .dds file, [click here to get to the part of the documentation that explains how to load your modified texture in-game](./loading-textures.md).
+3\. The converter will create an .iwi file next to your .dds file, now you can [learn how load your modified texture in-game](/docs/modding/loading-textures).
 
 <Alert variant="warning">
 

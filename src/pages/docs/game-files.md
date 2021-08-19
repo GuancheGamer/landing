@@ -29,5 +29,4 @@ NOTE: This does not actually work, so this needs to be looked at again. ^CH.
 1\. Open the launcher  
 2\. Select the game you are looking for.  
 3\. Click on the cog wheel next to the "Play" button.  
-4\. Select the path and copy it.  
-5\. Press the Windows key + r, paste the path and then press OK / return.  
+4\. The path should be shown to you.  

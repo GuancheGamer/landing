@@ -25,7 +25,7 @@ The launcher will now start the process of installing the client files.
 
 ### I just want to update / I already have BO2 installed?
 
-If you already have the game installed from steam or had a previous update of Plutonium then you can skip the below section and move onto the **[Plutonium Launcher](#plutonium-launcher-2)** section.
+If you already have the game installed from steam or had a previous update of Plutonium then you can skip the below section and move onto the **[Plutonium Launcher](#setting-up-t6-with-the-plutonium-launcher)** section.
 
 ### Installing the base game (BO2)
 
@@ -49,7 +49,7 @@ qBittorent Windows x64 is recommended: [https://www.fosshub.com/qBittorrent.html
 4. Open the torrent file `pluto_t6_full_game.torrent` (from the previous step) it will open up your torrent client program and ask you where you'd like to save the game.
 **SELECT THE GAMES FOLDER AS THE SAVE LOCATION, YOU CREATED IT IN STEP 1**
 
-5. Start the download and wait till the download completes you will know it's done when it `100%` and the status changes to `Seeding`
+5. Start the download and wait till the download completes you will know it's done when the progress changes to `100%` and the status changes to `Seeding`.
 
 Once it's done you will have your copy of the game downloaded, here is an example of a completed base game folder:
 
@@ -99,13 +99,13 @@ Note: This section will cover downloading a FREE copy of MW3. Please skip this s
 
 Please note we highly recommend buying the game if you do not own it, if you enjoy a game you should support it's developers.
 
-1. Open Steam, if you do not have Steam installed you can download it [here](https://store.steampowered.com/about/)
+1. Open Steam, if you do not have Steam installed you can download it [here](https://store.steampowered.com/about/).
 
-2. Go to `LIBRARY` and from the dropdown menu select `TOOLS`
+2. Go to `LIBRARY` and from the dropdown menu select `TOOLS`.
 
 ![img](https://i.imgur.com/fzKXqGs.png)
 
-3. Locate `Call of Duty: Modern Warfare 3 - Dedicated Server`, select it and then click the cog icon then `Properties`
+3. Locate `Call of Duty: Modern Warfare 3 - Dedicated Server`, select it and then click the cog icon then `Properties`.
 
 ![img](https://i.imgur.com/ln7ml3F.png)
 
@@ -113,7 +113,7 @@ Please note we highly recommend buying the game if you do not own it, if you enj
 
 ![img](https://i.imgur.com/NXLe3YD.png)
 
-5. Select `INSTALL` then `Next` then `Finish`
+5. Select `INSTALL` then `Next` then `Finish`.
 
 ![img](https://i.imgur.com/LVhQAtW.png)
 
@@ -125,11 +125,11 @@ Now simply wait for the download to complete, you can monitor progress by clicki
 
 The section will cover how to download and install the English DLC to get the complete MW3 experience. Note: this DLC will only work on an English copy of the game.
 
-1. Download the DLC zip archive via the following [link](https://mega.nz/folder/CYUkGSrJ#HVa6Cik59Bgi9pp5NBW4fg)
+1. Download the DLC zip archive via the following [link](https://mega.nz/folder/CYUkGSrJ#HVa6Cik59Bgi9pp5NBW4fg).
 
 <Alert variant="tip">
 
-If MEGA does not work for you, you can download the [IW5 DLC Torrent](https://dss0.cc/alterwarez/download/iw5m_dlcs.torrent)
+If MEGA does not work for you, you can download the [IW5 DLC Torrent](https://dss0.cc/alterwarez/download/iw5m_dlcs.torrent).
 
 </Alert>
 
@@ -155,7 +155,7 @@ If MEGA does not work for you, you can download the [IW5 DLC Torrent](https://ds
 
 Congratulations the DLC is now installed!
 
-### Setting up IW6 with the Plutonium Launcher
+### Setting up IW5 with the Plutonium Launcher
 
 1. Navigate to MW3 and then hit **SETUP** and then select your MW3 game folder:
 ![img](https://i.imgur.com/qDJ7OeD.png)
@@ -175,7 +175,9 @@ Congratulations you have completed the installation guide.
 
 To launch MW3 simply open the Plutonium launcher and select PLAY
 
-IMPORTANT: This will crash the first time you start the game as it needs to delete a file, this is to be expected, so simply launch again and you won't get the error again! Enjoy
+<Alert variant="warning">
+It will crash the first time you start the game as it needs to delete a file, this is to be expected, so simply launch again and you won't get the error again!
+</Alert>
 
 ---
 
@@ -183,7 +185,7 @@ IMPORTANT: This will crash the first time you start the game as it needs to dele
 
 ### ***I just want to update / I already have WaW installed?***
 
-If you already have the game installed from steam then you can skip the below section and move onto the [Plutonium Launcher](#plutonium-launcher-4) section.
+If you already have the game installed from steam then you can skip the below section and move onto the [Plutonium Launcher](#setting-up-t4-with-the-plutonium-launcher) section.
 
 ### ***Installing the base game (WAW)***
 
@@ -191,23 +193,23 @@ This section will cover downloading a copy of WAW. Please skip this section if y
 
 Please note we highly recommend buying the game if you do not own it, it is the best way to get a copy of the game files that are up to date and not corrupt or changed in some way. Key sites will give you a decent discount in 2021.
 
-0. Create a folder on any drive called `Games`.
+1. Create a folder on any drive called `Games`.
 
-1. From the windows file explorer navigate to My PC, then to Local Disc (C:) and create a new folder called Games
+2. From the windows file explorer navigate to My PC, then to Local Disc (C:) and create a new folder called Games.
 ![PC Explorer](https://i.imgur.com/XBpsjdR.png)
 ![Games Folder](https://i.imgur.com/XOon5tQ.png)
 ![Games Folder Completed](https://i.imgur.com/cvgqSYJ.png)
 
-2. Download/open your favorite torrent software.
+3. Download/open your favorite torrent software.
 [qBittorent Windows x64](https://www.fosshub.com/qBittorrent.html) is recommended.
 
-3. Download the [torrent file](https://dss0.cc/alterwarez/download/pluto_t4_full_game.torrent)
+4. Download the [torrent file](https://dss0.cc/alterwarez/download/pluto_t4_full_game.torrent).
 
-4. Open the torrent file, it will open up your torrent client program and ask you where you'd like to save the game.
+5. Open the torrent file, it will open up your torrent client program and ask you where you'd like to save the game.
 
 **SELECT THE GAMES FOLDER AS THE SAVE LOCATION, YOU CREATED IT IN STEP 1**
 
-5. Start the download and wait till the download completes you will know it's done when it `100%` and the status changes to `Seeding`.
+6. Start the download and wait till the download completes you will know it's done when the progress changes to `100%` and the status changes to `Seeding`.
 
 **Once it says Seeding, you can delete it from qBittorrent.**
 

@@ -163,7 +163,7 @@ export const sections = [
         title: 'Client',
         children: [
             {
-                title: 'Plutonium Menu / Overlay (Game-UI)"',
+                title: 'Plutonium Menu / Overlay (Game-UI)',
                 children: [clientIndex, clientSettings, clientGameFolders, clientFindingAGame, clientServerlist],
             },
             {

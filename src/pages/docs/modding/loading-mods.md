@@ -18,7 +18,7 @@ __Example Scripts__
 
 ### Getting Started
 
-1\. You can write/download any GSC of your choice. If you are writing it from scratch/have the source code, note that you will need to compile it, which we will talk about in this post.
+1\. You can write/download any GSC of your choice. If you are writing it from scratch/have the source code, note that you will need to compile it, which we will talk about later.
 
 <Alert variant="warning">
 
@@ -62,15 +62,19 @@ onplayerspawned()
 
 ![Error from Compiler](https://i.imgur.com/JgwqeCy.png)
 
-3b\. Take your compiled script and put it in `%localappdata%\Plutonium\storage\t6\scripts\mp` or `%localappdata%\Plutonium\storage\t6\scripts\zm` depending on which mode it is for.
+4\. Navigate to the T6 Plutonium Folder by pressing `Win+R` and pasting `%localappdata%\Plutonium\storage\t6` into it, and hitting Ok.
 
-**(YOU MOST LIKELY WILL NOT HAVE THIS FOLDER, PLEASE CREATE THEM IF THAT IS THE CASE)**  
+5\. Create a folder called `scripts`, then inside that folder, create two new folders called `mp`, and `zm`.
 
-4\. When launching your server or a custom game, you will know if all has gone well or not if the console prints `Custom script 'scripts/mp/yourScriptName' loaded`.
+![img](https://i.imgur.com/RWrHJt5.png)
+
+6\. Take your compiled script and put it in `%localappdata%\Plutonium\storage\t6\scripts\mp` or `%localappdata%\Plutonium\storage\t6\scripts\zm` depending on which mode it is for.
+
+7\. When launching your server or a custom game, you will know if all has gone well or not if the console prints `Custom script 'scripts/mp/yourScriptName' loaded`.
 
 ![Success](https://i.imgur.com/oVlCBnI.png)
 
-5\. Enjoy your new GSC script!
+8\. Enjoy your new GSC script!
 
 ![In Game](https://i.imgur.com/bun6iFx.png)
 
@@ -78,13 +82,13 @@ onplayerspawned()
 
 ### Getting Started⠀
 
-1\. Navigate to the IW5 Plutonium Folder by pressing `Win+R` and pasting `%localappdata%\Plutonium\storage\iw5` into it, and hitting `Ok`.
+1\. Navigate to the IW5 Plutonium Folder by pressing `Win+R` and pasting `%localappdata%\Plutonium\storage\iw5` into it, and hitting Ok.
 
 2\. Create a new folder here called `scripts`.
 
-![img](https://i.imgur.com/4KOfafh.png)
+![img](https://i.imgur.com/d3AnJ4R.png)
 
-3\. Put any amount of GSC file(s) in here, I will be using the following code as an example.
+3\. Put any amount of GSC files in here, I will be using the following code as an example.
 
 <Alert variant="warning">
 
@@ -122,7 +126,7 @@ onplayerspawned()
 
 ![img](https://i.imgur.com/LSrZkI0.png)
 
-5\. Open MW3, and start a new Private Match, your GSC script should load.
+5\. Open MW3, and start a new Private Match or Dedicated Server, your GSC script should load.
 
 ![success](https://i.imgur.com/X2qZtj5.png)
 
@@ -130,34 +134,59 @@ onplayerspawned()
 
 ### Loading Mods / Custom Zombies Maps
 
+<!--
 We support both the vanilla game folder and the Plutonium folder for mod loading.
+-->
 
 <Alert variant="danger">
 
-Currently, the `CoDWaW\mods` folder is buggy, please move your mods to the `%localappdata%\Plutonium\storage\t4\mods` folder to avoid things like menu corruption, or GSC errors.
+Currently, loading mods from the `%localappdata%\Activision\CoDWaW\mods` folder is buggy, please move your mods to the `%localappdata%\Plutonium\storage\t4\mods` folder to avoid things like menu corruption, or GSC errors.
 
 </Alert>
 
+1. Navigate to the T4 Plutonium Folder by pressing `Win+R` and pasting `%localappdata%\Plutonium\storage\t4` into it, and hitting Ok.
+
+2. Create a folder called `mods`
+
+![img](https://i.imgur.com/Zzpf3O5.png)
+
+3. Place any mods in that folder.
+
+<!--
+
 You can place your mod in either of these places:
-- `%localappdata%\Activision\CoDWaW\mods`    **[BUGGY ATM, MOVE YOUR MODS/MAPS FROM HERE TO THE DIRECTORY BELOW.]**
 - `%localappdata%\Plutonium\storage\t4\mods`   **(Recommended)**
+- `%localappdata%\Activision\CoDWaW\mods`    **[BUGGY ATM, MOVE YOUR MODS/MAPS FROM HERE TO THE DIRECTORY ABOVE.]**
 
 **We suggest using the Plutonium folder where possible though, if you crash due to a mod, try moving it to the Plutonium Mods folder instead.**
 
-If you are installing a custom zombies map that comes in an `.exe`, just running it and installing that way should be enough, as they place those in the first folder, although again, you might need to move it if you encounter issues.
+-->
+
+If you are installing a custom mod that comes in an `.exe`, run the exe, then move the mod folder from `%localappdata%\Activision\CoDWaW\mods` to `%localappdata%\Plutonium\storage\t4\mods`.
 
 **Note:** Mods for multiplayer must have `mp_` at the front of their folder.
 
-![Mods showing up](https://i.imgur.com/Vn95lq9.png)
+![Mods showing up](https://i.imgur.com/6qchlaS.png)
 
 ---
 
 ### Loading Custom Maps (MP)
 
+<!--
 We support both the vanilla game folder and the Plutonium folder for loading client-side custom multiplayer maps.
 
 You can place your mod in either of these places:
 - `%localappdata%\Activision\CoDWaW\usermaps`
 - `%localappdata%\Plutonium\storage\t4\usermaps`   **(Recommended)**
 
-Once the map is installed, you must load a mod first. You can do something simple like `/fs_game mods/mp_custommaps; vid_restart` followed by `/map mp_yourmapname` and it should load right up.
+-->
+
+1. Navigate to the T4 Plutonium Folder by pressing `Win+R` and pasting `%localappdata%\Plutonium\storage\t4` into it, and hitting Ok.
+
+2. Create a folder called `mods`
+
+![img](https://i.imgur.com/Zzpf3O5.png)
+
+3. Place any custom maps in that folder.
+
+Once the map is installed, you must load a mod first. If you do not have a mod to go along with your custom map, you can load a dummy mod by [opening the console](/docs/opening-console) and typing `/fs_game mods/mp_custommaps; vid_restart` followed by `/map mp_yourmapname` and it should load right up.

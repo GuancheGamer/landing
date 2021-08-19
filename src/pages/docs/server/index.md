@@ -8,9 +8,9 @@ Unlike BO2 and MW3 our dedicated servers are:
 * Lightweight
 * Hosted by our community for our community
 * Allow the server hosters to define their own set rules.
-  * From Crouch servers over Hide and Seek to 18 players FFA without any rules, everything is possible.
+  * From Crouch servers, to Hide and Seek, to 18 players FFA without any rules, anything is possible.
 * Modable
-* Allow custom C++ Plug-ins
+* Allow custom GSC Scripts
 * Allow 3rd party RCon tools
 
 Due to the high modability and flexibilty when it comes to configuration, we ask our server hosters to not give themselves unfair advantages (server sided cheats) and to give their servers fitting names that give the players as much information as possible before joining.

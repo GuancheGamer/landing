@@ -1,3 +1,7 @@
 # How to join the Donator Program
 
-This article will be documented in the future, stay tuned!
+<!--
+Will be reworked soon? ^CH
+-->
+
+<Redirect to="/docs/how-can-i-contribute/" />

@@ -132,7 +132,7 @@ Verify `logfile` is set to `2`.
 
 ## 6. (Optional) Hosting a second server
 
-Make a copy of the start.bat file and the `dedicated.cfg` file and rename them.  
+Make a copy of the `start.bat` file and the `dedicated.cfg` file and rename them.  
 Edit the `dedicated.cfg` to meet your needs.  
 Edit the copy of the bat file to: use your new server key, use a new port, and use your new config file.  
 (You must forward the second port as well)  
@@ -149,5 +149,5 @@ A: Your router probably doesn't support NAT-Loopback (aka. NAT-Reflection) and t
 Q: Why can't I see my server when I have my game open?  
 A: If you start your client first, and your server is running on `4976`, your server will automatically take the port `4977` as your client uses `4976`, so make sure to just change the port if you are going to be running it on the same machine.  
 
-Q: Why does everyone get an time out during a map change?
+Q: Why does everyone get an time out during a map change?  
 A: We are not entirely sure but it seems to be related to certain dvars not being set to their default value. Only known dvar to cause this atm is `party_maxplayers`.

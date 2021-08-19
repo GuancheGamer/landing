@@ -10,7 +10,7 @@ If you are encountering Low FPS you can try these steps to increase it.
 
 2\. Right click `plutonium-bootstrapper-win32.exe` -> properties -> compatibility -> tick the "disable fullscreen optimizations" box.
 
-![gif](https://i.imgur.com/oyR9WIH.gif)
+![gif](https://i.imgur.com/g7ClFcD.png)
 
 ## Method 2 (Laptops with two GPUs)
 

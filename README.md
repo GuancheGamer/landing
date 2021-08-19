@@ -40,7 +40,7 @@ Most of it is written in markdown, with some additional components (see below).
 Creating a new page:
 
 - You create a `src/pages/docs/blah.md` page, and it will appear at `localhost:3000/docs/blah`.  
-- Then, edit `src/constants/sidebar.js` to import the page, and add it to the appropiate section.  
+- Then, edit `src/const/sidebar.js` to import the page, and add it to the appropiate section.  
 
 NOTE:
 
