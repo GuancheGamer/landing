@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { Listbox, Transition } from '@headlessui/react';
-import { CheckIcon, SelectorIcon, ClockIcon } from '@heroicons/react/solid';
-import { useState, Fragment } from 'react';
+import { CheckIcon, ClockIcon, SelectorIcon } from '@heroicons/react/solid';
+import { Fragment, useState } from 'react';
 
 const options = [
     {

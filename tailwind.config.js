@@ -9,6 +9,10 @@ module.exports = {
         './src/layouts/**/*.{js,ts,jsx,tsx}',
     ],
 
+    // needed in situations where we're using tailwind in prose aka markdown :(
+    // https://github.com/tailwindlabs/tailwindcss-typography/issues/32
+    important: true,
+
     theme: {
         fontFamily: {
             display: ['Poppins', 'sans-serif'],
@@ -28,6 +32,7 @@ module.exports = {
                     darker: '#e11d48',
                 },
                 orange: colors.orange,
+                bluegray: colors.blueGray,
             },
 
             // dark theme largely stolen from https://stefanzweifel.io/posts/2020/07/20/add-dark-mode-support-to-at-tailwindcsstypography

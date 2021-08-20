@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { pathToRegexp } from 'path-to-regexp';
 import isPathActive from '../utils/isPathActive';
 
 const NavLink = ({ href, as, exact, activeClassName, children, ...props }) => {

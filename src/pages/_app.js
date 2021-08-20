@@ -9,16 +9,17 @@ import { MDXProvider } from '@mdx-js/react';
 import Link from 'next/link';
 import Footer from '../components/Footer';
 import Redirect from '../components/Redirect';
+import NavTile from '../components/NavTile';
+import NavTiles from '../components/NavTiles';
+import InternalLink from '../components/InternalLink';
 
 const mdxComponents = {
     Alert,
     Details,
     Redirect,
-    a: ({ href, children, ...rest }) => (
-        <Link href={href}>
-            <a {...rest}>{children}</a>
-        </Link>
-    ),
+    NavTile,
+    NavTiles,
+    a: (props) => <InternalLink {...props} />,
 };
 
 const MyApp = ({ Component, pageProps }) => (

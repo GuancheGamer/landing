@@ -5,6 +5,7 @@ const slug = require('rehype-slug');
 const prism = require('remark-prism');
 const remarked = require('remarked');
 const cheerio = require('cheerio');
+const images = require('next-images');
 
 const mdx = createMdx({
     fileExtensions: ['md', 'mdx'],
@@ -24,7 +25,7 @@ const mdx = createMdx({
     layoutPath: 'src/layouts',
 });
 
-module.exports = withPlugins([mdx, svgr], {
+module.exports = withPlugins([mdx, svgr, [images, { fileExtensions: ['jpg', 'jpeg', 'png', 'gif'] }]], {
     pageExtensions: ['js', 'jsx', 'mdx', 'md'],
     trailingSlash: true,
 

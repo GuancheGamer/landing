@@ -1,4 +1,4 @@
-import { frontMatter as generalIndex } from '../pages/docs/index.md';
+import { frontMatter as intro } from '../pages/docs/intro.md';
 import { frontMatter as systemRequirements } from '../pages/docs/system-requirements.md';
 import { frontMatter as engineExplanations } from '../pages/docs/engine-explanations.md';
 import { frontMatter as install } from '../pages/docs/install.md';
@@ -32,7 +32,6 @@ import { frontMatter as moddingGscIndex } from '../pages/docs/modding/gsc/index.
 import { frontMatter as moddingGscHowToGsc } from '../pages/docs/modding/gsc/how-to-gsc.md';
 import { frontMatter as moddingGscCompilerLimitations } from '../pages/docs/modding/gsc/compiler-limitations.md';
 import { frontMatter as moddingT4DisablingPerksGsc } from '../pages/docs/modding/t4/disabling-perks-gsc.md';
-
 import { frontMatter as serverIndex } from '../pages/docs/server/index.md';
 import { frontMatter as serverPlatformWhatIsPlatform } from '../pages/docs/server/platform/what-is-platform.md';
 import { frontMatter as serverPlatformNavigatingAround } from '../pages/docs/server/platform/navigating-around.md';
@@ -40,32 +39,25 @@ import { frontMatter as serverPlatformCustomEmblem } from '../pages/docs/server/
 import { frontMatter as serverPlatformSubscription } from '../pages/docs/server/platform/subscription.md';
 import { frontMatter as serverPlatformServerKeys } from '../pages/docs/server/platform/server-keys.md';
 import { frontMatter as serverPlatformHowManyServersCanIHost } from '../pages/docs/server/platform/how-many-servers-can-i-host.md';
-
 import { frontMatter as serverT6SettingUpAServer } from '../pages/docs/server/t6/setting-up-a-server.md';
 import { frontMatter as serverT6LoadingMods } from '../pages/docs/server/t6/loading-mods.md';
-
 import { frontMatter as serverIw5SettingUpAServer } from '../pages/docs/server/iw5/setting-up-a-server.md';
 import { frontMatter as serverIw5LoadingMods } from '../pages/docs/server/iw5/loading-mods.md';
 import { frontMatter as serverIw5Fastdl } from '../pages/docs/server/iw5/fastdl.md';
-
 import { frontMatter as serverT4SettingUpAServer } from '../pages/docs/server/t4/setting-up-a-server.md';
 import { frontMatter as serverT4LoadingMods } from '../pages/docs/server/t4/loading-mods.md';
 import { frontMatter as serverT4Fastdl } from '../pages/docs/server/t4/fastdl.md';
-
 import { frontMatter as clientIndex } from '../pages/docs/client/index.md';
 import { frontMatter as clientSettings } from '../pages/docs/client/settings.md';
 import { frontMatter as clientGameFolders } from '../pages/docs/client/game-folders.md';
 import { frontMatter as clientFindingAGame } from '../pages/docs/client/finding-a-game.md';
 import { frontMatter as clientServerlist } from '../pages/docs/client/serverlist.md';
-
 import { frontMatter as clientT6LoadingAndCompilingGsc } from '../pages/docs/client/t6/loading-and-compiling-gsc.md';
 import { frontMatter as clientT6TheaterMode } from '../pages/docs/client/t6/theater-mode.md';
-
 import { frontMatter as clientIw5LoadingGsc } from '../pages/docs/client/iw5/loading-gsc.md';
 import { frontMatter as clientIw5CustomWeapons } from '../pages/docs/client/iw5/custom-weapons.md';
 import { frontMatter as clientIw5CustomMaps } from '../pages/docs/client/iw5/custom-maps.md';
 import { frontMatter as clientIw5InfectedCooldown } from '../pages/docs/client/iw5/infected-cooldown.md';
-
 import { frontMatter as clientT4LoadingMods } from '../pages/docs/client/t4/loading-mods.md';
 import { frontMatter as clientT4MigratingSteamT4Stats } from '../pages/docs/client/t4/migrating-steam-t4-stats.md';
 import { frontMatter as clientT4RebindingController } from '../pages/docs/client/t4/rebinding-controller.md';
@@ -77,7 +69,7 @@ export const sections = [
             {
                 title: 'General',
                 children: [
-                    generalIndex,
+                    intro,
                     systemRequirements,
                     engineExplanations,
                     install,
