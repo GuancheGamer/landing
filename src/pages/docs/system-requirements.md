@@ -6,9 +6,9 @@ However Plutonium does require a fully updated Windows 8.1 as minimum while the 
 Our system requirements are as follows:
 
 * A modern Windows version
-    * Windows 8.1 64 bit (fully updated with [.NET 4.7.2](http://go.microsoft.com/fwlink/?linkid=863265) installed)
-    * Windows 10 (recommended!) 64 bit version 1607 or later.
-    * Windows 11
+  * Windows 8.1 64 bit (fully updated with [.NET 4.7.2](http://go.microsoft.com/fwlink/?linkid=863265) installed)
+  * Windows 10 (recommended!) 64 bit version 1607 or later.
+  * Windows 11
 * A Graphics Card that supports DirectX 11.
 * 500 MB of free space on C:\.
 
