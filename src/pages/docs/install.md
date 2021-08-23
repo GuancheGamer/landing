@@ -156,7 +156,6 @@ If MEGA does not work for you, you can download the [IW5 DLC Torrent](https://ds
 
 ![img](/images/install/K7dj3mP.png)
 
-![img](/images/install/K61QZvD.png)
 
 4. Now go back to the `MW3 DLC [EN].zip` file and drag and drop the `main` & `zone` folders into your MW3 game folder. If prompted select `Replace files in the destination`.
 
