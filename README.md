@@ -84,6 +84,32 @@ The docs are a work in progress. Feel free to contribute on [GitHub](https://git
 **It looks like...**  
 ![Preview](https://jari.lol/e7ink1vhIH.png)
 
+### `<Player />`
+
+**Example**:
+
+```jsx
+<Player url="https://youtu.be/0ijMY8FiLSg" />
+```
+
+**It looks like...**  
+A video player mate. It supports [everything URL react-player does](https://github.com/CookPete/react-player), because it _is_ react-player.
+
+### `<NavTile />`
+
+**Example**:
+
+```jsx
+<NavTiles>
+    <NavTile title="Installing the Plutonium launcher" to="/docs/install/#plutonium-launcher" className="from-blue-500 to-blue-800 ring-blue-400">
+        Learn how to install the launcher, which you will use to start playing on any of our clients.
+    </NavTile>
+</NavTiles>
+```
+
+**It looks like...**
+![](https://jari.lol/3k1ZSQdwrs.png)
+
 ### `<Redirect />`  
 
 Use this to redirect to a different page.
