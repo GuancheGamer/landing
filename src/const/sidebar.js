@@ -16,18 +16,22 @@ import { frontMatter as lowFps } from '../pages/docs/low-fps.md';
 import { frontMatter as support } from '../pages/docs/support.md';
 import { frontMatter as qolChanges } from '../pages/docs/qol-changes.md';
 import { frontMatter as anticheat } from '../pages/docs/anticheat.md';
+import { frontMatter as antivirus } from '../pages/docs/antivirus.md';
 import { frontMatter as discordRpc } from '../pages/docs/discord-rpc.md';
 import { frontMatter as dedicatedServers } from '../pages/docs/dedicated-servers.md';
+import { frontMatter as recordingPlutoOBS } from '../pages/docs/recording-plutonium-obs.md';
 import { frontMatter as modSupport } from '../pages/docs/mod-support.md';
 import { frontMatter as modDownloading } from '../pages/docs/mod-downloading.md';
 import { frontMatter as improvedSecurity } from '../pages/docs/improved-security.md';
 import { frontMatter as discordDonatorPerks } from '../pages/docs/discord-donator-perks.md';
 import { frontMatter as howToJoinDonatorProgram } from '../pages/docs/how-to-join-donator-program.md';
 import { frontMatter as donatorTiersExplained } from '../pages/docs/donator-tiers-explained.md';
+
 import { frontMatter as moddingIndex } from '../pages/docs/modding/index.md';
 import { frontMatter as moddingLoadingMods } from '../pages/docs/modding/loading-mods.md';
 import { frontMatter as moddingLoadingTextures } from '../pages/docs/modding/loading-textures.md';
 import { frontMatter as moddingCreatingTextures } from '../pages/docs/modding/creating-textures.md';
+import { frontMatter as moddingMovingDrive } from '../pages/docs/modding/moving-to-another-drive.md';
 import { frontMatter as moddingGscIndex } from '../pages/docs/modding/gsc/index.md';
 import { frontMatter as moddingGscHowToGsc } from '../pages/docs/modding/gsc/how-to-gsc.md';
 import { frontMatter as moddingGscCompilerLimitations } from '../pages/docs/modding/gsc/compiler-limitations.md';
@@ -41,6 +45,7 @@ import { frontMatter as serverPlatformServerKeys } from '../pages/docs/server/pl
 import { frontMatter as serverPlatformHowManyServersCanIHost } from '../pages/docs/server/platform/how-many-servers-can-i-host.md';
 import { frontMatter as serverT6SettingUpAServer } from '../pages/docs/server/t6/setting-up-a-server.md';
 import { frontMatter as serverT6LoadingMods } from '../pages/docs/server/t6/loading-mods.md';
+import { frontMatter as serverT6CleaningDemos } from '../pages/docs/server/t6/cleaning-demos.md';
 import { frontMatter as serverIw5SettingUpAServer } from '../pages/docs/server/iw5/setting-up-a-server.md';
 import { frontMatter as serverIw5LoadingMods } from '../pages/docs/server/iw5/loading-mods.md';
 import { frontMatter as serverIw5Fastdl } from '../pages/docs/server/iw5/fastdl.md';
@@ -61,6 +66,7 @@ import { frontMatter as clientIw5InfectedCooldown } from '../pages/docs/client/i
 import { frontMatter as clientT4LoadingMods } from '../pages/docs/client/t4/loading-mods.md';
 import { frontMatter as clientT4MigratingSteamT4Stats } from '../pages/docs/client/t4/migrating-steam-t4-stats.md';
 import { frontMatter as clientT4RebindingController } from '../pages/docs/client/t4/rebinding-controller.md';
+import { frontMatter as clientT4PerfectBorderlessWindow } from '../pages/docs/client/t4/perfect-borderless-window.md';
 
 export const sections = [
     {
@@ -74,6 +80,7 @@ export const sections = [
                     engineExplanations,
                     install,
                     uninstall,
+                    antivirus,
                     howCanIContribute,
                     socials,
                     gettingInvolved,
@@ -82,7 +89,7 @@ export const sections = [
             },
             {
                 title: 'Support',
-                children: [customGames, controllers, openingConsole, repair, gameFiles, lowFps, support],
+                children: [customGames, controllers, openingConsole, repair, gameFiles, lowFps, recordingPlutoOBS, support],
             },
             {
                 title: 'Features',
@@ -98,7 +105,8 @@ export const sections = [
             },
             {
                 title: 'Donator Program',
-                children: [discordDonatorPerks, howToJoinDonatorProgram, donatorTiersExplained],
+                children: [discordDonatorPerks, howToJoinDonatorProgram],
+                //children: [discordDonatorPerks, howToJoinDonatorProgram, donatorTiersExplained],
             },
         ],
     },
@@ -107,7 +115,7 @@ export const sections = [
         children: [
             {
                 title: 'General',
-                children: [moddingIndex, moddingLoadingMods, moddingLoadingTextures, moddingCreatingTextures],
+                children: [moddingIndex, moddingLoadingMods, moddingLoadingTextures, moddingCreatingTextures, moddingMovingDrive],
             },
             {
                 title: 'GSC modding',
@@ -129,17 +137,17 @@ export const sections = [
             {
                 title: 'platform.plutonium.pw',
                 children: [
-                    serverPlatformWhatIsPlatform,
+                    /*serverPlatformWhatIsPlatform,
                     serverPlatformNavigatingAround,
                     serverPlatformCustomEmblem,
-                    serverPlatformSubscription,
+                    serverPlatformSubscription,*/
                     serverPlatformServerKeys,
                     serverPlatformHowManyServersCanIHost,
                 ],
             },
             {
                 title: 'Plutonium T6 server',
-                children: [serverT6SettingUpAServer, serverT6LoadingMods],
+                children: [serverT6SettingUpAServer, serverT6LoadingMods, serverT6CleaningDemos],
             },
             {
                 title: 'Plutonium IW5 server',
@@ -154,21 +162,22 @@ export const sections = [
     {
         title: 'Client',
         children: [
-            {
+            /*{
                 title: 'Plutonium Menu / Overlay (Game-UI)',
                 children: [clientIndex, clientSettings, clientGameFolders, clientFindingAGame, clientServerlist],
-            },
+            },*/
             {
                 title: 'Plutonium T6 Client',
                 children: [clientT6LoadingAndCompilingGsc, clientT6TheaterMode],
             },
             {
                 title: 'Plutonium IW5 Client',
-                children: [clientIw5LoadingGsc, clientIw5CustomWeapons, clientIw5CustomMaps, clientIw5InfectedCooldown],
+                children: [clientIw5LoadingGsc, clientIw5CustomWeapons, clientIw5CustomMaps],
+                //children: [clientIw5LoadingGsc, clientIw5CustomWeapons, clientIw5CustomMaps, clientIw5InfectedCooldown],
             },
             {
                 title: 'Plutonium T4 Client',
-                children: [clientT4LoadingMods, clientT4MigratingSteamT4Stats, clientT4RebindingController],
+                children: [clientT4LoadingMods, clientT4MigratingSteamT4Stats, clientT4RebindingController, clientT4PerfectBorderlessWindow],
             },
         ],
     },
