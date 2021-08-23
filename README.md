@@ -107,8 +107,9 @@ A video player mate. It supports [everything URL react-player does](https://gith
 </NavTiles>
 ```
 
-**It looks like...**
-![](https://jari.lol/3k1ZSQdwrs.png)
+**It looks like...**  
+
+<img src="https://jari.lol/3k1ZSQdwrs.png" width="320">
 
 ### `<Redirect />`  
 
