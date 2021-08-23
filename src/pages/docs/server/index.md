@@ -1,6 +1,6 @@
 # Dedicated Servers
 
-Dedicated servers are some of the tools we give back to our community to empower our players to host whichever matches they want while also delivering superiour performance while being highly modifiable.
+Dedicated servers are some of the tools we give back to our community to empower our players to host whichever matches they want while also delivering superiour performance and being highly modifiable.
 Unlike BO2 and MW3 our dedicated servers are:
 
 * Ranked
