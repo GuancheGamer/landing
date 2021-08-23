@@ -28,8 +28,8 @@ module.exports = {
                     DEFAULT: '#00BF9F',
                 },
                 'game-t4': {
-                    DEFAULT: colors.red['500'],
-                    darker: '#e11d48',
+                    DEFAULT: '#93c5fd',
+                    darker: '#94a3b8',
                 },
                 orange: colors.orange,
                 bluegray: colors.blueGray,

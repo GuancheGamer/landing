@@ -18,7 +18,6 @@ const NavTile = ({ to, className, title, children, invert = false, background, b
                     className="z-0 mix-blend-overlay"
                     objectFit="cover"
                     objectPosition={bgPosition}
-                    width={580}
                 />
             )}
             <div className="z-1 relative">

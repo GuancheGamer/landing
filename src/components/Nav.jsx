@@ -64,7 +64,7 @@ const Nav = () => {
                             )
                         )}
                         <Link href="/docs/install">
-                            <a className="text-xs md:text-sm bg-gradient-to-r from-game-t4 to-game-t4-darker font-semibold text-black py-2 px-2 md:px-4 rounded-lg hover:text-gray-800 dl-button-anim">
+                            <a className="text-xs md:text-sm font-semibold text-black py-2 px-2 md:px-4 rounded-lg hover:text-gray-800 dl-button-anim">
                                 Download
                             </a>
                         </Link>
@@ -100,8 +100,8 @@ const Nav = () => {
                         #f36b1b,
                         #86efac,
                         #00bf9f,
-                        #ef4444,
-                        #e11d48,
+                        #93c5fd,
+                        #94a3b8,
                         #f59e0b,
                         #f36b1b
                     );
