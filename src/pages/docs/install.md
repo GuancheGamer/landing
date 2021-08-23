@@ -8,16 +8,16 @@ You can save the launcher anywhere you want, somewhere convenient such as your d
 
 2. Open the launcher, if smart screen comes up click **More info**, then **Run anyway**.
 
-![smartscreen 1](https://i.imgur.com/QVb7Cv4.png)
-![smartscreen 2](https://i.imgur.com/E4lDWsb.png)
+![smartscreen 1](/images/install/QVb7Cv4.png)
+![smartscreen 2](/images/install/E4lDWsb.png)
 
 The launcher will now start the process of installing the client files.
 
-![img](https://i.imgur.com/9aHmzEk.png)
+![launcher self update / installation](/images/install/9aHmzEk.png)
 
 3. Enter your forum credentials to login, if you don't already have a forum account you can create one [here](https://forum.plutonium.pw/register).
 
-![img](https://i.imgur.com/sA951Dt.png)
+![launcher login page](/images/install/sA951Dt.png)
 
 4. Setup the game you want to play.
 
@@ -35,11 +35,16 @@ This section will cover downloading a copy of BO2. Please skip this section if y
 
 1. From the windows file explorer navigate to My PC, then to **Local Disc (C:)** and create a new folder called `Games`
 
-![img](https://i.imgur.com/bmMI4UH.png)
+![Explorer steps 1-2](/images/install/bmMI4UH.png)
 
-![img](https://i.imgur.com/1MphGAa.png)
+![Explorer step 3](/images/install/1MphGAa.png)
 
-![img](https://i.imgur.com/cRa2jC2.png)
+![Explorer step 4](/images/install/cRa2jC2.png)
+
+<Alert variant="warning">
+Torrenting copyright protected files might not be legal in your country even if you already own a valid license!
+We are not responsible for any legal issues and recommend you to use a <a href="steam://install/202990">fresh install from Steam</a> or a VPN.
+</Alert>
 
 2. Download/open your favourite torrent software.
 qBittorent Windows x64 is recommended: [https://www.fosshub.com/qBittorrent.html](https://www.fosshub.com/qBittorrent.html)
@@ -53,33 +58,33 @@ qBittorent Windows x64 is recommended: [https://www.fosshub.com/qBittorrent.html
 
 Once it's done you will have your copy of the game downloaded, here is an example of a completed base game folder:
 
-![Completed Game Folder](https://i.imgur.com/B8g1bXI.png)
+![Completed Game Folder](/images/install/B8g1bXI.png)
 
 ### Setting up T6 with the Plutonium Launcher
 
 1. Navigate to Black Ops 2 and then hit **SETUP** and then select your Black Ops 2 game folder:
 
-![img](https://i.imgur.com/5FOePMY.png)
+![Launcher set-up 1](/images/install/5FOePMY.png)
 
 * **If you are using a steam copy it will be in this location:** `{Drive letter}\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops 2`
 
 * **If you are using the torrent it will be in a folder named** `pluto_t6_full_game`
-![img](https://i.imgur.com/hdjiIhN.png)
+![Launcher set-up 2](/images/install/hdjiIhN.png)
 
 **(If you ever need to reselect the game folder, simply click the COG icon next to the PLAY button)**
-![img](https://i.imgur.com/MnkAcr8.png)
+![Launcher reselect hint](/images/install/MnkAcr8.png)
 
 For those struggling to locate your game folder, this is what the contents of the game folder will look like:
 
-![Completed Game Folder](https://i.imgur.com/B8g1bXI.png)
+![Completed Game Folder](/images/install/B8g1bXI.png)
 
 ### T6 Error: Invalid Game Path
 
-![img](https://i.imgur.com/46KPMDc.png)
+![img](/images/install/46KPMDc.png)
 
 As the error says you have a invalid game path selected in the launcher. To fix this issue click the following icon to reselect your game folder:
 
-![img](https://i.imgur.com/dlsO24E.png)
+![img](/images/install/MnkAcr8.png)
 
 Congratulations you have completed the installation guide.
 
@@ -103,21 +108,27 @@ Please note we highly recommend buying the game if you do not own it, if you enj
 
 2. Go to `LIBRARY` and from the dropdown menu select `TOOLS`.
 
-![img](https://i.imgur.com/fzKXqGs.png)
+![img](/images/install/fzKXqGs.png)
 
 3. Locate `Call of Duty: Modern Warfare 3 - Dedicated Server`, select it and then click the cog icon then `Properties`.
 
-![img](https://i.imgur.com/ln7ml3F.png)
+![img](/images/install/ln7ml3F.png)
 
-4. Navigate to the `LANGUAGE` tab and ensure the language is step to `English` this is very important as unfortunately the Steam MW3 Dedicated Server does not support other languages so would result in missing files / errors. (I suggest purchasing the game on a key site if you want the game in your language)
+4. Navigate to the `LANGUAGE` tab and ensure the language is step to `English` this is very important as unfortunately the Steam MW3 Dedicated Server can not install all languages and would result in missing files / errors.
 
-![img](https://i.imgur.com/NXLe3YD.png)
+![img](/images/install/NXLe3YD.png)
+
+<Alert variant="tip">
+
+If you want the game in your native language we suggest purchasing the game and its DLCs on a key site or during a Steam sale.
+
+</Alert>
 
 5. Select `INSTALL` then `Next` then `Finish`.
 
-![img](https://i.imgur.com/LVhQAtW.png)
+![img](/images/install/LVhQAtW.png)
 
-![img](https://i.imgur.com/pQB76hJ.png)
+![img](/images/install/pQB76hJ.png)
 
 Now simply wait for the download to complete, you can monitor progress by clicking the `DOWNLOADS` text at the bottom of Steam. Once the download completes you will have a copy of MW3.
 
@@ -133,43 +144,43 @@ If MEGA does not work for you, you can download the [IW5 DLC Torrent](https://ds
 
 </Alert>
 
-![img](https://i.imgur.com/Zqx80uj.png)
+![img](/images/install/Zqx80uj.png)
 
 2. Once the download completes open the zip `MW3 DLC [EN].zip`
 
-![img](https://i.imgur.com/4ty889E.png)
+![img](/images/install/4ty889E.png)
 
-![img](https://i.imgur.com/9wYQgJ3.png)
+![img](/images/install/9wYQgJ3.png)
 
 3. Locate your MW3 game folder in file explorer, by default steam will have installed it into the following location: `C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Modern Warfare 3` You can use steam to easily locate your folder:
 
-![img](https://i.imgur.com/K7dj3mP.png)
+![img](/images/install/K7dj3mP.png)
 
-![img](https://i.imgur.com/K61QZvD.png)
+![img](/images/install/K61QZvD.png)
 
 4. Now go back to the `MW3 DLC [EN].zip` file and drag and drop the `main` & `zone` folders into your MW3 game folder. If prompted select `Replace files in the destination`.
 
-![img](https://i.imgur.com/3m5tWAj.png)
+![img](/images/install/3m5tWAj.png)
 
-![img](https://i.imgur.com/yKw8Rl2.png)
+![img](/images/install/yKw8Rl2.png)
 
 Congratulations the DLC is now installed!
 
 ### Setting up IW5 with the Plutonium Launcher
 
 1. Navigate to MW3 and then hit **SETUP** and then select your MW3 game folder:
-![img](https://i.imgur.com/qDJ7OeD.png)
+![img](/images/install/qDJ7OeD.png)
 
 * **If you have followed along with this guide it will be in this location:** `C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Modern Warfare 3`.
 
-![img](https://i.imgur.com/qtgfVmJ.png)
+![img](/images/install/qtgfVmJ.png)
 
 **(If you ever need to reselect the game folder, simply click the COG icon next to the PLAY button)**
-![img](https://i.imgur.com/8GbuTIS.png)
+![img](/images/install/MnkAcr8.png)
 
 For those struggling to locate your game folder, this is what the contents of the game folder will look like:
 
-![img](https://i.imgur.com/7FOyDlg.png)
+![img](/images/install/7FOyDlg.png)
 
 Congratulations you have completed the installation guide.
 
@@ -196,9 +207,14 @@ Please note we highly recommend buying the game if you do not own it, it is the 
 1. Create a folder on any drive called `Games`.
 
 2. From the windows file explorer navigate to My PC, then to Local Disc (C:) and create a new folder called Games.
-![PC Explorer](https://i.imgur.com/XBpsjdR.png)
-![Games Folder](https://i.imgur.com/XOon5tQ.png)
-![Games Folder Completed](https://i.imgur.com/cvgqSYJ.png)
+![PC Explorer](/images/install/bmMI4UH.png)
+![Games Folder](/images/install/1MphGAa.png)
+![Games Folder Completed](/images/install/cRa2jC2.png)
+
+<Alert variant="warning">
+Torrenting copyright protected files might not be legal in your country even if you already own a valid license!
+We are not responsible for any legal issues and recommend you to use a <a href="steam://install/10090">fresh install from Steam</a> or a VPN.
+</Alert>
 
 3. Download/open your favorite torrent software.
 [qBittorent Windows x64](https://www.fosshub.com/qBittorrent.html) is recommended.
@@ -215,14 +231,14 @@ Please note we highly recommend buying the game if you do not own it, it is the 
 
 Once it's done you will have your copy of the game downloaded, here is an example of a completed base game folder:
 
-![Completed T4 Folder](https://i.imgur.com/NoAuNW8.png)
+![Completed T4 Folder](/images/install/NoAuNW8.png)
 
 ---
 
 ### Setting up T4 with the Plutonium Launcher
 
 1. Navigate to World at War and then hit SETUP and then select your World at War game folder:
-![WAW in launcher](https://i.imgur.com/4xzmAUX.png)
+![WAW in launcher](/images/install/4xzmAUX.png)
 
 If you are using a steam copy it will be in this location: `C:\Program Files (x86)\Steam\steamapps\common\Call of Duty World At War`
 
@@ -234,7 +250,7 @@ If you are using the torrent it will be in a folder named `pluto_t4_full_game`
 
 ### T4 Error: Invalid Game Path
 
-![Invalid Game Directory](https://i.imgur.com/vlwamKe.png)
+![Invalid Game Directory](/images/install/vlwamKe.png)
 
 As the error says you have an invalid game path selected in the launcher. To fix this issue click the cog to reselect your game folder.
 
