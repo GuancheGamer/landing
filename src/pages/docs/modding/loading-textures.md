@@ -18,7 +18,7 @@ Textures in .iwi format, you can find community made camos and other textures in
 - For IW5: `\iw5\images`
 - For T6: `\t6\images`
 
-<Alert variant="warning">
+<Alert variant="tip">
 
 If the `images` folder does not exist in one or more of the directories mentioned above simply create it.
 
@@ -34,7 +34,7 @@ If the `images` folder does not exist in one or more of the directories mentione
 - Camos and other textures have to replace an existing texture that is already in the game, therefore the filename has to be the same as the one of the texture that is being replaced.
 - Camos and other textures are only visible to you, other players still see the original texture.
 
-<Alert variant="warning">
+<Alert variant="danger">
 
 Replacing textures of player models and other map elements that can give you an advantage over other players (e.g. "painting" a playermodel in a bright color) can get you banned. This is also known as "texture hacking".
 
