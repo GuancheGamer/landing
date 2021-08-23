@@ -106,7 +106,8 @@ export const sections = [
             },
             {
                 title: 'Donator Program',
-                children: [discordDonatorPerks, howToJoinDonatorProgram, donatorTiersExplained],
+                children: [discordDonatorPerks, howToJoinDonatorProgram],
+                //children: [discordDonatorPerks, howToJoinDonatorProgram, donatorTiersExplained],
             },
         ],
     },
@@ -137,10 +138,10 @@ export const sections = [
             {
                 title: 'platform.plutonium.pw',
                 children: [
-                    serverPlatformWhatIsPlatform,
+                    /*serverPlatformWhatIsPlatform,
                     serverPlatformNavigatingAround,
                     serverPlatformCustomEmblem,
-                    serverPlatformSubscription,
+                    serverPlatformSubscription,*/
                     serverPlatformServerKeys,
                     serverPlatformHowManyServersCanIHost,
                 ],
@@ -162,17 +163,18 @@ export const sections = [
     {
         title: 'Client',
         children: [
-            {
+            /*{
                 title: 'Plutonium Menu / Overlay (Game-UI)',
                 children: [clientIndex, clientSettings, clientGameFolders, clientFindingAGame, clientServerlist],
-            },
+            },*/
             {
                 title: 'Plutonium T6 Client',
                 children: [clientT6LoadingAndCompilingGsc, clientT6TheaterMode],
             },
             {
                 title: 'Plutonium IW5 Client',
-                children: [clientIw5LoadingGsc, clientIw5CustomWeapons, clientIw5CustomMaps, clientIw5InfectedCooldown],
+                children: [clientIw5LoadingGsc, clientIw5CustomWeapons, clientIw5CustomMaps],
+                //children: [clientIw5LoadingGsc, clientIw5CustomWeapons, clientIw5CustomMaps, clientIw5InfectedCooldown],
             },
             {
                 title: 'Plutonium T4 Client',
