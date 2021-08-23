@@ -37,7 +37,7 @@
 ## T6
 
 * Added `setClientDvar` function for GSC scripts.
-* IWI images can be loaded from `t6r/data/images`, allowing for custom camos
+* IWI images can be loaded from `%localappdata%\Plutonium\storage\t6\images`, allowing for custom camos
 * Map rotation for ZM servers
 * Server side demos
 * `sv_allowDof` to allow servers to prevent people using Depth of Field exploits. This will be useful for competitive server hosters who want to ensure DoF exploits cannot be used. Options are 1 to allow DoF and 0 to force DoF off when playing on your server.
