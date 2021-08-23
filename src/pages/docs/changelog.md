@@ -326,7 +326,7 @@ Since we have remade the entire BO2 Client, the old menu system will not work as
   * Steam integration works again.
 
 * T6:
-  * IWI images can now be loaded from t6r/data/images (for custom camos). Check out [the guide in the modding section](./modding/loading-textures.html) on how to do it.
+  * IWI images can now be loaded from `%localappdata%\Plutonium\storage\t6\images` (for custom camos). Check out [the guide in the modding section](./modding/loading-textures) on how to do it.
   * Stability improvements.
   * Added steam integration & steam overlay.
   * Fixed an issue where the game would not work on other languages than English.

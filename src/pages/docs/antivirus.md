@@ -15,8 +15,9 @@ Plutonium is modifying the games in memory, just like a virus would manipulate o
 
 ## **How do I fix this?** (Windows Defender)
 
-We have a video tutorial on how to add exclusions to Windows Defender here:  
-[https://youtu.be/0ijMY8FiLSg](https://youtu.be/0ijMY8FiLSg)
+We have a video tutorial on how to add exclusions to Windows Defender here:
+
+<Player url="https://youtu.be/0ijMY8FiLSg" />
 
 Alternatively, if you want a faster method you can run a powershell command here:
 <Details title="Powershell Command to add Windows Defender Exclusion">

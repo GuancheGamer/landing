@@ -6,12 +6,12 @@ import Nav from '../components/Nav';
 import Details from '../components/Details';
 import Alert from '../components/Alert';
 import { MDXProvider } from '@mdx-js/react';
-import Link from 'next/link';
 import Footer from '../components/Footer';
 import Redirect from '../components/Redirect';
 import NavTile from '../components/NavTile';
 import NavTiles from '../components/NavTiles';
 import InternalLink from '../components/InternalLink';
+import ReactPlayer from 'react-player';
 
 const mdxComponents = {
     Alert,
@@ -19,6 +19,7 @@ const mdxComponents = {
     Redirect,
     NavTile,
     NavTiles,
+    Player: ReactPlayer,
     a: (props) => <InternalLink {...props} />,
 };
 
