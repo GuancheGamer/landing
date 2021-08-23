@@ -54,3 +54,9 @@ If you don't own the game on Steam and use the MW3 Dedicated Server files to pla
 Steam provides incomplete files if any language other than `English` is set.
 
 </Alert>
+
+<Alert variant="warning">
+
+If you don't own the DLCs on Steam or use the MW3 Dedicated Server files, Steam won't check and repair the DLC files and they have to be redownloaded manually.
+
+</Alert>
