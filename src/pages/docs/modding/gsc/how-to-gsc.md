@@ -197,7 +197,7 @@ else
 }
 ```
 
-In GSC, you can check if a variable is defined as a condition. This function is called ``isDefined``, it takes the variable as the only parameter, and returns true/false. If a variable equals ``undefined`` or just isn't defined at all, you should get ``true``.
+In GSC, you can check if a variable is defined as a condition. This function is called ``isDefined``, it takes the variable as the only parameter, and returns true/false. If a variable equals ``undefined`` or just isn't defined at all, you should get ``false``.
 
 ```cs
 var = 5;

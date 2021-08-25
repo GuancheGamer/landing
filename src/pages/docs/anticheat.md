@@ -16,9 +16,13 @@ It is important you read and understand the following policy in regards to our a
 * If the player is caught cheating again, the system will ban the account permanently.
 * We will not provide any information regarding any given ban, remember you broke our rules.
 
-**Note**
+
+<Alert variant="danger">
+
 The anticheat is always active even in solo play / private match.  
-If you wish to cheat in private / solo you can use the [launchers LAN mode](#how-to-disable-the-plutonium-anti-cheat) which disables online functionality and disables the anticheat.  
+If you wish to cheat in private / solo you can use the <a href="#how-to-disable-the-plutonium-anti-cheat">launchers LAN mode</a> which disables online functionality and disables the anticheat.  
+
+</Alert>
 
 The anticheat will be triggered by the following but not limited to:
 

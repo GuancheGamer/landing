@@ -10,9 +10,9 @@
 
 ## Playing Demos (Theater Mode)
 
-* Find the demo you wish to play, you can find the demo file name by going into your game folder, then `t6r/data/demos`
+* Find the demo you wish to play, you can find the demo file name by pressing `Windows Key + R` and pasting `%localappdata%\Plutonium\storage\t6\demos`
 
-![folder](https://i.imgur.com/0pI469u.png)
+![folder](https://i.imgur.com/drWwNIT.png)
 
 * To load a demo simply enter `demo_play <demo_file_name>`
 
