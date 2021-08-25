@@ -1,5 +1,3 @@
-import Link from 'next/link';
-import Image from 'next/image';
 import classNames from 'classnames';
 import InternalLink from './InternalLink';
 
@@ -12,10 +10,10 @@ const NavTile = ({ to, className, title, children, invert = false, background, b
             }`}
         >
             {background && (
-                <Image
+                <img
                     src={background}
-                    layout="fill"
-                    className="z-0 mix-blend-overlay"
+                    className="z-0 mix-blend-overlay absolute inset-0 m-0"
+                    style={{ objectFit: 'cover', objectPosition: bgPosition }}
                     objectFit="cover"
                     objectPosition={bgPosition}
                 />
