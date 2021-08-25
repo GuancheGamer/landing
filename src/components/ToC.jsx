@@ -12,7 +12,7 @@ const ToC = ({ anchors }) => {
                     <h5 className="text-gray-200 uppercase tracking-wide font-semibold mb-3 text-sm lg:text-xs">
                         On this page
                     </h5>
-                    <ul className="overflow-x-hidden font-medium">
+                    <ul className="overflow-x-hidden font-medium table-of-contents">
                         {anchors.map(({ text, url, depth }) => (
                             <li
                                 className={classNames({
@@ -33,6 +33,12 @@ const ToC = ({ anchors }) => {
                     </ul>
                 </div>
             </div>
+
+            <style jsx>{`
+                .table-of-contents :global(.md-autolink) {
+                    display: none;
+                }
+            `}</style>
         </div>
     );
 };

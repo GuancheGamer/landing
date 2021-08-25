@@ -17,7 +17,7 @@ const mdx = createMdx({
             {
                 behavior: 'append',
                 properties: {
-                    className: 'text-white ml-2 no-underline opacity-70',
+                    className: 'text-white ml-2 no-underline opacity-70 md-autolink',
                 },
                 content: {
                     type: 'element',
