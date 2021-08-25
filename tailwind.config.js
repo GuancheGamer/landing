@@ -74,6 +74,12 @@ module.exports = {
                         code: {
                             color: theme('colors.gray.300'),
                         },
+                        'code::before': {
+                            content: '""',
+                        },
+                        'code::after': {
+                            content: '""',
+                        },
 
                         figcaption: {
                             color: theme('colors.gray.500'),
