@@ -15,4 +15,8 @@ export const menuItems = [
         title: 'Discord',
         href: 'https://discord.gg/plutonium',
     },
+    {
+        title: 'Donate',
+        href: 'https://forum.plutonium.pw/donate',
+    },
 ];
