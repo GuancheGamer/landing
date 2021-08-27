@@ -17,4 +17,4 @@ This Aim Assist was in the game however was disabled by Treyarch, we have simply
 This Aim Assist is custom made by Plutonium, this should feel similiar to the Black Ops 1 Aim Assist on console.
 
 # T4 Aim Assist
-This Aim Assist will be custom made by Plutonium and will likely be similiar to Plut0nium IW5 Aim Assist.
+This Aim Assist will be custom made by Plutonium and will likely be similiar to Plutonium IW5 Aim Assist.
