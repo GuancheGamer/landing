@@ -43,7 +43,7 @@ const Search = () => {
                         initialScrollY={0}
                         typesenseCollectionName="docs"
                         typesenseServerConfig={{
-                            apiKey: 'vX3vfdKrC3fJtQLV',
+                            apiKey: 'V8wMiLz8OLEVUR6mqw5Kvv5cAvSeQQrv',
                             nodes: [
                                 {
                                     host: 'plutonium.pw',
