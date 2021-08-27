@@ -12,7 +12,7 @@ const NavTile = ({ to, className, title, children, invert = false, background, b
             {background && (
                 <img
                     src={background}
-                    className="z-0 mix-blend-overlay absolute inset-0 m-0"
+                    className="z-0 mix-blend-overlay absolute inset-0 m-0 h-full w-full"
                     style={{ objectFit: 'cover', objectPosition: bgPosition }}
                     objectFit="cover"
                     objectPosition={bgPosition}

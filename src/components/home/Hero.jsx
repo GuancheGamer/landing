@@ -26,10 +26,10 @@ const Hero = () => (
     <div className="flex flex-col items-center justify-center w-full py-20 lg:py-32 text-center hero px-4">
         <h1 className="text-3xl md:text-7xl font-display">
             <div className="flex-col game-name inline-flex items-end font-bold">
-                <span className="bg-clip-text bg-gradient-to-r from-yellow-500 to-game-t6 opacity-0">BO2</span>
-                <span className="bg-clip-text bg-gradient-to-r from-green-300 to-game-iw5 opacity-0">MW3</span>
-                <span className="bg-clip-text bg-gradient-to-r from-game-t4 to-game-t4-darker opacity-0">WaW</span>
-                <span className="bg-clip-text bg-gradient-to-r from-yellow-500 to-game-t6 opacity-0">BO2</span>
+                <span className="bg-clip-text bg-gradient-to-r from-yellow-500 to-game-t6">BO2</span>
+                <span className="bg-clip-text bg-gradient-to-r from-green-300 to-game-iw5">MW3</span>
+                <span className="bg-clip-text bg-gradient-to-r from-game-t4 to-game-t4-darker">WaW</span>
+                <span className="bg-clip-text bg-gradient-to-r from-yellow-500 to-game-t6">BO2</span>
             </div>{' '}
             redefined.
         </h1>
@@ -153,6 +153,7 @@ const Hero = () => (
             .game-name span {
                 animation-duration: 8s;
                 animation-iteration-count: infinite;
+                opacity: 0;
             }
 
             .game-name span:nth-child(1) {
