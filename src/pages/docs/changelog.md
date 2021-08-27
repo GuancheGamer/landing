@@ -2,7 +2,7 @@
 
 This is a list of Plutonium updates, and the changes they introduced.
 
-## r1953 - r20XX - Aim Assist is here!
+## r1953 - r20XX - Aim Assist is here
 * T4:
   * No Changes.
 
@@ -25,8 +25,7 @@ This is a list of Plutonium updates, and the changes they introduced.
   * Various low risk exploit's we spotted have been patched.
   * GSC Script execution order has been changed to match the same as IW5. This should mean making mods for both games follows a similiar process of execution.
   * The t6r from the start of our client is now removed, everything will now use %localappdata%/storage/t6/
-  * `cg_fovScale` will no longer keep resetting after closing Plutonium. 
-
+  * `cg_fovScale` will no longer keep resetting after closing Plutonium.
 
 ## r1953-r2016
 

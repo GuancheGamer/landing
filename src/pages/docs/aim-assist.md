@@ -12,8 +12,9 @@ T6 Aim Assist is coming first, with IW5 after that and T4 after that.
 Server owners can disable Aim Assist for all players using the `sv_allowAimAssist 0` dvar.
 
 
-# T6 Aim Assist
-This Aim Assist was in the game however was disabled by Treyarch, we have simply re-enabled this. In theory it should be the same as on console. When Aim Assist is on your sensitivity should feel lower and your aim will slow down as you pass players. Spin in a circle to get a feel for this. The Aim Assist is meant to be barely noticeable to keep the hardcore PC players happy, they did help start the Plutonium Community after all.
+## T6 Aim Assist
+This Aim Assist was in the game however was disabled by Treyarch, we have simply re-enabled this. In theory it should be the same as on console. When Aim Assist is on your sensitivity should feel lower and your aim will slow down as you pass players. Spin in a circle to get a feel for this. 
+The Aim Assist is meant to be barely noticeable to keep the hardcore PC players happy, they did help start the Plutonium Community after all.
 
 * Be sure to enable your gamepad and Target Assist in your Gamepad controls menu in game. 
 ![AAOn]( https://i.imgur.com/fPukr0z.png)
@@ -22,8 +23,8 @@ This Aim Assist was in the game however was disabled by Treyarch, we have simply
 ![AAOff]( https://i.imgur.com/6s3wmCK.png )
 
 
-# IW5 Aim Assist
+## IW5 Aim Assist
 This Aim Assist is custom made by Plutonium, this should feel similar to the Black Ops 1 Aim Assist on console.
 
-# T4 Aim Assist
+## T4 Aim Assist
 This Aim Assist will be custom made by Plutonium and will likely be similar to Plutonium IW5 Aim Assist.
