@@ -4,14 +4,13 @@ import classNames from 'classnames';
 import Link from 'next/link';
 
 const additionalFeatures = [
-    // 'Improved security',
+    'Aim Assist',
     'Ultra Wide Monitor Support',
     'Theater/Demo System',
     'Discord Rich Presence',
     'All DLC unlocked',
     'Aim Down Sight Sensitivity',
     'UPNP for custom games',
-    // 'Controller Support',
     '`cg_fovScale` unlocked',
     '`com_maxfps` unlocked',
     '`clanname` dvar',

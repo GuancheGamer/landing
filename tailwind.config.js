@@ -4,7 +4,7 @@ module.exports = {
     // TODO: jit appears to be a bit buggy inside dynamic code (loops etc). cba to figure out why.
     // mode: 'jit',
     purge: [
-        './src/pages/**/*.{js,ts,jsx,tsx}',
+        './src/pages/**/*.{js,ts,jsx,tsx,md,mdx}',
         './src/components/**/*.{js,ts,jsx,tsx}',
         './src/layouts/**/*.{js,ts,jsx,tsx}',
     ],
@@ -93,5 +93,5 @@ module.exports = {
         extend: {},
     },
 
-    plugins: [require('@tailwindcss/typography')],
+    plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms')],
 };
