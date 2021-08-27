@@ -293,7 +293,7 @@ An example would look something like this:
 ```cs
 foreach(player in level.players) // "For every player in the game"
 {
-    player giveWeapon("ppsh", 0); // Give every player in the game a PPSH.
+    player giveWeapon("dsr50_mp", 0); // Give every player in the game a DSR 50.
 }
 ```
 
