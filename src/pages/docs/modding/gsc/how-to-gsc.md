@@ -223,27 +223,7 @@ Loops come in different forms...
 
 **For** :: A for loop is a loop that loops a set amount of times
 
-### ``for``
-
-For loops are loops that can be infinite or loops that only run until a condition of some sort is met.
-
-A infinite loop looks like:
-
-```cs
-for(;;) {
-    iprintln("Infinite loop!");
-    wait 0.05; // **IMPORTANT! ONLY RUNS EVERY SERVER FRAME!**
-}
-```
-
-A loop that will stop after ``i`` is no longer less than ``var``, which equals 10.
-
-```cs
-var = 10;
-for(i=0; i<var; i++) {
-    iprintln("Looping! " + i);
-}
-```
+**Foreach** :: A foreach loop is used when you want to do something on all items in an array.
 
 ### ``while``
 
@@ -271,6 +251,50 @@ iprintln("The while loop has ended."); // this will only be seen if the loop end
 "The while loop has ended."
 
 */
+```
+
+### ``for``
+
+For loops are loops that can be infinite or loops that only run until a condition of some sort is met.
+
+A infinite loop looks like:
+
+```cs
+for(;;) {
+    iprintln("Infinite loop!");
+    wait 0.05; // **IMPORTANT! ONLY RUNS EVERY SERVER FRAME!**
+}
+```
+
+A loop that will stop after ``i`` is no longer less than ``var``, which equals 10.
+
+```cs
+var = 10;
+for(i=0; i<var; i++) {
+    iprintln("Looping! " + i);
+}
+```
+
+### ``foreach``
+
+Foreach loops are loops that let you do something on every item in an array.
+
+A foreach loop looks like:
+
+```cs
+foreach(something in array)
+{
+  // Do something
+}
+```
+
+An example would look something like this:
+
+```cs
+foreach(player in level.players) // "For every player in the game"
+{
+    player giveWeapon("dsr50_mp", 0); // Give every player in the game a DSR 50.
+}
 ```
 
 ## Wait
