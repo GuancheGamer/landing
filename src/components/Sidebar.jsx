@@ -9,6 +9,7 @@ import { ViewListIcon, XIcon } from '@heroicons/react/outline';
 import classNames from 'classnames';
 import theme from 'tailwindcss/defaultTheme';
 import { useLockBodyScroll } from 'react-use';
+import Search from './Search';
 
 const Sidebar = () => {
     const [visible, setVisible] = useState(false);
@@ -50,6 +51,9 @@ const Sidebar = () => {
                                 Close
                             </button>
                         </div>
+
+                        <Search />
+
                         <ul className="space-y-4">
                             {sections.map((section, i) => (
                                 <SidebarSection section={section} />
@@ -139,7 +143,7 @@ const SidebarSectionChild = ({ child, index }) => {
 
             <style jsx>{`
                 .child-active span:first-child {
-                    opacity: 1;
+                    opacity: 1 !important;
                 }
             `}</style>
         </li>

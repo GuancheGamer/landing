@@ -8,6 +8,7 @@ const socialIconProps = {
     bgColor: '#000',
     className: 'h-9 w-9',
     style: { width: undefined, height: undefined },
+    target: '_blank=',
 };
 
 const Footer = () => (
