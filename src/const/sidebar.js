@@ -26,6 +26,8 @@ import { frontMatter as improvedSecurity } from '../pages/docs/improved-security
 import { frontMatter as discordDonatorPerks } from '../pages/docs/discord-donator-perks.md';
 import { frontMatter as howToJoinDonatorProgram } from '../pages/docs/how-to-join-donator-program.md';
 import { frontMatter as donatorTiersExplained } from '../pages/docs/donator-tiers-explained.md';
+import { frontMatter as unlockallMaxRank } from '../pages/docs/unlockall-max-rank.md';
+import { frontMatter as aimAssistExplanation } from '../pages/docs/aim-assist.md';
 
 import { frontMatter as moddingIndex } from '../pages/docs/modding/index.md';
 import { frontMatter as moddingLoadingMods } from '../pages/docs/modding/loading-mods.md';
@@ -69,6 +71,7 @@ import { frontMatter as clientT4MigratingSteamT4Stats } from '../pages/docs/clie
 import { frontMatter as clientT4RebindingController } from '../pages/docs/client/t4/rebinding-controller.md';
 import { frontMatter as clientT4PerfectBorderlessWindow } from '../pages/docs/client/t4/perfect-borderless-window.md';
 
+
 export const sections = [
     {
         title: 'Plutonium',
@@ -90,13 +93,14 @@ export const sections = [
             },
             {
                 title: 'Support',
-                children: [customGames, controllers, openingConsole, repair, gameFiles, lowFps, recordingPlutoOBS, support],
+                children: [customGames, controllers, openingConsole, unlockallMaxRank, repair, gameFiles, lowFps, recordingPlutoOBS, support],
             },
             {
                 title: 'Features',
                 children: [
                     qolChanges,
                     anticheat,
+                    aimAssistExplanation,
                     discordRpc,
                     dedicatedServers,
                     modSupport,

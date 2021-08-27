@@ -4,9 +4,9 @@ We have a few dvars that are specific to Plutonium.
 
 ## T6
 
-* `sv_allowAimAssist 1` - Allow Aim Assist on gamepads. (Setting this to 0 will lock the option on gamepad controls menu.)
+* `sv_allowAimAssist 1` - Allow Aim Assist on gamepads. (Setting this to 0 will lock the option on gamepad controls menu.) This is on by default, turn this off to disable aim assist when on your server.
 * `sv_allowDof 1` - Changes whether Depth-of-Field can be enabled or disabled. (Setting this to 0 will force depth of field to be disabled for everyone. Setting this to 1 will allow each user decide)
-* `demo_recordPrivateMatch 1` - Record matches as demo files for [playback in theater mode](/docs/client/t6/theater-mode) (1 = Enabled, 0 = Disabled)
+* `demo_enabled 1` - Currently not functioning. Has no effect.
 
 ## IW5
 

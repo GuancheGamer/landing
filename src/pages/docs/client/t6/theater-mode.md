@@ -1,5 +1,11 @@
 # How to play back demos (Theater Mode)
 
+<Alert variant="warning">
+
+This currently only work's for Private Matches. This is because servers have no way to transfer demos to everyone's PC. We are working on a cloud solution to this.
+
+</Alert>
+
 ## Recording Demos
 
 * When you start your game up, verify that `demo_recordPrivateMatch` is set to 1. You can set it by opening the console using the tilde key ```~```  and then typing ```demo_recordPrivateMatch 1```.

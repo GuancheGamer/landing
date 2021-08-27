@@ -2,6 +2,31 @@
 
 This is a list of Plutonium updates, and the changes they introduced.
 
+## r1953 - r20XX - Aim Assist is here
+* T4:
+  * No Changes.
+
+* IW5:
+  * General improvements to stability.
+  * Fixed a bug that caused GSC scripts to leak memory on map rotation.
+  * Allowed players to move through each other rather than being able to block one another.
+  * Fixed Theater mode, this should be working normally again now.
+  * The server will kick you to the main menu rather than crash your game if the GSC VM causes a crash.
+  * Fixed a bug with spectator, when the player you a spectating dies and respawns, you will still be spectating them.
+  * Added custom script specific folder loading. This means you can place a script in a gamemode folder and it will only load on that gamemode, for example.
+  * Added `g_antilag` dvar - this can be set on or off to enable / disable lag compensation.
+  * Fixed the exploit using of a shotgun and extended mag with pellets.
+  * Scripts can now notify when you change to spectator.
+
+* T6:
+  * [Aim Assist](aim-assist) added for Zombies and Multiplayer.
+  * General improvements to stability.
+  * The Zombies HUD will now work correctly for 4+ players.
+  * Various low risk exploit's we spotted have been patched.
+  * GSC Script execution order has been changed to match the same as IW5. This should mean making mods for both games follows a similiar process of execution.
+  * The t6r from the start of our client is now removed, everything will now use %localappdata%/storage/t6/
+  * `cg_fovScale` will no longer keep resetting after closing Plutonium.
+
 ## r1953-r2016
 
 * T4:
