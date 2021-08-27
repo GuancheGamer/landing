@@ -45,6 +45,7 @@ import { frontMatter as serverPlatformServerKeys } from '../pages/docs/server/pl
 import { frontMatter as serverPlatformHowManyServersCanIHost } from '../pages/docs/server/platform/how-many-servers-can-i-host.md';
 import { frontMatter as serverT6SettingUpAServer } from '../pages/docs/server/t6/setting-up-a-server.md';
 import { frontMatter as serverT6LoadingMods } from '../pages/docs/server/t6/loading-mods.md';
+import { frontMatter as serverPlutoDvars } from '../pages/docs/server/dvars.md';
 import { frontMatter as serverT6CleaningDemos } from '../pages/docs/server/t6/cleaning-demos.md';
 import { frontMatter as serverIw5SettingUpAServer } from '../pages/docs/server/iw5/setting-up-a-server.md';
 import { frontMatter as serverIw5LoadingMods } from '../pages/docs/server/iw5/loading-mods.md';
@@ -132,7 +133,7 @@ export const sections = [
         children: [
             {
                 title: 'Intro',
-                children: [serverIndex],
+                children: [serverIndex, serverPlutoDvars],
             },
             {
                 title: 'platform.plutonium.pw',

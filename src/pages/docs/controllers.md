@@ -52,3 +52,11 @@ PS4 Controllers require a bit more setup.
 10\. Configure your controller and start DS4Windows in the main window.
 
 11\. Go in game and see if your controller works!
+
+## Switching Triggers/Bumpers
+
+You can switch the triggers and bumpers around by [opening the console](/docs/opening-console) and pasting this in:
+
+```cs
+bind BUTTON_LSHLDR "+speed_throw"; bind BUTTON_RSHLDR "+attack"; bind BUTTON_LTRIG "+smoke"; bind BUTTON_RTRIG "+frag"
+```
