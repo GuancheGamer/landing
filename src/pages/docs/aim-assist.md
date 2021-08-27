@@ -13,10 +13,10 @@ Server owners can disable Aim Assist for all players using the `sv_allowAimAssis
 
 
 ## T6 Aim Assist
-This Aim Assist was in the game however was disabled by Treyarch, we have simply re-enabled this. In theory it should be the same as on console. When Aim Assist is on your sensitivity should feel lower and your aim will slow down as you pass players. Spin in a circle to get a feel for this. 
+This Aim Assist was in the game however was disabled by Treyarch, we have simply re-enabled this. In theory it should be the same as on console. When Aim Assist is on your sensitivity should feel lower and your aim will slow down as you pass players. Spin in a circle to get a feel for this.
 The Aim Assist is meant to be barely noticeable to keep the hardcore PC players happy, they did help start the Plutonium Community after all.
 
-* Be sure to enable your gamepad and Target Assist in your Gamepad controls menu in game. 
+* Be sure to enable your gamepad and Target Assist in your Gamepad controls menu in game.
 ![AAOn]( https://i.imgur.com/fPukr0z.png)
 
 * If the server you are on has Aim Assist forced off, you will see a padlock next to Target Assist.
