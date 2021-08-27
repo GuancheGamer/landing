@@ -20,7 +20,7 @@ The Aim Assist is meant to be barely noticeable to keep the hardcore PC players 
 ![AAOn]( https://i.imgur.com/fPukr0z.png)
 
 * If the server you are on has Aim Assist forced off, you will see a padlock next to Target Assist.
-![AAOff]( https://i.imgur.com/6s3wmCK.png )
+![AAOn]( https://i.imgur.com/6s3wmCK.png )
 
 
 ## IW5 Aim Assist
